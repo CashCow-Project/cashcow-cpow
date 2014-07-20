@@ -57,7 +57,13 @@ static const int64_t COIN_YEAR_REWARD = 5 * CENT; // 5% per year
 static const uint256 hashGenesisBlock("0x000001faef25dec4fbcf906e6242621df2c183bf232f263d0ba5b101911e4563");
 static const uint256 hashGenesisBlockTestNet("0x0000724595fb3b9609d441cbfb9577615c292abf07d996d3edabc48de843642d");
 
-inline bool IsProtocolV2(int nHeight) { return nHeight > 319000; }
+/* ProtocolV2 is from BlackCoin.  Will not implement right away and will keep an eye on
+   what happens with BlackCoin.  Presently set to switch at the 1-year mark, but this can
+   be changed in the future if BlackCoin proves that the new protocol is a positive step
+   forward.  Since BlankCoin is in part supposed to be a proof-of-concept for an
+   improvement to PoS, it makes sense to use the old protocol initially as a control
+   mechanism for comparison. */
+inline bool IsProtocolV2(int nHeight) { return nHeight > 525600; }
 
 inline int64_t PastDrift(int64_t nTime, int nHeight)   { return IsProtocolV2(nHeight) ? nTime      : nTime - 10 * 60; }
 inline int64_t FutureDrift(int64_t nTime, int nHeight) { return IsProtocolV2(nHeight) ? nTime + 15 : nTime + 10 * 60; }
