@@ -2733,8 +2733,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-87"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 10333 or testnet: 10334)</source>
-        <translation>监听 &lt;port&gt; 端口的JSON-RPC连接 (默认: 10333 测试网: 10334)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 12444 or testnet: 12445)</source>
+        <translation>监听 &lt;port&gt; 端口的JSON-RPC连接 (默认: 12444 测试网: 12445)</translation>
     </message>
     <message>
         <location line="-11"/>

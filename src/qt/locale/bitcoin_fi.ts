@@ -2734,8 +2734,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="-87"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 10333 or testnet: 10334)</source>
-        <translation>Kuuntele JSON-RPC-yhteyksiä portissa &lt;port&gt; (oletus: 10333 tai testiverkko: 10334)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 12444 or testnet: 12445)</source>
+        <translation>Kuuntele JSON-RPC-yhteyksiä portissa &lt;port&gt; (oletus: 12444 tai testiverkko: 12445)</translation>
     </message>
     <message>
         <location line="-11"/>

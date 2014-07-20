@@ -2743,8 +2743,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     </message>
     <message>
         <location line="-87"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 10333 or testnet: 10334)</source>
-        <translation>Escuchar conexiones JSON-RPC en &lt;port&gt; (predeterminado: 10333 o testnet: 10334)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 12444 or testnet: 12445)</source>
+        <translation>Escuchar conexiones JSON-RPC en &lt;port&gt; (predeterminado: 12444 o testnet: 12445)</translation>
     </message>
     <message>
         <location line="-11"/>

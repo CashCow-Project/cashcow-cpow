@@ -2738,8 +2738,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="-87"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 10333 or testnet: 10334)</source>
-        <translation>Lyssna efter JSON-RPC anslutningar på &lt;port&gt; (standard: 10333 eller testnät: 10334)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 12444 or testnet: 12445)</source>
+        <translation>Lyssna efter JSON-RPC anslutningar på &lt;port&gt; (standard: 12444 eller testnät: 12445)</translation>
     </message>
     <message>
         <location line="-11"/>

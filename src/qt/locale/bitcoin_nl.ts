@@ -2737,8 +2737,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="-87"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 10333 or testnet: 10334)</source>
-        <translation>Wacht op JSON-RPC-connecties op &lt;poort&gt; (standaard: 10333 of testnet: 10334) </translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 12444 or testnet: 12445)</source>
+        <translation>Wacht op JSON-RPC-connecties op &lt;poort&gt; (standaard: 12444 of testnet: 12445) </translation>
     </message>
     <message>
         <location line="-11"/>

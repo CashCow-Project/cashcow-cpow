@@ -2736,8 +2736,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="-87"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 10333 or testnet: 10334)</source>
-        <translation>Počúvajte pre JSON-RPC spojenie na &lt;port&gt; (predvolené: 10333 alebo testovaciasieť: 10334)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 12444 or testnet: 12445)</source>
+        <translation>Počúvajte pre JSON-RPC spojenie na &lt;port&gt; (predvolené: 12444 alebo testovaciasieť: 12445)</translation>
     </message>
     <message>
         <location line="-11"/>

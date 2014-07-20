@@ -2734,7 +2734,7 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="-87"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 10333 or testnet: 10334)</source>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 12444 or testnet: 12445)</source>
         <translation>Sprejmi povezave na &lt;port&gt; (privzeta vrata: 15714 ali testnet: 25714) </translation>
     </message>
     <message>

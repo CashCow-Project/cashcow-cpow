@@ -2737,8 +2737,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="-87"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 10333 or testnet: 10334)</source>
-        <translation>Spor efter JSON-RPC-forbindelser på &lt;port&gt; (default: 10333 eller Testnet: 10334)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 12444 or testnet: 12445)</source>
+        <translation>Spor efter JSON-RPC-forbindelser på &lt;port&gt; (default: 12444 eller Testnet: 12445)</translation>
     </message>
     <message>
         <location line="-11"/>
