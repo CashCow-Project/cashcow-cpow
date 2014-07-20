@@ -1008,8 +1008,22 @@ static CBigNum GetProofOfStakeLimit(int nHeight)
 // miner's coin base reward
 int64_t GetProofOfWorkReward(int nHeight, int64_t nFees)
 {
-    int64_t nSubsidy = 10000 * COIN;
-
+    int64_t nSubsidy = 100 * COIN;
+    
+    if (nHeight == 0) {
+    	nSubsidy = 0; // Genesis Block
+    } else if (nHeight <= 1000) {
+    	nSubsidy = 20*nHeight - 10; // Linearly increasing block reward at start.
+    } else if (nHeight <= 1440) {
+    	nSubsidy = 20000;
+    } else if (nHeight <= 2000) {
+    	nSubsidy = 12000;
+    } else {
+    	nSubsidy = 100;
+    }
+    
+    nSubsidy *= COIN; // Scale to be in COIN units
+    	
     if (fDebug && GetBoolArg("-printcreation"))
         printf("GetProofOfWorkReward() : create=%s nSubsidy=%"PRId64"\n", FormatMoney(nSubsidy).c_str(), nSubsidy);
 
