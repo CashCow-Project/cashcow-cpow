@@ -41,9 +41,9 @@ CBigNum bnProofOfStakeLimit(~uint256(0) >> 20);
 CBigNum bnProofOfStakeLimitV2(~uint256(0) >> 48);
 CBigNum bnProofOfWorkLimitTestNet(~uint256(0) >> 16);
 
-unsigned int nStakeMinAge = 8 * 60 * 60; // 8 hours
-unsigned int nStakeMaxAge = -1; // unlimited
-unsigned int nModifierInterval = 10 * 60; // time to elapse before new modifier is computed
+unsigned int nStakeMinAge = 8 * 60 * 60; // 8 hours minimum stake age
+unsigned int nStakeMaxAge = 30 * 24 * 60 * 60; // 30 days maximum stake age
+unsigned int nModifierInterval = 10 * 60; // 10 mins: time to elapse before new modifier is computed
 
 int nCoinbaseMaturity = 500;
 CBlockIndex* pindexGenesisBlock = NULL;
