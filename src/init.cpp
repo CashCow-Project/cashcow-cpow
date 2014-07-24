@@ -31,7 +31,7 @@ CClientUIInterface uiInterface;
 bool fConfChange;
 bool fEnforceCanonical;
 unsigned int nNodeLifespan;
-unsigned int nDerivationMethodIndex;
+// unsigned int nDerivationMethodIndex;
 unsigned int nMinerSleep;
 bool fUseFastIndex;
 enum Checkpoints::CPMode CheckpointsMode;
@@ -396,7 +396,7 @@ bool AppInit2()
     if(strCpMode == "permissive")
         CheckpointsMode = Checkpoints::PERMISSIVE;
 
-    nDerivationMethodIndex = 0;
+    // nDerivationMethodIndex = 0;
 
     fTestNet = GetBoolArg("-testnet");
     if (fTestNet) {

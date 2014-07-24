@@ -9,7 +9,7 @@
 #include "sync.h"
 #include "net.h"
 #include "script.h"
-#include "scrypt.h"
+// #include "scrypt.h"
 #include "hashblock.h"
 #include "zerocoin/Zerocoin.h"
 
@@ -102,7 +102,7 @@ extern int64_t nTransactionFee;
 extern int64_t nReserveBalance;
 extern int64_t nMinimumInputValue;
 extern bool fUseFastIndex;
-extern unsigned int nDerivationMethodIndex;
+// extern unsigned int nDerivationMethodIndex;
 
 extern bool fEnforceCanonical;
 

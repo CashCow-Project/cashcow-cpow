@@ -11,7 +11,7 @@
 #endif
 
 #include "crypter.h"
-#include "scrypt.h"
+// #include "scrypt.h"
 
 bool CCrypter::SetKeyFromPassphrase(const SecureString& strKeyData, const std::vector<unsigned char>& chSalt, const unsigned int nRounds, const unsigned int nDerivationMethod)
 {
@@ -25,6 +25,7 @@ bool CCrypter::SetKeyFromPassphrase(const SecureString& strKeyData, const std::v
                           (unsigned char *)&strKeyData[0], strKeyData.size(), nRounds, chKey, chIV);
     }
 
+    /*
     if (nDerivationMethod == 1)
     {
         // Passphrase conversion
@@ -34,6 +35,7 @@ bool CCrypter::SetKeyFromPassphrase(const SecureString& strKeyData, const std::v
                           (unsigned char *)&scryptHash, sizeof scryptHash, nRounds, chKey, chIV);
         OPENSSL_cleanse(&scryptHash, sizeof scryptHash);
     }
+    */
 
 
     if (i != (int)WALLET_CRYPTO_KEY_SIZE)
