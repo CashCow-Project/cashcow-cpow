@@ -10,6 +10,7 @@
 #include "net.h"
 #include "script.h"
 #include "scrypt.h"
+#include "hashblock.h"
 #include "zerocoin/Zerocoin.h"
 
 #include <list>
@@ -909,7 +910,8 @@ public:
 
     uint256 GetPoWHash() const
     {
-        return scrypt_blockhash(CVOIDBEGIN(nVersion));
+    	return Hash9(BEGIN(nVersion), END(nNonce));
+        // return scrypt_blockhash(CVOIDBEGIN(nVersion));
     }
 
     int64_t GetBlockTime() const
