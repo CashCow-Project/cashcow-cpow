@@ -1008,18 +1008,38 @@ static CBigNum GetProofOfStakeLimit(int nHeight)
 // miner's coin base reward
 int64_t GetProofOfWorkReward(int nHeight, int64_t nFees)
 {
-    int64_t nSubsidy = 100 * COIN;
+    int64_t nSubsidy = 0;
     
-    if (nHeight == 0) {
-    	nSubsidy = 0; // Genesis Block
-    } else if (nHeight <= 1000) {
-    	nSubsidy = 20*nHeight - 10; // Linearly increasing block reward at start.
-    } else if (nHeight <= 1440) {
-    	nSubsidy = 20000;
-    } else if (nHeight <= 2000) {
-    	nSubsidy = 12000;
-    } else {
-    	nSubsidy = 100;
+    if (nHeight <= 200) {
+    	nSubsidy = 0;                // No reward: Genesis Block + 200 blocks
+    } else if (nHeight <= 1200) {
+    	nSubsidy = 20*(nHeight-200); // Next 1000: Linearly increasing block reward
+    } else if (nHeight <= 25200) {
+    	nSubsidy = 20000;            // First 3 weeks: 20k block reward
+    } else if (nHeight <= 33600) {
+    	nSubsidy = 19000;            // Week 4: 95% of Weeks 1-3
+    } else if (nHeight <= 42000) {
+    	nSubsidy = 18050;            // Week 5: 95% of Week 4
+    } else if (nHeight <= 50400) {
+    	nSubsidy = 17147;            // Week 6: 95% of Week 5
+    } else if (nHeight <= 58800) {
+    	nSubsidy = 16290;            // Week 7: 95% of Week 6
+    } else if (nHeight <= 67200) {
+    	nSubsidy = 15475;            // Week 8: 95% of Week 7
+    } else if (nHeight <= 75600) {
+    	nSubsidy = 14701;            // Week 9: 95% of Week 8
+    } else if (nHeight <= 84000) {
+    	nSubsidy = 13966;            // Week 10: 95% of Week 9
+    } else if (nHeight <= 92400) {
+    	nSubsidy = 13268;            // Week 11: 95% of Week 10
+    } else if (nHeight <= 100800) {
+    	nSubsidy = 12604;            // Week 12: 95% of Week 11
+    } else if (nHeight <= 109200) {
+    	nSubsidy = 11974;            // Week 13: 95% of Week 12
+    } else if (nHeight <= 117600) {
+    	nSubsidy = 11376;            // Week 14: 95% of Week 13
+    } else if (nHeight <= 126000) {
+    	nSubsidy = 10807;            // Week 15: 95% of Week 14
     }
     
     nSubsidy *= COIN; // Scale to be in COIN units
@@ -1089,38 +1109,7 @@ const CBlockIndex* GetLastBlockIndex(const CBlockIndex* pindex, bool fProofOfSta
     return pindex;
 }
 
-static unsigned int GetNextTargetRequiredV1(const CBlockIndex* pindexLast, bool fProofOfStake)
-{
-    CBigNum bnTargetLimit = fProofOfStake ? bnProofOfStakeLimit : bnProofOfWorkLimit;
-
-    if (pindexLast == NULL)
-        return bnTargetLimit.GetCompact(); // genesis block
-
-    const CBlockIndex* pindexPrev = GetLastBlockIndex(pindexLast, fProofOfStake);
-    if (pindexPrev->pprev == NULL)
-        return bnTargetLimit.GetCompact(); // first block
-    const CBlockIndex* pindexPrevPrev = GetLastBlockIndex(pindexPrev->pprev, fProofOfStake);
-    if (pindexPrevPrev->pprev == NULL)
-        return bnTargetLimit.GetCompact(); // second block
-
-    int64_t nTargetSpacing = GetTargetSpacing(pindexLast->nHeight);
-    int64_t nActualSpacing = pindexPrev->GetBlockTime() - pindexPrevPrev->GetBlockTime();
-
-    // ppcoin: target change every block
-    // ppcoin: retarget with exponential moving toward target spacing
-    CBigNum bnNew;
-    bnNew.SetCompact(pindexPrev->nBits);
-    int64_t nInterval = nTargetTimespan / nTargetSpacing;
-    bnNew *= ((nInterval - 1) * nTargetSpacing + nActualSpacing + nActualSpacing);
-    bnNew /= ((nInterval + 1) * nTargetSpacing);
-
-    if (bnNew > bnTargetLimit)
-        bnNew = bnTargetLimit;
-
-    return bnNew.GetCompact();
-}
-
-static unsigned int GetNextTargetRequiredV2(const CBlockIndex* pindexLast, bool fProofOfStake)
+unsigned int GetNextTargetRequired(const CBlockIndex* pindexLast, bool fProofOfStake)
 {
     CBigNum bnTargetLimit = fProofOfStake ? GetProofOfStakeLimit(pindexLast->nHeight) : bnProofOfWorkLimit;
 
@@ -1151,14 +1140,6 @@ static unsigned int GetNextTargetRequiredV2(const CBlockIndex* pindexLast, bool 
         bnNew = bnTargetLimit;
 
     return bnNew.GetCompact();
-}
-
-unsigned int GetNextTargetRequired(const CBlockIndex* pindexLast, bool fProofOfStake)
-{
-    if (pindexLast->nHeight < 38424)
-        return GetNextTargetRequiredV1(pindexLast, fProofOfStake);
-    else
-        return GetNextTargetRequiredV2(pindexLast, fProofOfStake);
 }
 
 bool CheckProofOfWork(uint256 hash, unsigned int nBits)
