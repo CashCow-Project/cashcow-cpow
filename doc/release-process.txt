@@ -18,7 +18,7 @@
 
   * From a directory containing the bitcoin source, gitian-builder and gitian.sigs
    export SIGNER=(your gitian key, ie bluematt, sipa, etc)
-   export VERSION=0.5.1
+   export VERSION=0.1.0.0
    cd ./gitian-builder
 
   * Fetch and build inputs:
@@ -113,7 +113,7 @@
 * After 3 or more people have gitian-built, repackage gitian-signed zips:
 
   * From a directory containing bitcoin source, gitian.sigs and gitian zips
-   export VERSION=0.5.1
+   export VERSION=0.1.0.0
    mkdir bitcoin-${VERSION}-linux-gitian
    pushd bitcoin-${VERSION}-linux-gitian
    unzip ../bitcoin-${VERSION}-linux-gitian.zip
