@@ -100,6 +100,7 @@ BitcoinGUI::BitcoinGUI(QWidget *parent):
 
     // Create the tray icon (or setup the dock icon)
     createTrayIcon();
+    QFile style(":/styles/res/stylesheets/walletstyle.qss");
 
     // Create tabs
     overviewPage = new OverviewPage();

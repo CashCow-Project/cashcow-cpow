@@ -1,0 +1,156 @@
+/* This stylesheet provides a skin around the standard GUI Qt Wallet. Some parts of this
+   stylesheet were borrowed from the BoostCoin source code. */
+
+/* Formats background */ 
+QWidget#OverviewPage {
+	font-size:14pt;
+	}
+
+toolTip { background-color: #33689B; }
+
+QMainWindow {
+    background-color: #AC9175; /* brown background */
+    border: none;
+    margin-top:230px;
+    margin-left:80px;
+    }
+
+/* Style information boxes on main page */
+QFrame#frame, QFrame#frame_2, QFrame#frame_3 {
+    background-color: #FFFFFF;
+    color: #333333;
+    border: 4px inset;
+    border-width: 4px;
+    border-radius: 0px;
+    border-color: #999999;
+    min-width: 10em;
+    }
+    
+QLabel#label_5, QLabel#label_4 {
+    font-size:16pt !important;
+    }
+
+/* Style tool tips */
+QToolTip {
+    background: #33689B !important;
+    opacity: 210;
+    color: white;
+    padding:4px;
+    border:1px solid;
+    border-color: #004282;
+    }
+
+/* Button Styling */
+QPushButton, QToolButton {
+	font-size:14pt;
+    border: 4px outset;
+    border-radius: 0px;
+    border-color:#33689B;
+    background-color: #004282;
+    color: white;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 5px;
+    }
+QPushButton:pressed, QToolButton:checked {
+    background-color: #33689B;
+    color: #AEC6CF;
+    border-color:#004282;
+    }
+QPushButton:pressed, QToolButton:pressed {
+    color: #AEC6DF;
+    border-color:#004282;
+    }
+QPushButton:disabled, QToolButton:disabled {
+    color: #444;
+    background-color: #AAAAAA;
+    border-color:#BBBBBB;
+    }
+
+#scrollAreaWidgetContents QToolButton {
+    border-radius: 4px;
+    border-width: 0px;
+    }
+
+/* Toolbar at top */
+QToolBar {
+    background: transparent;
+    border: 0px solid;
+    padding: 0px;
+    }
+
+/* This puts a gray padding around the send-dialog. */
+QScrollArea {
+    border-radius: 0px;
+    border-width: 0;
+    border-style: none;
+    padding: 4px;
+    background-color: #999999;
+    color: #777777;
+    }
+
+/* table colors */
+QTableView {
+    background: #FFFFFF;  /* main table color */
+    color: #333333;
+    border-style: none;
+    selection-background-color: #DDDDDD; /* selected field color */
+    alternate-background-color: #E0BFBC; /* alternate table color */
+    selection-color: #CC9590; /* selected field font color */
+    border: 4px inset;
+    border-radius: 0px;
+    border-color: #999999;
+    }
+
+QHeaderView { color: #FFFFFF; background: transparent; }
+QHeaderView::section {
+    color: #FFFFFF;
+    background-color: #CC9590;
+    margin: 1px;
+	font-size:14pt;
+	padding: 1px;
+    }
+QHeaderView::section:checked { background-color: transparent; }
+
+
+/* drop down menus */
+QMenu {
+    background-color: #004282; color: white;
+    }
+
+/* Bottom Bar */
+QStatusBar {
+    background: #125512;
+    color: #FFFFFF;
+    }
+
+#scrollAreaWidgetContents { background: #FFFFFF; }
+#scrollAreaWidgetContents > QFrame {
+    background-color: #FFFFFF;
+    border-width: 0px;
+    border-style: none;
+    }
+
+QTabWidget::pane {
+    border-top: 2px inset #999999;
+    border: 4px inset #999999;
+    border-radius: 0px;
+    background: #FFFFFF;
+    color: #333333;
+    } 
+QTabWidget::tab-bar {
+    left: 5px;
+    }
+
+
+/* Tabs in menus */
+QTabBar::tab {
+    background: #004282;
+    border: 0px solid;
+    min-width: 8ex;
+    padding: 4px;
+    color: #FFFFFF;
+    }
+QTabBar::tab:selected, QTabBar::tab:hover {
+    background-color: #AEC6DF;
+    }
