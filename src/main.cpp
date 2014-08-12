@@ -2117,7 +2117,10 @@ bool CBlock::AcceptBlock()
         return DoS(100, error("AcceptBlock() : reject too new nVersion = %d", nVersion));
 
     if (IsProofOfWork() && nHeight > LAST_POW_BLOCK)
-        return DoS(100, error("AcceptBlock() : reject proof-of-work at height %d", nHeight));
+        return DoS(100, error("AcceptBlock() : No proof-of-work after week 15, reject at height %d", nHeight));
+
+    if (IsProofOfStake() && nHeight < FIRST_POS_BLOCK)
+        return DoS(100, error("AcceptBlock() : No proof-of-stake before block 1000, reject at height %d", nHeight));
 
     // Check timestamp
     if (GetBlockTime() > FutureDrift(GetAdjustedTime(), nHeight))
