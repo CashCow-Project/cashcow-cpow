@@ -1,21 +1,32 @@
-/* This stylesheet provides a skin around the standard GUI Qt Wallet. Some parts of this
-   stylesheet were borrowed from the BoostCoin source code. */
+/*
+Copyright (c) 2014 BlankCoin Developers.
 
-/* Formats background */ 
-QWidget#OverviewPage {
-	font-size:14pt;
-	}
-
-toolTip { background-color: #33689B; }
+This stylesheet uses CSS to format the GUI interface of the Qt wallet to add style and
+improve the visual feel of the wallet.  It contains some source from the BoostCoin GUI
+stylesheet, and many new styles and changes.  It only affects the visual looks of the
+wallet, not the function.  It is free for other developers to take and modify, and is
+distributed under the same MIT license as Bitcoin and other cryptocurrencies.
+*/
+   
+/* Formats background and Basics ------------------------------------------------------ */ 
 
 QMainWindow {
-    background-color: #AC9175; /* brown background */
+    background-color: #AC9175;  /* brown background */
     border: none;
     margin-top:230px;
     margin-left:80px;
     }
 
-/* Style information boxes on main page */
+QWidget#OverviewPage {
+	font-size:14pt;
+	}
+
+toolTip {
+    background-color: #33689B;  /* background of floating tool tips: blue */
+    }
+
+/* Style information boxes on main page ----------------------------------------------- */
+
 QFrame#frame, QFrame#frame_2, QFrame#frame_3 {
     background-color: #FFFFFF;
     color: #333333;
@@ -25,12 +36,42 @@ QFrame#frame, QFrame#frame_2, QFrame#frame_3 {
     border-color: #999999;
     min-width: 10em;
     }
+
+/* Coin Control Style ----------------------------------------------------------------- */
+
+QFrame#frameCoinControl {
+	background-color: #FFFFFF;
+    color: #333333;
+    border: 4px inset;
+    border-width: 4px;
+    border-radius: 0px;
+    border-color: #999999;
+    }
+
+/* Wallet Font Sizes ------------------------------------------------------------------ */
+
+QLabel {
+    font-size:15pt !important;
+    }
     
-QLabel#label_5, QLabel#label_4 {
+QLabel#label_2, QLabel#label_1, QLabel#label {
     font-size:16pt !important;
     }
 
-/* Style tool tips */
+QLabel#label_6, QLabel#label_5, QLabel#label_4, QLabel#label_3 {
+    font-size:16pt !important;
+    }
+
+QLabel#labelTotalText, QLabel#labelCoinControlFeatures {
+    font-size:16pt !important;
+    }
+    
+QLabel#labelExplanation {
+	color: #FFFFFF;
+	}
+
+/* Style tool tips -------------------------------------------------------------------- */
+
 QToolTip {
     background: #33689B !important;
     opacity: 210;
@@ -40,10 +81,11 @@ QToolTip {
     border-color: #004282;
     }
 
-/* Button Styling */
+/* Button Styling --------------------------------------------------------------------- */
+
 QPushButton, QToolButton {
 	font-size:14pt;
-    border: 4px outset;
+    border: 4px double;
     border-radius: 0px;
     border-color:#33689B;
     background-color: #004282;
@@ -52,15 +94,18 @@ QPushButton, QToolButton {
     padding-right: 0px;
     margin: 5px;
     }
-QPushButton:pressed, QToolButton:checked {
+    
+QPushButton:pressed, QToolButton:checked, QToolButton:hover {
     background-color: #33689B;
     color: #AEC6CF;
     border-color:#004282;
     }
+    
 QPushButton:pressed, QToolButton:pressed {
     color: #AEC6DF;
     border-color:#004282;
     }
+    
 QPushButton:disabled, QToolButton:disabled {
     color: #444;
     background-color: #AAAAAA;
@@ -72,24 +117,26 @@ QPushButton:disabled, QToolButton:disabled {
     border-width: 0px;
     }
 
-/* Toolbar at top */
+/* Toolbar at top --------------------------------------------------------------------- */
+
 QToolBar {
     background: transparent;
     border: 0px solid;
     padding: 0px;
     }
 
-/* This puts a gray padding around the send-dialog. */
+/* This puts a gray padding around the send-dialog. ----------------------------------- */
+
 QScrollArea {
     border-radius: 0px;
-    border-width: 0;
-    border-style: none;
-    padding: 4px;
-    background-color: #999999;
+    padding: 0px;
+    border: 4px inset;
+    border-color: #999999;
     color: #777777;
     }
 
-/* table colors */
+/* table colors ----------------------------------------------------------------------- */
+
 QTableView {
     background: #FFFFFF;  /* main table color */
     color: #333333;
@@ -102,29 +149,45 @@ QTableView {
     border-color: #999999;
     }
 
-QHeaderView { color: #FFFFFF; background: transparent; }
-QHeaderView::section {
+QHeaderView {
+    color: #FFFFFF;
+    background: #CC9590;
+    }
+
+QHeaderView::section, QHeaderView::section:checked {
     color: #FFFFFF;
     background-color: #CC9590;
     margin: 1px;
 	font-size:14pt;
-	padding: 1px;
+	padding: 0px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	border: 1px solid;
+	border-width:1px;
+	border-color: #B88682;
     }
-QHeaderView::section:checked { background-color: transparent; }
 
+/*QHeaderView::section:checked {
+    background-color: transparent;
+    }*/
 
-/* drop down menus */
+/* drop down menus -------------------------------------------------------------------- */
+
 QMenu {
     background-color: #004282; color: white;
     }
 
-/* Bottom Bar */
+/* Bottom Bar ------------------------------------------------------------------------- */
+
 QStatusBar {
     background: #125512;
     color: #FFFFFF;
     }
 
-#scrollAreaWidgetContents { background: #FFFFFF; }
+#scrollAreaWidgetContents {
+    background: #FFFFFF;
+    }
+
 #scrollAreaWidgetContents > QFrame {
     background-color: #FFFFFF;
     border-width: 0px;
@@ -137,13 +200,14 @@ QTabWidget::pane {
     border-radius: 0px;
     background: #FFFFFF;
     color: #333333;
-    } 
-QTabWidget::tab-bar {
-    left: 5px;
     }
 
+QTabWidget::tab-bar {
+    left: 5px; /* move to the right by 5px */
+    }
 
-/* Tabs in menus */
+/* Tabs in menus ---------------------------------------------------------------------- */
+
 QTabBar::tab {
     background: #004282;
     border: 0px solid;
@@ -151,6 +215,7 @@ QTabBar::tab {
     padding: 4px;
     color: #FFFFFF;
     }
+
 QTabBar::tab:selected, QTabBar::tab:hover {
     background-color: #AEC6DF;
     }
