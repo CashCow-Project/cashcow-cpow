@@ -64,7 +64,7 @@ static const uint256 hashGenesisBlockTestNet("0x0000724595fb3b9609d441cbfb957761
    forward.  Since BlankCoin is in part supposed to be a proof-of-concept for an
    improvement to PoS, it makes sense to use the old protocol initially as a control
    mechanism for comparison. */
-inline bool IsProtocolV2(int nHeight) { return nHeight > 525600; }
+inline bool IsProtocolV2(int nHeight) { return nHeight > 438000; }
 
 inline int64_t PastDrift(int64_t nTime, int nHeight)   { return IsProtocolV2(nHeight) ? nTime      : nTime - 10 * 60; }
 inline int64_t FutureDrift(int64_t nTime, int nHeight) { return IsProtocolV2(nHeight) ? nTime + 15 : nTime + 10 * 60; }
