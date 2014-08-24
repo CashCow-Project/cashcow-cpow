@@ -15,9 +15,9 @@
 
 using namespace std;
 
-// Split stake if less than 15 days coinage; combine stakes to 50 thousand.
-static unsigned int GetStakeSplitAge() { return IsProtocolV2(nBestHeight) ? (15 * 24 * 60 * 60) : (15 * 24 * 60 * 60); }
-static int64_t GetStakeCombineThreshold() { return IsProtocolV2(nBestHeight) ? (50000 * COIN) : (50000 * COIN); }
+// Split stake if less than 5 days coinage; combine stakes to one hundred thousand.
+static unsigned int GetStakeSplitAge() { return IsProtocolV2(nBestHeight) ? (5 * 24 * 60 * 60) : (5 * 24 * 60 * 60); }
+static int64_t GetStakeCombineThreshold() { return IsProtocolV2(nBestHeight) ? (100000 * COIN) : (100000 * COIN); }
 
 //////////////////////////////////////////////////////////////////////////////
 //
