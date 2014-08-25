@@ -28,9 +28,8 @@ static std::map<int, unsigned int> mapStakeModifierCheckpointsTestNet =
 // Get time weight
 int64_t GetWeight(int64_t nIntervalBeginning, int64_t nIntervalEnd)
 {
-    // Kernel hash weight starts from 0 at the min age
-    // this change increases active coins participating the hash and helps
-    // to secure the network when proof-of-stake difficulty is low
+    // Not used in Stake Weight Calculation (like in ppcoin)
+    // Used in Stake Split Check to split large stakes
 
     return min(nIntervalEnd - nIntervalBeginning - nStakeMinAge, (int64_t)nStakeMaxAge);
 }

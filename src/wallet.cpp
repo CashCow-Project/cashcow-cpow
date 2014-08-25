@@ -1557,8 +1557,8 @@ bool CWallet::GetStakeWeight(uint64_t& nWeight)
 bool CWallet::CreateCoinStake(const CKeyStore& keystore, unsigned int nBits, int64_t nSearchInterval, int64_t nFees, CTransaction& txNew, CKey& key)
 {
     CBlockIndex* pindexPrev = pindexBest;
-    CBigNum bnTargetPerCoinDay;
-    bnTargetPerCoinDay.SetCompact(nBits);
+    // CBigNum bnTargetPerCoinDay;
+    // bnTargetPerCoinDay.SetCompact(nBits);
 
     txNew.vin.clear();
     txNew.vout.clear();

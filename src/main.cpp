@@ -41,11 +41,11 @@ CBigNum bnProofOfStakeLimit(~uint256(0) >> 20);
 CBigNum bnProofOfStakeLimitV2(~uint256(0) >> 48);
 CBigNum bnProofOfWorkLimitTestNet(~uint256(0) >> 16);
 
-unsigned int nStakeMinAge = 8 * 60 * 60; // 8 hours minimum stake age
-unsigned int nStakeMaxAge = 30 * 24 * 60 * 60; // 30 days maximum stake age
-unsigned int nModifierInterval = 10 * 60; // 10 mins: time to elapse before new modifier is computed
+unsigned int nStakeMinAge = 10 * 60 * 60; // 10 hours minimum stake age
+unsigned int nStakeMaxAge = 10 * 24 * 60 * 60; // 10 days maximum stake age
+unsigned int nModifierInterval = 12 * 60; // 12 mins (~10 blocks): time to elapse before new modifier is computed
 
-int nCoinbaseMaturity = 500;
+int nCoinbaseMaturity = 50;
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
 
@@ -1061,7 +1061,7 @@ int64_t GetProofOfStakeReward(int64_t nCoinAge, int64_t nFees)
     return nSubsidy + nFees;
 }
 
-static const int64_t nTargetTimespan = 16 * 60;  // 16 mins
+static const int64_t nTargetTimespan = 18 * 60;  // 18 mins
 
 //
 // maximum nBits value could possible be required nTime after
