@@ -26,11 +26,11 @@ more information or see http://opensource.org/licenses/MIT.
 BlankCoin Features
 ------------------
 
-* 1 minute block spacing
-* PoW for the first 100,000 blocks, yielding 1 billion coins
-* The PoW subsidy decreases each week at a predetermined rate
-* The maximum PoW reward is 20000 coins
-* BlankCoin has a maximum coin cap of 2 billion coins
+* 72 second block spacing
+* PoW/PoS for the first 150,000 blocks, yielding ~900 million to 1 billion coins
+* The PoW subsidy decreases every 5 days at a predetermined rate (7% every 5 days after day 15)
+* The maximum PoW reward is 24,000 coins
+* BlankCoin has virtually no hard cap, but grows at ~5% annually using PoS
 
 
 Development process

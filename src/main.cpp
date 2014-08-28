@@ -43,9 +43,9 @@ CBigNum bnProofOfWorkLimitTestNet(~uint256(0) >> 16);
 
 unsigned int nStakeMinAge = 10 * 60 * 60; // 10 hours minimum stake age
 unsigned int nStakeMaxAge = 10 * 24 * 60 * 60; // 10 days maximum stake age
-unsigned int nModifierInterval = 12 * 60; // 12 mins (~10 blocks): time to elapse before new modifier is computed
+unsigned int nModifierInterval = 10 * 60; // 10 mins: time to elapse before new modifier is computed
 
-int nCoinbaseMaturity = 50;
+int nCoinbaseMaturity = 50; // 1 hour
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
 
@@ -1010,36 +1010,31 @@ int64_t GetProofOfWorkReward(int nHeight, int64_t nFees)
 {
     int64_t nSubsidy = 0;
     
-    if (nHeight <= 200) {
-    	nSubsidy = 0;                // No reward: Genesis Block + 200 blocks
-    } else if (nHeight <= 1200) {
-    	nSubsidy = 20*(nHeight-200); // Next 1000: Linearly increasing block reward
-    } else if (nHeight <= 25200) {
-    	nSubsidy = 20000;            // First 3 weeks: 20k block reward
-    } else if (nHeight <= 33600) {
-    	nSubsidy = 19000;            // Week 4: 95% of Weeks 1-3
-    } else if (nHeight <= 42000) {
-    	nSubsidy = 18050;            // Week 5: 95% of Week 4
-    } else if (nHeight <= 50400) {
-    	nSubsidy = 17147;            // Week 6: 95% of Week 5
-    } else if (nHeight <= 58800) {
-    	nSubsidy = 16290;            // Week 7: 95% of Week 6
-    } else if (nHeight <= 67200) {
-    	nSubsidy = 15475;            // Week 8: 95% of Week 7
-    } else if (nHeight <= 75600) {
-    	nSubsidy = 14701;            // Week 9: 95% of Week 8
-    } else if (nHeight <= 84000) {
-    	nSubsidy = 13966;            // Week 10: 95% of Week 9
-    } else if (nHeight <= 92400) {
-    	nSubsidy = 13268;            // Week 11: 95% of Week 10
-    } else if (nHeight <= 100800) {
-    	nSubsidy = 12604;            // Week 12: 95% of Week 11
-    } else if (nHeight <= 109200) {
-    	nSubsidy = 11974;            // Week 13: 95% of Week 12
-    } else if (nHeight <= 117600) {
-    	nSubsidy = 11376;            // Week 14: 95% of Week 13
-    } else if (nHeight <= 126000) {
-    	nSubsidy = 10807;            // Week 15: 95% of Week 14
+    if (nHeight <= 200) { nSubsidy = 0; // No reward: genesis block + next 200 blocks
+    } else if (nHeight <= 1200) { nSubsidy = 24*(nHeight-200); // 201-1200: incr. reward
+    } else if (nHeight <= 18000) { nSubsidy = 24000; // First 15 days: 24k block reward
+    } else if (nHeight <= 24000) { nSubsidy = 22320; // Days 16-20:    95% of Days 1-15
+    } else if (nHeight <= 30000) { nSubsidy = 20757; // Days 21-25:    95% of Days 16-20
+    } else if (nHeight <= 36000) { nSubsidy = 19304; // Days 26-30:    95% of Days 21-25
+    } else if (nHeight <= 42000) { nSubsidy = 17953; // Days 31-35:    95% of Days 26-30
+    } else if (nHeight <= 48000) { nSubsidy = 16696; // Days 36-40:    95% of Days 31-35
+    } else if (nHeight <= 54000) { nSubsidy = 15527; // Days 41-45:    95% of Days 36-40
+    } else if (nHeight <= 60000) { nSubsidy = 14440; // Days 46-50:    95% of Days 41-45
+    } else if (nHeight <= 66000) { nSubsidy = 13429; // Days 51-55:    95% of Days 46-50
+    } else if (nHeight <= 72000) { nSubsidy = 12489; // Days 56-60:    95% of Days 51-55
+    } else if (nHeight <= 78000) { nSubsidy = 11615; // Days 61-65:    95% of Days 56-60
+    } else if (nHeight <= 84000) { nSubsidy = 10802; // Days 66-70:    95% of Days 61-65
+    } else if (nHeight <= 90000) { nSubsidy = 10046; // Days 71-75:    95% of Days 66-70
+    } else if (nHeight <= 96000) { nSubsidy = 9343;  // Days 76-80:    95% of Days 71-75
+    } else if (nHeight <= 102000) { nSubsidy = 8689; // Days 81-85:    95% of Days 76-80
+    } else if (nHeight <= 108000) { nSubsidy = 8080; // Days 86-90:    95% of Days 81-85
+    } else if (nHeight <= 114000) { nSubsidy = 7515; // Days 91-95:    95% of Days 86-90
+    } else if (nHeight <= 120000) { nSubsidy = 6989; // Days 96-100:   95% of Days 91-95
+    } else if (nHeight <= 126000) { nSubsidy = 6499; // Days 101-105:  95% of Days 96-100
+    } else if (nHeight <= 132000) { nSubsidy = 6044; // Days 106-110:  95% of Days 101-105
+    } else if (nHeight <= 138000) { nSubsidy = 5621; // Days 111-115:  95% of Days 106-110
+    } else if (nHeight <= 144000) { nSubsidy = 5228; // Days 116-120:  95% of Days 111-115
+    } else if (nHeight <= 150000) { nSubsidy = 4862; // Days 121-125:  95% of Days 116-120
     }
     
     nSubsidy *= COIN; // Scale to be in COIN units
