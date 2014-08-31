@@ -17,7 +17,9 @@ CashCow switches to PoW/PoS before eliminating PoW permanently.  CashCow
 derived from the BlackCoin code base, which is derived from NovaCoin.
 
 CashCow is intended to be a proof of concept of the definite stake reward idea.  For more
-information about this idea, please see the Proof of Stake: Definite white paper.
+information about this idea, please see the Proof of Stake: Definite white paper:
+
+http://www.proofofsteak.org/resources/proof_of_stake_definite-whitepaper.pdf
 
 
 License
