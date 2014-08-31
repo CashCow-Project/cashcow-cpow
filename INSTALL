@@ -1,9 +1,9 @@
-Building BlankCoin
+Building CashCow
 
-See doc/readme-qt.rst for instructions on building BlankCoin QT,
+See doc/readme-qt.rst for instructions on building CashCow QT,
 the intended-for-end-users, nice-graphical-interface, reference
-implementation of BlankCoin.
+implementation of CashCow.
 
-See doc/build-*.txt for instructions on building blankcoind,
+See doc/build-*.txt for instructions on building cashcowd,
 the intended-for-services, no-graphical-interface, reference
-implementation of BlankCoin.
+implementation of CashCow.

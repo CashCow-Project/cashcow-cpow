@@ -3,24 +3,24 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About BlankCoin</source>
-        <translation>Over BlankCoin</translation>
+        <source>About CashCow</source>
+        <translation>Over CashCow</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;BlankCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;BlankCoin&lt;/b&gt; versie</translation>
+        <source>&lt;b&gt;CashCow&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;CashCow&lt;/b&gt; versie</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
 Copyright © 2014 The BlackCoin developers
-Copyright © 2014 The BlankCoin developers</source>
+Copyright © 2014 The CashCow developers</source>
         <translation>Copyright © 2009-2014 De Bitcoin ontwikkelaars
 Copyright © 2012-2014 De NovaCoin ontwikkelaars
 Copyright © 2014 De BlackCoin ontwikkelaars
-Copyright © 2014 De BlankCoin ontwikkelaars</translation>
+Copyright © 2014 De CashCow ontwikkelaars</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -67,8 +67,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your BlankCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Dit zijn al jou BlankCoin adressen om betalingen mee te ontvangen. Je kunt iedere verzender een apart adres geven zodat je kunt volgen wie jou betaald.</translation>
+        <source>These are your CashCow addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Dit zijn al jou CashCow adressen om betalingen mee te ontvangen. Je kunt iedere verzender een apart adres geven zodat je kunt volgen wie jou betaald.</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -82,8 +82,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a BlankCoin address</source>
-        <translation>Teken een bericht om te bewijzen dat je een BlankCoin adres bezit.</translation>
+        <source>Sign a message to prove you own a CashCow address</source>
+        <translation>Teken een bericht om te bewijzen dat je een CashCow adres bezit.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -97,8 +97,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified BlankCoin address</source>
-        <translation>Verifieer een bericht om zeker te zijn dat deze is ondertekend met een specifiek BlankCoin adres</translation>
+        <source>Verify a message to ensure it was signed with a specified CashCow address</source>
+        <translation>Verifieer een bericht om zeker te zijn dat deze is ondertekend met een specifiek CashCow adres</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -265,8 +265,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="-58"/>
-        <source>BlankCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>BlankCoin zal nu sluiten om het versleutel proces te voltooien. Onthou dat het versleutelen van je portemonnee je niet volledig beschermt tegen diefstal van munten door malware op je computer.</translation>
+        <source>CashCow will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>CashCow zal nu sluiten om het versleutel proces te voltooien. Onthou dat het versleutelen van je portemonnee je niet volledig beschermt tegen diefstal van munten door malware op je computer.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -379,8 +379,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about BlankCoin</source>
-        <translation>Toon informatie over BlankCoin</translation>
+        <source>Show information about CashCow</source>
+        <translation>Toon informatie over CashCow</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -429,13 +429,13 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="-62"/>
-        <source>Send coins to a BlankCoin address</source>
-        <translation>Verstuur munten naar een BlankCoin adres</translation>
+        <source>Send coins to a CashCow address</source>
+        <translation>Verstuur munten naar een CashCow adres</translation>
     </message>
     <message>
         <location line="+45"/>
-        <source>Modify configuration options for BlankCoin</source>
-        <translation>Verander configuratie opties voor BlankCoin</translation>
+        <source>Modify configuration options for CashCow</source>
+        <translation>Verander configuratie opties voor CashCow</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -474,8 +474,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="-200"/>
-        <source>BlankCoin</source>
-        <translation>BlankCoin</translation>
+        <source>CashCow</source>
+        <translation>CashCow</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -484,8 +484,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+178"/>
-        <source>&amp;About BlankCoin</source>
-        <translation>&amp;Over BlankCoin</translation>
+        <source>&amp;About CashCow</source>
+        <translation>&amp;Over CashCow</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -541,13 +541,13 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>BlankCoin client</source>
-        <translation>BlankCoin client</translation>
+        <source>CashCow client</source>
+        <translation>CashCow client</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to BlankCoin network</source>
-        <translation><numerusform>%n actieve verbinding naar BlankCoin netwerk</numerusform><numerusform>%n actieve verbindingen naar BlankCoin netwerk</numerusform></translation>
+        <source>%n active connection(s) to CashCow network</source>
+        <translation><numerusform>%n actieve verbinding naar CashCow netwerk</numerusform><numerusform>%n actieve verbindingen naar CashCow netwerk</numerusform></translation>
     </message>
     <message>
         <location line="+40"/>
@@ -661,8 +661,8 @@ Adres: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid BlankCoin address or malformed URI parameters.</source>
-        <translation>URI kan niet ontleedt worden! Mogelijke oorzaken zijn een ongeldig BlankCoin adres of incorrecte URI parameters.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid CashCow address or malformed URI parameters.</source>
+        <translation>URI kan niet ontleedt worden! Mogelijke oorzaken zijn een ongeldig CashCow adres of incorrecte URI parameters.</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -721,8 +721,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. BlankCoin can no longer continue safely and will quit.</source>
-        <translation>Een fatale fout . Blankcoin kan niet langer veilig doorgaan en sluit af.</translation>
+        <source>A fatal error occurred. CashCow can no longer continue safely and will quit.</source>
+        <translation>Een fatale fout . Cashcow kan niet langer veilig doorgaan en sluit af.</translation>
     </message>
 </context>
 <context>
@@ -1055,8 +1055,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid BlankCoin address.</source>
-        <translation>Het ingevoerde adres &quot;%1&quot; is geen geldig Blankcoin adres.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid CashCow address.</source>
+        <translation>Het ingevoerde adres &quot;%1&quot; is geen geldig Cashcow adres.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1074,8 +1074,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>BlankCoin-Qt</source>
-        <translation>BlankCoin-Qt</translation>
+        <source>CashCow-Qt</source>
+        <translation>CashCow-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1147,13 +1147,13 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start BlankCoin after logging in to the system.</source>
-        <translation>Automatisch starten van Blankcoin na inloggen van het systeem.</translation>
+        <source>Automatically start CashCow after logging in to the system.</source>
+        <translation>Automatisch starten van Cashcow na inloggen van het systeem.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start BlankCoin on system login</source>
-        <translation>&amp;Start Blankcoin bij systeem aanmelding</translation>
+        <source>&amp;Start CashCow on system login</source>
+        <translation>&amp;Start Cashcow bij systeem aanmelding</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1172,8 +1172,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the BlankCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>De BlankCoin client poort automatisch openen op de router. Dit werkt alleen wanneer uw router UPnP ondersteunt en deze is ingeschakeld.</translation>
+        <source>Automatically open the CashCow client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>De CashCow client poort automatisch openen op de router. Dit werkt alleen wanneer uw router UPnP ondersteunt en deze is ingeschakeld.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1182,8 +1182,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the BlankCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Verbinding maken met het BlankCoin netwerk via een SOCKS proxy (bijvoorbeeld als U gebruik maakt van Tor)</translation>
+        <source>Connect to the CashCow network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Verbinding maken met het CashCow netwerk via een SOCKS proxy (bijvoorbeeld als U gebruik maakt van Tor)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1257,8 +1257,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting BlankCoin.</source>
-        <translation>De user interface-taal kan hier ingesteld worden. Deze instelling word toegepast na BlankCoin opnieuw op te starten.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting CashCow.</source>
+        <translation>De user interface-taal kan hier ingesteld worden. Deze instelling word toegepast na CashCow opnieuw op te starten.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1272,8 +1272,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show BlankCoin addresses in the transaction list or not.</source>
-        <translation>BlankCoin adressen in de transactielijst weergeven of niet</translation>
+        <source>Whether to show CashCow addresses in the transaction list or not.</source>
+        <translation>CashCow adressen in de transactielijst weergeven of niet</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1319,8 +1319,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting BlankCoin.</source>
-        <translation>Deze instelling word toegepast na een restart van BlankCoin.</translation>
+        <source>This setting will take effect after restarting CashCow.</source>
+        <translation>Deze instelling word toegepast na een restart van CashCow.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1338,8 +1338,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     <message>
         <location line="+33"/>
         <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BlankCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>De weergegeven informatie kan verouderd zijn, Je portemonnee synchroniseerd automatisch met het BlankCoin netwerk nadat er verbindig is gemaakt, maar dit proces is nog niet voltooid.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the CashCow network after a connection is established, but this process has not completed yet.</source>
+        <translation>De weergegeven informatie kan verouderd zijn, Je portemonnee synchroniseerd automatisch met het CashCow netwerk nadat er verbindig is gemaakt, maar dit proces is nog niet voltooid.</translation>
     </message>
     <message>
         <location line="-160"/>
@@ -1554,8 +1554,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the BlankCoin-Qt help message to get a list with possible BlankCoin command-line options.</source>
-        <translation>Laat het Blankcoin-QT help bericht zien om een lijst te krijgen met mogelijke Blankcoin command-regel opties.</translation>
+        <source>Show the CashCow-Qt help message to get a list with possible CashCow command-line options.</source>
+        <translation>Laat het Cashcow-QT help bericht zien om een lijst te krijgen met mogelijke Cashcow command-regel opties.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1574,13 +1574,13 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>BlankCoin - Debug window</source>
-        <translation>Blankcoin - Debugscherm</translation>
+        <source>CashCow - Debug window</source>
+        <translation>Cashcow - Debugscherm</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>BlankCoin Core</source>
-        <translation>BlankCoin Kern</translation>
+        <source>CashCow Core</source>
+        <translation>CashCow Kern</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1589,8 +1589,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the BlankCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open het BlankCoin debug log bestand van de huidige data map. Dit kan een paar seconden duren voor grote log bestanden.</translation>
+        <source>Open the CashCow debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Open het CashCow debug log bestand van de huidige data map. Dit kan een paar seconden duren voor grote log bestanden.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1599,8 +1599,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the BlankCoin RPC console.</source>
-        <translation>Welkom bij de BlankCoin RPC console.</translation>
+        <source>Welcome to the CashCow RPC console.</source>
+        <translation>Welkom bij de CashCow RPC console.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1673,8 +1673,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 BLNK</source>
-        <translation>123.456 BLNK</translation>
+        <source>0.00 COW</source>
+        <translation>123.456 COW</translation>
     </message>
     <message>
         <location line="-191"/>
@@ -1743,8 +1743,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>123.456 BLNK</source>
-        <translation>123.456 BLNK</translation>
+        <source>123.456 COW</source>
+        <translation>123.456 COW</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -1758,8 +1758,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a BlankCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Voeg een Blankcoin adres in (bijv. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a CashCow address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Voeg een Cashcow adres in (bijv. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1858,8 +1858,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+251"/>
-        <source>WARNING: Invalid BlankCoin address</source>
-        <translation>WAARSCHUWING: Ongeldig Blankcoin adres</translation>
+        <source>WARNING: Invalid CashCow address</source>
+        <translation>WAARSCHUWING: Ongeldig Cashcow adres</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1932,8 +1932,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a BlankCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Voeg een Blankcoin adres in (bijv. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a CashCow address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Voeg een Cashcow adres in (bijv. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -1993,8 +1993,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this BlankCoin address</source>
-        <translation>Teken een bericht om te bewijzen dat je een BlankCoin adres bezit.</translation>
+        <source>Sign the message to prove you own this CashCow address</source>
+        <translation>Teken een bericht om te bewijzen dat je een CashCow adres bezit.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2025,8 +2025,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified BlankCoin address</source>
-        <translation>Verifieer een bericht om zeker te zijn dat deze is ondertekend met een specifiek BlankCoin adres</translation>
+        <source>Verify the message to ensure it was signed with the specified CashCow address</source>
+        <translation>Verifieer een bericht om zeker te zijn dat deze is ondertekend met een specifiek CashCow adres</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2036,8 +2036,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a BlankCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Voeg een Blankcoin adres in (bijv. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a CashCow address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Voeg een Cashcow adres in (bijv. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2046,8 +2046,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter BlankCoin signature</source>
-        <translation>Voer BlankCoin handtekening in</translation>
+        <source>Enter CashCow signature</source>
+        <translation>Voer CashCow handtekening in</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2617,8 +2617,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>BlankCoin version</source>
-        <translation>BlankCoin versie</translation>
+        <source>CashCow version</source>
+        <translation>CashCow versie</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2627,8 +2627,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or blankcoind</source>
-        <translation>Verstuur commando naar -server of blankcoind</translation>
+        <source>Send command to -server or cashcowd</source>
+        <translation>Verstuur commando naar -server of cashcowd</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2647,13 +2647,13 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: blankcoin.conf)</source>
-        <translation>Selecteer configuratie bestand (standaard: blankcoin.conf)</translation>
+        <source>Specify configuration file (default: cashcow.conf)</source>
+        <translation>Selecteer configuratie bestand (standaard: cashcow.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: blankcoind.pid)</source>
-        <translation>Selecteer pid bestand (standaard: blankcoin.conf)</translation>
+        <source>Specify pid file (default: cashcowd.pid)</source>
+        <translation>Selecteer pid bestand (standaard: cashcow.conf)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2802,8 +2802,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+61"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong BlankCoin will not work properly.</source>
-        <translation>Waarschuwing: Controleer of de datum en tijd van de computer juist zijn! Als uw klok verkeerd is BlankCoin zal niet goed werken.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong CashCow will not work properly.</source>
+        <translation>Waarschuwing: Controleer of de datum en tijd van de computer juist zijn! Als uw klok verkeerd is CashCow zal niet goed werken.</translation>
     </message>
     <message>
         <location line="-31"/>
@@ -2992,24 +2992,24 @@ Dit betekend dat een fee van %2 is vereist.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=blankcoinrpc
+rpcuser=cashcowrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;BlankCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;CashCow Alert&quot; admin@foo.com
 </source>
         <translation>%s, u moet een rpcpassword instellen in het configuratiebestand: 
 %s 
 Het wordt aanbevolen de volgende willekeurig wachtwoord gebruiken: 
-rpcuser = blankcoinrpc 
+rpcuser = cashcowrpc 
 rpcpassword = %s 
 (je hoeft niet dit wachtwoord te onthouden) 
 De gebruikersnaam en het wachtwoord MAG NIET hetzelfde zijn. 
 Als het bestand niet bestaat, maakt u met leesbare-alleen-eigenaar bestandsbeheermachtigingen.  
 Het wordt ook aanbevolen om alertnotify instellen zodat u een melding van problemen;  
-bijvoorbeeld: alertnotify = echo %%s | mail -s &quot;BlankCoin Alert&quot; admin@foo.com </translation>
+bijvoorbeeld: alertnotify = echo %%s | mail -s &quot;CashCow Alert&quot; admin@foo.com </translation>
     </message>
     <message>
         <location line="+51"/>
@@ -3133,13 +3133,13 @@ bijvoorbeeld: alertnotify = echo %%s | mail -s &quot;BlankCoin Alert&quot; admin
     </message>
     <message>
         <location line="+1"/>
-        <source>Cannot obtain a lock on data directory %s.  BlankCoin is probably already running.</source>
-        <translation>Kan een slot op data directory %s niet verkrijgen. BlankCoin wordt waarschijnlijk al uitgevoerd.</translation>
+        <source>Cannot obtain a lock on data directory %s.  CashCow is probably already running.</source>
+        <translation>Kan een slot op data directory %s niet verkrijgen. CashCow wordt waarschijnlijk al uitgevoerd.</translation>
     </message>
     <message>
         <location line="-98"/>
-        <source>BlankCoin</source>
-        <translation>BlankCoin</translation>
+        <source>CashCow</source>
+        <translation>CashCow</translation>
     </message>
     <message>
         <location line="+140"/>
@@ -3173,13 +3173,13 @@ bijvoorbeeld: alertnotify = echo %%s | mail -s &quot;BlankCoin Alert&quot; admin
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of BlankCoin</source>
-        <translation>Fout bij laden van wallet.dat: Portemonnee vereist een nieuwere versie van BlankCoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of CashCow</source>
+        <translation>Fout bij laden van wallet.dat: Portemonnee vereist een nieuwere versie van CashCow</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart BlankCoin to complete</source>
-        <translation>Portemonnee moet herschreven worden: herstart BlankCoin om te voltooien</translation>
+        <source>Wallet needed to be rewritten: restart CashCow to complete</source>
+        <translation>Portemonnee moet herschreven worden: herstart CashCow om te voltooien</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3248,8 +3248,8 @@ bijvoorbeeld: alertnotify = echo %%s | mail -s &quot;BlankCoin Alert&quot; admin
     </message>
     <message>
         <location line="+122"/>
-        <source>Unable to bind to %s on this computer. BlankCoin is probably already running.</source>
-        <translation>Niet mogelijk om %s op deze computer. BlankCoin is waarschijnlijk al geopened.</translation>
+        <source>Unable to bind to %s on this computer. CashCow is probably already running.</source>
+        <translation>Niet mogelijk om %s op deze computer. CashCow is waarschijnlijk al geopened.</translation>
     </message>
     <message>
         <location line="-97"/>

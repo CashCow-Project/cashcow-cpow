@@ -61,7 +61,7 @@ static const uint256 hashGenesisBlockTestNet("0x");
 /* ProtocolV2 is from BlackCoin.  Will not implement right away and will keep an eye on
    what happens with BlackCoin.  Presently set to switch at the 1-year mark, but this can
    be changed in the future if BlackCoin proves that the new protocol is a positive step
-   forward.  Since BlankCoin is in part supposed to be a proof-of-concept for an
+   forward.  Since CashCow is in part supposed to be a proof-of-concept for an
    improvement to PoS, it makes sense to use the old protocol initially as a control
    mechanism for comparison. */
 inline bool IsProtocolV2(int nHeight) { return nHeight > 438000; }

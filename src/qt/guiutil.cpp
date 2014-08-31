@@ -82,7 +82,7 @@ void setupAmountWidget(QLineEdit *widget, QWidget *parent)
 bool parseBitcoinURI(const QUrl &uri, SendCoinsRecipient *out)
 {
     // NovaCoin: check prefix
-    if(uri.scheme() != QString("blankcoin"))
+    if(uri.scheme() != QString("cashcow"))
         return false;
 
     SendCoinsRecipient rv;
@@ -127,13 +127,13 @@ bool parseBitcoinURI(const QUrl &uri, SendCoinsRecipient *out)
 
 bool parseBitcoinURI(QString uri, SendCoinsRecipient *out)
 {
-    // Convert blankcoin:// to blankcoin:
+    // Convert cashcow:// to cashcow:
     //
     //    Cannot handle this later, because bitcoin:// will cause Qt to see the part after // as host,
     //    which will lower-case it (and thus invalidate the address).
-    if(uri.startsWith("blankcoin://"))
+    if(uri.startsWith("cashcow://"))
     {
-        uri.replace(0, 12, "blankcoin:");
+        uri.replace(0, 12, "cashcow:");
     }
     QUrl uriInstance(uri);
     return parseBitcoinURI(uriInstance, out);
@@ -277,7 +277,7 @@ bool ToolTipToRichTextFilter::eventFilter(QObject *obj, QEvent *evt)
 #ifdef WIN32
 boost::filesystem::path static StartupShortcutPath()
 {
-    return GetSpecialFolderPath(CSIDL_STARTUP) / "BlankCoin.lnk";
+    return GetSpecialFolderPath(CSIDL_STARTUP) / "CashCow.lnk";
 }
 
 bool GetStartOnSystemStartup()
@@ -359,7 +359,7 @@ boost::filesystem::path static GetAutostartDir()
 
 boost::filesystem::path static GetAutostartFilePath()
 {
-    return GetAutostartDir() / "blankcoin.desktop";
+    return GetAutostartDir() / "cashcow.desktop";
 }
 
 bool GetStartOnSystemStartup()
@@ -400,7 +400,7 @@ bool SetStartOnSystemStartup(bool fAutoStart)
         // Write a bitcoin.desktop file to the autostart directory:
         optionFile << "[Desktop Entry]\n";
         optionFile << "Type=Application\n";
-        optionFile << "Name=BlankCoin\n";
+        optionFile << "Name=CashCow\n";
         optionFile << "Exec=" << pszExePath << " -min\n";
         optionFile << "Terminal=false\n";
         optionFile << "Hidden=false\n";
@@ -421,10 +421,10 @@ bool SetStartOnSystemStartup(bool fAutoStart) { return false; }
 HelpMessageBox::HelpMessageBox(QWidget *parent) :
     QMessageBox(parent)
 {
-    header = tr("BlankCoin-Qt") + " " + tr("version") + " " +
+    header = tr("CashCow-Qt") + " " + tr("version") + " " +
         QString::fromStdString(FormatFullVersion()) + "\n\n" +
         tr("Usage:") + "\n" +
-        "  blankcoin-qt [" + tr("command-line options") + "]                     " + "\n";
+        "  cashcow-qt [" + tr("command-line options") + "]                     " + "\n";
 
     coreOptions = QString::fromStdString(HelpMessage());
 
@@ -433,7 +433,7 @@ HelpMessageBox::HelpMessageBox(QWidget *parent) :
         "  -min                   " + tr("Start minimized") + "\n" +
         "  -splash                " + tr("Show splash screen on startup (default: 1)") + "\n";
 
-    setWindowTitle(tr("BlankCoin-Qt"));
+    setWindowTitle(tr("CashCow-Qt"));
     setTextFormat(Qt::PlainText);
     // setMinimumWidth is ignored for QMessageBox so put in non-breaking spaces to make it wider.
     setText(header + QString(QChar(0x2003)).repeated(50));

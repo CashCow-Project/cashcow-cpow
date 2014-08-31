@@ -3,24 +3,24 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About BlankCoin</source>
-        <translation>Sobre BlankCoin</translation>
+        <source>About CashCow</source>
+        <translation>Sobre CashCow</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;BlankCoin&lt;/b&gt; version</source>
-        <translation>versió &lt;b&gt;BlankCoin&lt;/b&gt;</translation>
+        <source>&lt;b&gt;CashCow&lt;/b&gt; version</source>
+        <translation>versió &lt;b&gt;CashCow&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
 Copyright © 2014 The BlackCoin developers
-Copyright © 2014 The BlankCoin developers</source>
+Copyright © 2014 The CashCow developers</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
 Copyright © 2014 The BlackCoin developers
-Copyright © 2014 The BlankCoin developers</translation>
+Copyright © 2014 The CashCow developers</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -62,8 +62,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your BlankCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Aquestes són les teves adreces de BlankCoin per rebre els pagaments. És possible que vulgueu donar una diferent a cada remitent per a poder realitzar un seguiment de qui li está pagant.</translation>
+        <source>These are your CashCow addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Aquestes són les teves adreces de CashCow per rebre els pagaments. És possible que vulgueu donar una diferent a cada remitent per a poder realitzar un seguiment de qui li está pagant.</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -77,8 +77,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a BlankCoin address</source>
-        <translation>Signar un missatge per demostrar que és propietari d&apos;una adreça BlankCoin</translation>
+        <source>Sign a message to prove you own a CashCow address</source>
+        <translation>Signar un missatge per demostrar que és propietari d&apos;una adreça CashCow</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -92,8 +92,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified BlankCoin address</source>
-        <translation>Comproveu el missatge per assegurar-se que es va signar amb una adreça BlankCoin especificada.</translation>
+        <source>Verify a message to ensure it was signed with a specified CashCow address</source>
+        <translation>Comproveu el missatge per assegurar-se que es va signar amb una adreça CashCow especificada.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -260,8 +260,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-58"/>
-        <source>BlankCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>BlankCoin tancarà ara per acabar el procés de xifrat. Recordeu que l&apos;encriptació del seu moneder no pot protegir completament les seves monedes de ser robades pel malware que pugui infectar al seu equip.</translation>
+        <source>CashCow will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>CashCow tancarà ara per acabar el procés de xifrat. Recordeu que l&apos;encriptació del seu moneder no pot protegir completament les seves monedes de ser robades pel malware que pugui infectar al seu equip.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -374,8 +374,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about BlankCoin</source>
-        <translation>Mostra informació sobre BlankCoin</translation>
+        <source>Show information about CashCow</source>
+        <translation>Mostra informació sobre CashCow</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -424,13 +424,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-62"/>
-        <source>Send coins to a BlankCoin address</source>
-        <translation>Enviar monedes a una adreça BlankCoin</translation>
+        <source>Send coins to a CashCow address</source>
+        <translation>Enviar monedes a una adreça CashCow</translation>
     </message>
     <message>
         <location line="+45"/>
-        <source>Modify configuration options for BlankCoin</source>
-        <translation>Modificar les opcions de configuració per a BlankCoin</translation>
+        <source>Modify configuration options for CashCow</source>
+        <translation>Modificar les opcions de configuració per a CashCow</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -469,8 +469,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-200"/>
-        <source>BlankCoin</source>
-        <translation>BlankCoin</translation>
+        <source>CashCow</source>
+        <translation>CashCow</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -479,8 +479,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+178"/>
-        <source>&amp;About BlankCoin</source>
-        <translation>&amp;Sobre BlankCoin</translation>
+        <source>&amp;About CashCow</source>
+        <translation>&amp;Sobre CashCow</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -536,13 +536,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>BlankCoin client</source>
-        <translation>Client BlankCoin</translation>
+        <source>CashCow client</source>
+        <translation>Client CashCow</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to BlankCoin network</source>
-        <translation><numerusform>%n conexió activa a la xarxa BlankCoin</numerusform><numerusform>%n conexions actives a la xarxa BlankCoin</numerusform></translation>
+        <source>%n active connection(s) to CashCow network</source>
+        <translation><numerusform>%n conexió activa a la xarxa CashCow</numerusform><numerusform>%n conexions actives a la xarxa CashCow</numerusform></translation>
     </message>
     <message>
         <location line="+40"/>
@@ -652,8 +652,8 @@ Address: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid BlankCoin address or malformed URI parameters.</source>
-        <translation>l&apos;URI no es pot analitzar! Això pot ser causat per una adreça BlankCoin no vàlida o paràmetres URI malformats.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid CashCow address or malformed URI parameters.</source>
+        <translation>l&apos;URI no es pot analitzar! Això pot ser causat per una adreça CashCow no vàlida o paràmetres URI malformats.</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -712,8 +712,8 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. BlankCoin can no longer continue safely and will quit.</source>
-        <translation>S&apos;ha produït un error fatal. BlankCoin ja no pot continuar de forma segura i es tancarà.</translation>
+        <source>A fatal error occurred. CashCow can no longer continue safely and will quit.</source>
+        <translation>S&apos;ha produït un error fatal. CashCow ja no pot continuar de forma segura i es tancarà.</translation>
     </message>
 </context>
 <context>
@@ -1046,8 +1046,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid BlankCoin address.</source>
-        <translation>La direcció introduïda &quot;%1&quot; no és una adreça BlankCoin vàlida.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid CashCow address.</source>
+        <translation>La direcció introduïda &quot;%1&quot; no és una adreça CashCow vàlida.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1065,8 +1065,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>BlankCoin-Qt</source>
-        <translation>BlankCoin-Qt</translation>
+        <source>CashCow-Qt</source>
+        <translation>CashCow-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1138,13 +1138,13 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start BlankCoin after logging in to the system.</source>
-        <translation>Inicia automàticament BlankCoin després d&apos;entrar en el sistema.</translation>
+        <source>Automatically start CashCow after logging in to the system.</source>
+        <translation>Inicia automàticament CashCow després d&apos;entrar en el sistema.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start BlankCoin on system login</source>
-        <translation>&amp;Iniciar BlankCoin amb l&apos;inici de sessió</translation>
+        <source>&amp;Start CashCow on system login</source>
+        <translation>&amp;Iniciar CashCow amb l&apos;inici de sessió</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1163,8 +1163,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the BlankCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Obrir automàticament el port de client BlankCoin en el router. Això només funciona quan el router és compatible amb UPnP i està habilitat.</translation>
+        <source>Automatically open the CashCow client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Obrir automàticament el port de client CashCow en el router. Això només funciona quan el router és compatible amb UPnP i està habilitat.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1173,8 +1173,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the BlankCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Connecteu-vos a la xarxa BlankCoin través d&apos;un proxy SOCKS (per exemple, quan es connecta a través de Tor).</translation>
+        <source>Connect to the CashCow network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Connecteu-vos a la xarxa CashCow través d&apos;un proxy SOCKS (per exemple, quan es connecta a través de Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1248,8 +1248,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting BlankCoin.</source>
-        <translation>L&apos;idioma de la interfície d&apos;usuari es pot configurar aquí. Aquesta configuració s&apos;aplicarà després de reiniciar BlankCoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting CashCow.</source>
+        <translation>L&apos;idioma de la interfície d&apos;usuari es pot configurar aquí. Aquesta configuració s&apos;aplicarà després de reiniciar CashCow.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1263,8 +1263,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show BlankCoin addresses in the transaction list or not.</source>
-        <translation>Per mostrar BlankCoin adreces a la llista de transaccions o no.</translation>
+        <source>Whether to show CashCow addresses in the transaction list or not.</source>
+        <translation>Per mostrar CashCow adreces a la llista de transaccions o no.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1310,8 +1310,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting BlankCoin.</source>
-        <translation>Aquesta configuració s&apos;aplicarà després de reiniciar BlankCoin.</translation>
+        <source>This setting will take effect after restarting CashCow.</source>
+        <translation>Aquesta configuració s&apos;aplicarà després de reiniciar CashCow.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1329,8 +1329,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <message>
         <location line="+33"/>
         <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BlankCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>La informació mostrada pot estar fora de data. El seu moneder es sincronitza automàticament amb la xarxa BlankCoin després d&apos;establir una connexió, però aquest procés no s&apos;ha completat encara.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the CashCow network after a connection is established, but this process has not completed yet.</source>
+        <translation>La informació mostrada pot estar fora de data. El seu moneder es sincronitza automàticament amb la xarxa CashCow després d&apos;establir una connexió, però aquest procés no s&apos;ha completat encara.</translation>
     </message>
     <message>
         <location line="-160"/>
@@ -1545,8 +1545,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the BlankCoin-Qt help message to get a list with possible BlankCoin command-line options.</source>
-        <translation>Mostra el missatge d&apos;ajuda de BlankCoin-Qt per obtenir una llista amb les possibles opcions de línia d&apos;ordres BlankCoin.</translation>
+        <source>Show the CashCow-Qt help message to get a list with possible CashCow command-line options.</source>
+        <translation>Mostra el missatge d&apos;ajuda de CashCow-Qt per obtenir una llista amb les possibles opcions de línia d&apos;ordres CashCow.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1565,13 +1565,13 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>BlankCoin - Debug window</source>
-        <translation>BlankCoin - Finestra Depuració</translation>
+        <source>CashCow - Debug window</source>
+        <translation>CashCow - Finestra Depuració</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>BlankCoin Core</source>
-        <translation>Nucli BlankCoin</translation>
+        <source>CashCow Core</source>
+        <translation>Nucli CashCow</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1580,8 +1580,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the BlankCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Obriu el fitxer de registre de depuració BlankCoin des del directori de dades actual. Això pot trigar uns segons en els arxius de registre de grans dimensions.</translation>
+        <source>Open the CashCow debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Obriu el fitxer de registre de depuració CashCow des del directori de dades actual. Això pot trigar uns segons en els arxius de registre de grans dimensions.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1590,8 +1590,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the BlankCoin RPC console.</source>
-        <translation>Benvingut a la consola RPC de BlankCoin.</translation>
+        <source>Welcome to the CashCow RPC console.</source>
+        <translation>Benvingut a la consola RPC de CashCow.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1664,8 +1664,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 BLNK</source>
-        <translation>123.456 BLNK {0.00 ?}</translation>
+        <source>0.00 COW</source>
+        <translation>123.456 COW {0.00 ?}</translation>
     </message>
     <message>
         <location line="-191"/>
@@ -1734,8 +1734,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>123.456 BLNK</source>
-        <translation>123.456 BLNK</translation>
+        <source>123.456 COW</source>
+        <translation>123.456 COW</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -1749,8 +1749,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a BlankCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Introdueix una adreça BlankCoin (p.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a CashCow address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Introdueix una adreça CashCow (p.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1849,8 +1849,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+251"/>
-        <source>WARNING: Invalid BlankCoin address</source>
-        <translation>ADVERTÈNCIA: Direcció BlankCoin invàlida</translation>
+        <source>WARNING: Invalid CashCow address</source>
+        <translation>ADVERTÈNCIA: Direcció CashCow invàlida</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1923,8 +1923,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a BlankCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Introdueix una adreça BlankCoin (p.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a CashCow address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Introdueix una adreça CashCow (p.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -1984,8 +1984,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this BlankCoin address</source>
-        <translation>Signar un missatge per demostrar que és propietari d&apos;aquesta adreça BlankCoin</translation>
+        <source>Sign the message to prove you own this CashCow address</source>
+        <translation>Signar un missatge per demostrar que és propietari d&apos;aquesta adreça CashCow</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2016,8 +2016,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified BlankCoin address</source>
-        <translation>Comproveu el missatge per assegurar-se que es va signar amb l&apos;adreça BlankCoin especificada.</translation>
+        <source>Verify the message to ensure it was signed with the specified CashCow address</source>
+        <translation>Comproveu el missatge per assegurar-se que es va signar amb l&apos;adreça CashCow especificada.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2027,8 +2027,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a BlankCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Introdueix una adreça BlankCoin (p.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a CashCow address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Introdueix una adreça CashCow (p.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2037,8 +2037,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter BlankCoin signature</source>
-        <translation>Introduïu la signatura BlankCoin</translation>
+        <source>Enter CashCow signature</source>
+        <translation>Introduïu la signatura CashCow</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2608,8 +2608,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>BlankCoin version</source>
-        <translation>versió BlankCoin</translation>
+        <source>CashCow version</source>
+        <translation>versió CashCow</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2618,8 +2618,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or blankcoind</source>
-        <translation>Enviar comandes a -server o blankcoind</translation>
+        <source>Send command to -server or cashcowd</source>
+        <translation>Enviar comandes a -server o cashcowd</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2638,13 +2638,13 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: blankcoin.conf)</source>
-        <translation>Especifiqueu el fitxer de configuració (per defecte: blankcoin.conf)</translation>
+        <source>Specify configuration file (default: cashcow.conf)</source>
+        <translation>Especifiqueu el fitxer de configuració (per defecte: cashcow.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: blankcoind.pid)</source>
-        <translation>Especificar arxiu pid (per defecte: blankcoind.pid)</translation>
+        <source>Specify pid file (default: cashcowd.pid)</source>
+        <translation>Especificar arxiu pid (per defecte: cashcowd.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2793,8 +2793,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+61"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong BlankCoin will not work properly.</source>
-        <translation>Avís: Comproveu que la data i hora de l&apos;equip siguin correctes! Si el seu rellotge és erroni BlankCoin no funcionarà correctament.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong CashCow will not work properly.</source>
+        <translation>Avís: Comproveu que la data i hora de l&apos;equip siguin correctes! Si el seu rellotge és erroni CashCow no funcionarà correctament.</translation>
     </message>
     <message>
         <location line="-31"/>
@@ -2983,24 +2983,24 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=blankcoinrpc
+rpcuser=cashcowrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;BlankCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;CashCow Alert&quot; admin@foo.com
 </source>
         <translation>%s, ha d&apos;establir un rpcpassword al fitxer de configuració:
 %s
 Es recomana utilitzar la següent contrasenya aleatòria:
-rpcuser=blankcoinrpc
+rpcuser=cashcowrpc
 rpcpassword=%s
 (No cal recordar aquesta contrasenya)
 El nom d&apos;usuari i contrasenya NO HA DE SER el mateix.
 Si no hi ha l&apos;arxiu, s&apos;ha de crear amb els permisos de només lectura per al propietari.
 També es recomana establir alertnotify per a que se li notifiquin els problemes;
-per exemple: alertnotify=echo %%s | mail -s &quot;BlankCoin Alert&quot; admin@foo.com
+per exemple: alertnotify=echo %%s | mail -s &quot;CashCow Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -3126,13 +3126,13 @@ Executar una ordre quan es rep un avís rellevant (%s en cmd es substitueix per 
     </message>
     <message>
         <location line="+1"/>
-        <source>Cannot obtain a lock on data directory %s.  BlankCoin is probably already running.</source>
-        <translation>No es pot obtenir un bloqueig en el directori de dades %s. BlankCoin probablement ja estigui en funcionament.</translation>
+        <source>Cannot obtain a lock on data directory %s.  CashCow is probably already running.</source>
+        <translation>No es pot obtenir un bloqueig en el directori de dades %s. CashCow probablement ja estigui en funcionament.</translation>
     </message>
     <message>
         <location line="-98"/>
-        <source>BlankCoin</source>
-        <translation>BlankCoin</translation>
+        <source>CashCow</source>
+        <translation>CashCow</translation>
     </message>
     <message>
         <location line="+140"/>
@@ -3166,13 +3166,13 @@ Executar una ordre quan es rep un avís rellevant (%s en cmd es substitueix per 
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of BlankCoin</source>
-        <translation>Error en carregar wallet.dat: El moneder requereix la versió més recent de BlankCoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of CashCow</source>
+        <translation>Error en carregar wallet.dat: El moneder requereix la versió més recent de CashCow</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart BlankCoin to complete</source>
-        <translation>El moneder necessita ser reescrita: reiniciar BlankCoin per completar</translation>
+        <source>Wallet needed to be rewritten: restart CashCow to complete</source>
+        <translation>El moneder necessita ser reescrita: reiniciar CashCow per completar</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3241,8 +3241,8 @@ Executar una ordre quan es rep un avís rellevant (%s en cmd es substitueix per 
     </message>
     <message>
         <location line="+122"/>
-        <source>Unable to bind to %s on this computer. BlankCoin is probably already running.</source>
-        <translation>No es pot enllaçar a %s en aquest equip. BlankCoin probablement ja estigui en funcionament.</translation>
+        <source>Unable to bind to %s on this computer. CashCow is probably already running.</source>
+        <translation>No es pot enllaçar a %s en aquest equip. CashCow probablement ja estigui en funcionament.</translation>
     </message>
     <message>
         <location line="-97"/>

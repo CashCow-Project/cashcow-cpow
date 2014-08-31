@@ -3,24 +3,24 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About BlankCoin</source>
-        <translation>O Blankcoine</translation>
+        <source>About CashCow</source>
+        <translation>O Cashcowe</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;BlankCoin&lt;/b&gt; version</source>
-        <translation>verzia &lt;b&gt;BlankCoinu&lt;/b&gt;</translation>
+        <source>&lt;b&gt;CashCow&lt;/b&gt; version</source>
+        <translation>verzia &lt;b&gt;CashCowu&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
 Copyright © 2014 The BlackCoin developers
-Copyright © 2014 The BlankCoin developers</source>
+Copyright © 2014 The CashCow developers</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
 Copyright © 2014 The BlackCoin developers
-Copyright © 2014 The BlankCoin developers</translation>
+Copyright © 2014 The CashCow developers</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -67,8 +67,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your BlankCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Toto sú vaše BlankCoin adresy pre príjem platieb. Možno budete chcieť dať inú každému odosielateľovi, aby ste mohli sledovať, kto Vám platí.</translation>
+        <source>These are your CashCow addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Toto sú vaše CashCow adresy pre príjem platieb. Možno budete chcieť dať inú každému odosielateľovi, aby ste mohli sledovať, kto Vám platí.</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -82,8 +82,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a BlankCoin address</source>
-        <translation>Podpísať správu ako dôkaz, že vlastníte túto BlankCoin adresu</translation>
+        <source>Sign a message to prove you own a CashCow address</source>
+        <translation>Podpísať správu ako dôkaz, že vlastníte túto CashCow adresu</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -97,8 +97,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified BlankCoin address</source>
-        <translation>Overte správu, aby ste zabezpečili, že bola podpísaná s určitou BlankCoin adresou</translation>
+        <source>Verify a message to ensure it was signed with a specified CashCow address</source>
+        <translation>Overte správu, aby ste zabezpečili, že bola podpísaná s určitou CashCow adresou</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -265,8 +265,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-58"/>
-        <source>BlankCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>BlankCoin sa teraz zavrie aby dokončil proces zašifrovania. Nezabudnite, že zašifrovanie vašej peňaženky nemôže plne chrániť vaše mince pred krádežou malwarom napadnutím vašeho počítača.</translation>
+        <source>CashCow will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>CashCow sa teraz zavrie aby dokončil proces zašifrovania. Nezabudnite, že zašifrovanie vašej peňaženky nemôže plne chrániť vaše mince pred krádežou malwarom napadnutím vašeho počítača.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -379,8 +379,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about BlankCoin</source>
-        <translation>Zobraziť informácie o BlankCoin</translation>
+        <source>Show information about CashCow</source>
+        <translation>Zobraziť informácie o CashCow</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -429,13 +429,13 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-62"/>
-        <source>Send coins to a BlankCoin address</source>
-        <translation>Poslať mince na BlankCoin adresu</translation>
+        <source>Send coins to a CashCow address</source>
+        <translation>Poslať mince na CashCow adresu</translation>
     </message>
     <message>
         <location line="+45"/>
-        <source>Modify configuration options for BlankCoin</source>
-        <translation>Upraviť možnosti konfigurácie pre BlankCoin</translation>
+        <source>Modify configuration options for CashCow</source>
+        <translation>Upraviť možnosti konfigurácie pre CashCow</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -474,8 +474,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-200"/>
-        <source>BlankCoin</source>
-        <translation>BlankCoin</translation>
+        <source>CashCow</source>
+        <translation>CashCow</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -484,8 +484,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+178"/>
-        <source>&amp;About BlankCoin</source>
-        <translation>&amp;O BlankCoin</translation>
+        <source>&amp;About CashCow</source>
+        <translation>&amp;O CashCow</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -541,13 +541,13 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>BlankCoin client</source>
-        <translation>BlankCoin klient</translation>
+        <source>CashCow client</source>
+        <translation>CashCow klient</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to BlankCoin network</source>
-        <translation><numerusform>%n aktívne spojenie s BlankCoin sieťov</numerusform><numerusform>%n aktívnych spojení s BlankCoin sieťov</numerusform><numerusform>%n aktívnych spojení s BlankCoin sieťou</numerusform></translation>
+        <source>%n active connection(s) to CashCow network</source>
+        <translation><numerusform>%n aktívne spojenie s CashCow sieťov</numerusform><numerusform>%n aktívnych spojení s CashCow sieťov</numerusform><numerusform>%n aktívnych spojení s CashCow sieťou</numerusform></translation>
     </message>
     <message>
         <location line="+40"/>
@@ -660,8 +660,8 @@ Adresa: %4</translation>
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid BlankCoin address or malformed URI parameters.</source>
-        <translation>URI nemožno analyzovať! Toto môže byť spôsobené neplatnou BlankCoin adresu alebo chybnými URI parametrami.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid CashCow address or malformed URI parameters.</source>
+        <translation>URI nemožno analyzovať! Toto môže byť spôsobené neplatnou CashCow adresu alebo chybnými URI parametrami.</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -720,8 +720,8 @@ Adresa: %4</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. BlankCoin can no longer continue safely and will quit.</source>
-        <translation>Došlo k závažnej chybe. BlankCoin už nemôže pokračovať bezpečne a bude ukončený.</translation>
+        <source>A fatal error occurred. CashCow can no longer continue safely and will quit.</source>
+        <translation>Došlo k závažnej chybe. CashCow už nemôže pokračovať bezpečne a bude ukončený.</translation>
     </message>
 </context>
 <context>
@@ -1054,8 +1054,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid BlankCoin address.</source>
-        <translation>Zadaná adresa &quot;%1&quot; nie je platnou BlankCoin adresou.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid CashCow address.</source>
+        <translation>Zadaná adresa &quot;%1&quot; nie je platnou CashCow adresou.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1073,8 +1073,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>BlankCoin-Qt</source>
-        <translation>BlankCoin-Qt</translation>
+        <source>CashCow-Qt</source>
+        <translation>CashCow-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1146,13 +1146,13 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start BlankCoin after logging in to the system.</source>
-        <translation>Automaticky spustiť BlankCoin po prihlásení sa do systému.</translation>
+        <source>Automatically start CashCow after logging in to the system.</source>
+        <translation>Automaticky spustiť CashCow po prihlásení sa do systému.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start BlankCoin on system login</source>
-        <translation>&amp;Spustiť BlankCoin pri prihlásení do systému</translation>
+        <source>&amp;Start CashCow on system login</source>
+        <translation>&amp;Spustiť CashCow pri prihlásení do systému</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1171,8 +1171,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the BlankCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automaticky otvoriť port klienta BlankCoin na routeri. To funguje iba vtedy, ak váš router podporuje UPnP a je povolené.</translation>
+        <source>Automatically open the CashCow client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automaticky otvoriť port klienta CashCow na routeri. To funguje iba vtedy, ak váš router podporuje UPnP a je povolené.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1181,8 +1181,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the BlankCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Pripojenie k sieti BlankCoin cez SOCKS proxy server (napr. pri pripojení cez Tor).</translation>
+        <source>Connect to the CashCow network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Pripojenie k sieti CashCow cez SOCKS proxy server (napr. pri pripojení cez Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1256,8 +1256,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting BlankCoin.</source>
-        <translation>Tu môžete nastaviť jazyk používateľského rozhrania. Toto nastavenie sa prejaví až po reštartovaní BlankCoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting CashCow.</source>
+        <translation>Tu môžete nastaviť jazyk používateľského rozhrania. Toto nastavenie sa prejaví až po reštartovaní CashCow.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1271,8 +1271,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show BlankCoin addresses in the transaction list or not.</source>
-        <translation>Či chcete zobraziť BlankCoin adresy v zozname transakcií alebo nie.</translation>
+        <source>Whether to show CashCow addresses in the transaction list or not.</source>
+        <translation>Či chcete zobraziť CashCow adresy v zozname transakcií alebo nie.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1318,8 +1318,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting BlankCoin.</source>
-        <translation>Toto nastavenie sa prejaví až po reštartovaní BlankCoin.</translation>
+        <source>This setting will take effect after restarting CashCow.</source>
+        <translation>Toto nastavenie sa prejaví až po reštartovaní CashCow.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1337,8 +1337,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <location line="+33"/>
         <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BlankCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Zobrazené informácie môžu byť zastaralé. Vaša peňaženka sa automaticky synchronizuje so sieťou BlankCoin po nadviazaní spojenia, ale tento proces nie je ešte dokončený.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the CashCow network after a connection is established, but this process has not completed yet.</source>
+        <translation>Zobrazené informácie môžu byť zastaralé. Vaša peňaženka sa automaticky synchronizuje so sieťou CashCow po nadviazaní spojenia, ale tento proces nie je ešte dokončený.</translation>
     </message>
     <message>
         <location line="-160"/>
@@ -1553,8 +1553,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the BlankCoin-Qt help message to get a list with possible BlankCoin command-line options.</source>
-        <translation>Zobraziť BlankCoin-Qt nápovedu k získaniu zoznamu pre možnosti  príkazového riadku BlankCoin.</translation>
+        <source>Show the CashCow-Qt help message to get a list with possible CashCow command-line options.</source>
+        <translation>Zobraziť CashCow-Qt nápovedu k získaniu zoznamu pre možnosti  príkazového riadku CashCow.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1573,13 +1573,13 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>BlankCoin - Debug window</source>
-        <translation>BlankCoin - Ladiace okno</translation>
+        <source>CashCow - Debug window</source>
+        <translation>CashCow - Ladiace okno</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>BlankCoin Core</source>
-        <translation>Jadro BlankCoin</translation>
+        <source>CashCow Core</source>
+        <translation>Jadro CashCow</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1588,8 +1588,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the BlankCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Otvorte Blankcoin súbor denníku ladenia z aktuálneho adresára dát. To môže trvať niekoľko sekúnd pre veľké súbory denníka.</translation>
+        <source>Open the CashCow debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Otvorte Cashcow súbor denníku ladenia z aktuálneho adresára dát. To môže trvať niekoľko sekúnd pre veľké súbory denníka.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1598,8 +1598,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the BlankCoin RPC console.</source>
-        <translation>Vitajte v konzole Blankcoin RPC.</translation>
+        <source>Welcome to the CashCow RPC console.</source>
+        <translation>Vitajte v konzole Cashcow RPC.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1672,8 +1672,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 BLNK</source>
-        <translation>123.456 BLNK {0.00 ?}</translation>
+        <source>0.00 COW</source>
+        <translation>123.456 COW {0.00 ?}</translation>
     </message>
     <message>
         <location line="-191"/>
@@ -1742,8 +1742,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>123.456 BLNK</source>
-        <translation>123.456 BLNK</translation>
+        <source>123.456 COW</source>
+        <translation>123.456 COW</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -1757,8 +1757,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a BlankCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Zadajte BlankCoin adresu (napr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a CashCow address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Zadajte CashCow adresu (napr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1857,8 +1857,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+251"/>
-        <source>WARNING: Invalid BlankCoin address</source>
-        <translation>UPOZORNENIE: Neplatná BlankCoin adresa</translation>
+        <source>WARNING: Invalid CashCow address</source>
+        <translation>UPOZORNENIE: Neplatná CashCow adresa</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1931,8 +1931,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a BlankCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Zadajte BlankCoin adresu (napr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a CashCow address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Zadajte CashCow adresu (napr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -1992,8 +1992,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this BlankCoin address</source>
-        <translation>Podpísať správu ako dôkaz, že vlastníte túto BlankCoin adresu</translation>
+        <source>Sign the message to prove you own this CashCow address</source>
+        <translation>Podpísať správu ako dôkaz, že vlastníte túto CashCow adresu</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2024,8 +2024,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified BlankCoin address</source>
-        <translation>Overte správu, aby ste sa ubezpečili, že bola podpísaná s danou BlankCoin adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified CashCow address</source>
+        <translation>Overte správu, aby ste sa ubezpečili, že bola podpísaná s danou CashCow adresou</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2035,8 +2035,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a BlankCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Zadajte BlankCoin adresu (napr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a CashCow address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Zadajte CashCow adresu (napr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2045,8 +2045,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter BlankCoin signature</source>
-        <translation>Zadajte BlankCoin podpis</translation>
+        <source>Enter CashCow signature</source>
+        <translation>Zadajte CashCow podpis</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2616,8 +2616,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>BlankCoin version</source>
-        <translation>BlankCoin verzia</translation>
+        <source>CashCow version</source>
+        <translation>CashCow verzia</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2626,8 +2626,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or blankcoind</source>
-        <translation>Pošli príkaz na -server alebo blankcoind</translation>
+        <source>Send command to -server or cashcowd</source>
+        <translation>Pošli príkaz na -server alebo cashcowd</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2646,13 +2646,13 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: blankcoin.conf)</source>
-        <translation>Zadajte konfiguračný súbor (predvolené: blankcoin.conf)</translation>
+        <source>Specify configuration file (default: cashcow.conf)</source>
+        <translation>Zadajte konfiguračný súbor (predvolené: cashcow.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: blankcoind.pid)</source>
-        <translation>Zadajte pid súbor (predvolené: blankcoind.pid)</translation>
+        <source>Specify pid file (default: cashcowd.pid)</source>
+        <translation>Zadajte pid súbor (predvolené: cashcowd.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2801,8 +2801,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+61"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong BlankCoin will not work properly.</source>
-        <translation>Upozornenie: Skontrolujte, že dátum a čas počítača sú správne! Ak je Váš čas nesprávny BlankCoin nebude pracovať správne.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong CashCow will not work properly.</source>
+        <translation>Upozornenie: Skontrolujte, že dátum a čas počítača sú správne! Ak je Váš čas nesprávny CashCow nebude pracovať správne.</translation>
     </message>
     <message>
         <location line="-31"/>
@@ -2991,24 +2991,24 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=blankcoinrpc
+rpcuser=cashcowrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;BlankCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;CashCow Alert&quot; admin@foo.com
 </source>
         <translation>%s, musíte nastaviť rpcpassword v konfiguračnom súbore:
  %s
 Je odporúčané použiť nasledujúce náhodné heslo:
-rpcuser=blankcoinrpc
+rpcuser=cashcowrpc
 rpcpassword=%s
 (Nemusíte si pamätať toto heslo)
 Užívateľské meno a heslo nesmú byť rovnaké. 
 Ak súbor neexistuje, vytvorte ho s oprávneniami súborov vlastníkov iba na čítatanie.
 Odporúča sa tiež nastaviť alertnotify, takže budete upozornení na problémy;
-napríklad: alertnotify=echo %%s | mail -s &quot;BlankCoin Alert&quot; admin@foo.com</translation>
+napríklad: alertnotify=echo %%s | mail -s &quot;CashCow Alert&quot; admin@foo.com</translation>
     </message>
     <message>
         <location line="+51"/>
@@ -3132,13 +3132,13 @@ napríklad: alertnotify=echo %%s | mail -s &quot;BlankCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+1"/>
-        <source>Cannot obtain a lock on data directory %s.  BlankCoin is probably already running.</source>
-        <translation>Nemožno získať zámok na dátový adresár %s. BlankCoin už pravdepodobne beží.</translation>
+        <source>Cannot obtain a lock on data directory %s.  CashCow is probably already running.</source>
+        <translation>Nemožno získať zámok na dátový adresár %s. CashCow už pravdepodobne beží.</translation>
     </message>
     <message>
         <location line="-98"/>
-        <source>BlankCoin</source>
-        <translation>BlankCoin</translation>
+        <source>CashCow</source>
+        <translation>CashCow</translation>
     </message>
     <message>
         <location line="+140"/>
@@ -3172,13 +3172,13 @@ napríklad: alertnotify=echo %%s | mail -s &quot;BlankCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of BlankCoin</source>
-        <translation>Chyba pri načítaní wallet.dat: Peňaženka vyžaduje novšiu verziu BlankCoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of CashCow</source>
+        <translation>Chyba pri načítaní wallet.dat: Peňaženka vyžaduje novšiu verziu CashCow</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart BlankCoin to complete</source>
-        <translation>Peňaženka potrebuje byť prepísaná: reštartujte BlankCoin k dokončeniu</translation>
+        <source>Wallet needed to be rewritten: restart CashCow to complete</source>
+        <translation>Peňaženka potrebuje byť prepísaná: reštartujte CashCow k dokončeniu</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3247,8 +3247,8 @@ napríklad: alertnotify=echo %%s | mail -s &quot;BlankCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+122"/>
-        <source>Unable to bind to %s on this computer. BlankCoin is probably already running.</source>
-        <translation>Nemôžem sa pripojiť na %s na tomto počítači. BlankCoin je pravdepodobne už beží.</translation>
+        <source>Unable to bind to %s on this computer. CashCow is probably already running.</source>
+        <translation>Nemôžem sa pripojiť na %s na tomto počítači. CashCow je pravdepodobne už beží.</translation>
     </message>
     <message>
         <location line="-97"/>

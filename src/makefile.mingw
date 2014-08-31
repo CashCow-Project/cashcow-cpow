@@ -94,7 +94,7 @@ OBJS= \
     obj/zerocoin/SpendMetaData.o \
     obj/zerocoin/ZeroTest.o
 
-all: blankcoind.exe
+all: cashcowd.exe
 
 LIBS += $(CURDIR)/leveldb/libleveldb.a $(CURDIR)/leveldb/libmemenv.a
 DEFS += $(addprefix -I,$(CURDIR)/leveldb/include)
@@ -113,11 +113,11 @@ obj/%.o: %.c $(HEADERS)
 obj/zerocoin/%.o: zerocoin/%.cpp
 	g++ -c $(CFLAGS) -o $@ $<
 
-blankcoind.exe: $(OBJS:obj/%=obj/%)
+cashcowd.exe: $(OBJS:obj/%=obj/%)
 	g++ $(CFLAGS) $(LDFLAGS) -o $@ $(LIBPATHS) $^ $(LIBS)
 
 clean:
-	-del /Q blankcoind
+	-del /Q cashcowd
 	-del /Q obj\*
 	-del /Q obj\zerocoin\*
 

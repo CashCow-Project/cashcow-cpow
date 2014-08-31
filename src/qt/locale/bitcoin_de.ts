@@ -3,20 +3,20 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About BlankCoin</source>
-        <translation>Über BlankCoin</translation>
+        <source>About CashCow</source>
+        <translation>Über CashCow</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;BlankCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;BlankCoin&lt;/b&gt; Version</translation>
+        <source>&lt;b&gt;CashCow&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;CashCow&lt;/b&gt; Version</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
 Copyright © 2014 The BlackCoin developers
-Copyright © 2014 The BlankCoin developers</source>
+Copyright © 2014 The CashCow developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -64,8 +64,8 @@ Dieses Produkt enthält Software, die vom OpenSSL-Projekt zur Verwendung im Open
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your BlankCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Das sind Ihre BlankCoin Adressen um Zahlungen zu erhalten. Sie werden vielleicht verschiedene an jeden Sender vergeben, damit Sie im Auge behalten können wer sie bezahlt.</translation>
+        <source>These are your CashCow addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Das sind Ihre CashCow Adressen um Zahlungen zu erhalten. Sie werden vielleicht verschiedene an jeden Sender vergeben, damit Sie im Auge behalten können wer sie bezahlt.</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -79,7 +79,7 @@ Dieses Produkt enthält Software, die vom OpenSSL-Projekt zur Verwendung im Open
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a BlankCoin address</source>
+        <source>Sign a message to prove you own a CashCow address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -94,7 +94,7 @@ Dieses Produkt enthält Software, die vom OpenSSL-Projekt zur Verwendung im Open
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified BlankCoin address</source>
+        <source>Verify a message to ensure it was signed with a specified CashCow address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -262,7 +262,7 @@ Dieses Produkt enthält Software, die vom OpenSSL-Projekt zur Verwendung im Open
     </message>
     <message>
         <location line="-58"/>
-        <source>BlankCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <source>CashCow will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -376,7 +376,7 @@ Dieses Produkt enthält Software, die vom OpenSSL-Projekt zur Verwendung im Open
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about BlankCoin</source>
+        <source>Show information about CashCow</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -426,12 +426,12 @@ Dieses Produkt enthält Software, die vom OpenSSL-Projekt zur Verwendung im Open
     </message>
     <message>
         <location line="-62"/>
-        <source>Send coins to a BlankCoin address</source>
+        <source>Send coins to a CashCow address</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+45"/>
-        <source>Modify configuration options for BlankCoin</source>
+        <source>Modify configuration options for CashCow</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -471,7 +471,7 @@ Dieses Produkt enthält Software, die vom OpenSSL-Projekt zur Verwendung im Open
     </message>
     <message>
         <location line="-200"/>
-        <source>BlankCoin</source>
+        <source>CashCow</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -481,7 +481,7 @@ Dieses Produkt enthält Software, die vom OpenSSL-Projekt zur Verwendung im Open
     </message>
     <message>
         <location line="+178"/>
-        <source>&amp;About BlankCoin</source>
+        <source>&amp;About CashCow</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -538,12 +538,12 @@ Dieses Produkt enthält Software, die vom OpenSSL-Projekt zur Verwendung im Open
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>BlankCoin client</source>
+        <source>CashCow client</source>
         <translation type="unfinished"/>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to BlankCoin network</source>
+        <source>%n active connection(s) to CashCow network</source>
         <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
     </message>
     <message>
@@ -657,7 +657,7 @@ Adresse: %4</translation>
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid BlankCoin address or malformed URI parameters.</source>
+        <source>URI can not be parsed! This can be caused by an invalid CashCow address or malformed URI parameters.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -717,7 +717,7 @@ Adresse: %4</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. BlankCoin can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. CashCow can no longer continue safely and will quit.</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1037,8 +1037,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid BlankCoin address.</source>
-        <translation>Die eingegebene Adresse &quot;%1&quot; ist keine gültige BlankCoin Adresse.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid CashCow address.</source>
+        <translation>Die eingegebene Adresse &quot;%1&quot; ist keine gültige CashCow Adresse.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1056,7 +1056,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>BlankCoin-Qt</source>
+        <source>CashCow-Qt</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1129,13 +1129,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start BlankCoin after logging in to the system.</source>
-        <translation>Automatisch BlankCoin starten beim Einloggen in das System.</translation>
+        <source>Automatically start CashCow after logging in to the system.</source>
+        <translation>Automatisch CashCow starten beim Einloggen in das System.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start BlankCoin on system login</source>
-        <translation>&amp;Starte BlankCoin bei Systemstart</translation>
+        <source>&amp;Start CashCow on system login</source>
+        <translation>&amp;Starte CashCow bei Systemstart</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1154,8 +1154,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the BlankCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatisch den BlankCoin client port auf dem Router öffnen. Das funktioniert nur wenn der Router UPnP unterstützt und UPnP aktiviert ist.</translation>
+        <source>Automatically open the CashCow client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatisch den CashCow client port auf dem Router öffnen. Das funktioniert nur wenn der Router UPnP unterstützt und UPnP aktiviert ist.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1164,7 +1164,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the BlankCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the CashCow network through a SOCKS proxy (e.g. when connecting through Tor).</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1239,7 +1239,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting BlankCoin.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting CashCow.</source>
         <translation>Die Sprache der GUI kann hier verändert werden. Die Einstellung wird nach einem Neustart übernommen.</translation>
     </message>
     <message>
@@ -1254,8 +1254,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show BlankCoin addresses in the transaction list or not.</source>
-        <translation>BlankCoin Adressen in der Überweisung anzeigen oder nicht.</translation>
+        <source>Whether to show CashCow addresses in the transaction list or not.</source>
+        <translation>CashCow Adressen in der Überweisung anzeigen oder nicht.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1301,7 +1301,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting BlankCoin.</source>
+        <source>This setting will take effect after restarting CashCow.</source>
         <translation>Diese Einstellung wird nach einem Neustart übernommen.</translation>
     </message>
     <message>
@@ -1320,8 +1320,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+33"/>
         <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BlankCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Die angezeigte Information kann falsch sein. Die Brieftasche synchronisiert automatisch mit dem BlankCoin Netzwerk nachdem eine Verbindung zustande gekommen ist, aber dieser Prozess ist nicht abgeschlossen.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the CashCow network after a connection is established, but this process has not completed yet.</source>
+        <translation>Die angezeigte Information kann falsch sein. Die Brieftasche synchronisiert automatisch mit dem CashCow Netzwerk nachdem eine Verbindung zustande gekommen ist, aber dieser Prozess ist nicht abgeschlossen.</translation>
     </message>
     <message>
         <location line="-160"/>
@@ -1536,7 +1536,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the BlankCoin-Qt help message to get a list with possible BlankCoin command-line options.</source>
+        <source>Show the CashCow-Qt help message to get a list with possible CashCow command-line options.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1556,13 +1556,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-104"/>
-        <source>BlankCoin - Debug window</source>
-        <translation>BlankCoin - Debug Fenster</translation>
+        <source>CashCow - Debug window</source>
+        <translation>CashCow - Debug Fenster</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>BlankCoin Core</source>
-        <translation>BlankCoin Kern</translation>
+        <source>CashCow Core</source>
+        <translation>CashCow Kern</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1571,7 +1571,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the BlankCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the CashCow debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1581,7 +1581,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the BlankCoin RPC console.</source>
+        <source>Welcome to the CashCow RPC console.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1655,7 +1655,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 BLNK</source>
+        <source>0.00 COW</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1725,7 +1725,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+16"/>
-        <source>123.456 BLNK</source>
+        <source>123.456 COW</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1740,7 +1740,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a BlankCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <source>Enter a CashCow address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1840,7 +1840,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+251"/>
-        <source>WARNING: Invalid BlankCoin address</source>
+        <source>WARNING: Invalid CashCow address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1914,7 +1914,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a BlankCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <source>Enter a CashCow address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1975,8 +1975,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this BlankCoin address</source>
-        <translation>Signiere die Nachricht um zu beweisen das du Besitzer dieser BlankCoin Adresse bist.</translation>
+        <source>Sign the message to prove you own this CashCow address</source>
+        <translation>Signiere die Nachricht um zu beweisen das du Besitzer dieser CashCow Adresse bist.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2007,7 +2007,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified BlankCoin address</source>
+        <source>Verify the message to ensure it was signed with the specified CashCow address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2018,7 +2018,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a BlankCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <source>Enter a CashCow address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2028,8 +2028,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter BlankCoin signature</source>
-        <translation>BlankCoin Signatur eingeben</translation>
+        <source>Enter CashCow signature</source>
+        <translation>CashCow Signatur eingeben</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2599,7 +2599,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>BlankCoin version</source>
+        <source>CashCow version</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2609,8 +2609,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or blankcoind</source>
-        <translation>Kommando versenden an -server oder blankcoind </translation>
+        <source>Send command to -server or cashcowd</source>
+        <translation>Kommando versenden an -server oder cashcowd </translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2629,13 +2629,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: blankcoin.conf)</source>
-        <translation>Konfigurationsdatei angeben (Standard: blankcoin.conf)</translation>
+        <source>Specify configuration file (default: cashcow.conf)</source>
+        <translation>Konfigurationsdatei angeben (Standard: cashcow.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: blankcoind.pid)</source>
-        <translation>PID Datei angeben (Standard: blankcoin.pid)</translation>
+        <source>Specify pid file (default: cashcowd.pid)</source>
+        <translation>PID Datei angeben (Standard: cashcow.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2784,8 +2784,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+61"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong BlankCoin will not work properly.</source>
-        <translation>Wanung : Bitte prüfen Sie ob Datum und Uhrzeit richtig eingestellt sind. Wenn das Datum falsch ist BlankCoin nicht richtig funktionieren.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong CashCow will not work properly.</source>
+        <translation>Wanung : Bitte prüfen Sie ob Datum und Uhrzeit richtig eingestellt sind. Wenn das Datum falsch ist CashCow nicht richtig funktionieren.</translation>
     </message>
     <message>
         <location line="-31"/>
@@ -2973,13 +2973,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=blankcoinrpc
+rpcuser=cashcowrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;BlankCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;CashCow Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -3105,13 +3105,13 @@ for example: alertnotify=echo %%s | mail -s &quot;BlankCoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+1"/>
-        <source>Cannot obtain a lock on data directory %s.  BlankCoin is probably already running.</source>
-        <translation>Kann das Verzeichniss nicht einbinden %s. BlankCoin Brieftasche läuft wahrscheinlich bereits.</translation>
+        <source>Cannot obtain a lock on data directory %s.  CashCow is probably already running.</source>
+        <translation>Kann das Verzeichniss nicht einbinden %s. CashCow Brieftasche läuft wahrscheinlich bereits.</translation>
     </message>
     <message>
         <location line="-98"/>
-        <source>BlankCoin</source>
-        <translation>BlankCoin</translation>
+        <source>CashCow</source>
+        <translation>CashCow</translation>
     </message>
     <message>
         <location line="+140"/>
@@ -3145,13 +3145,13 @@ for example: alertnotify=echo %%s | mail -s &quot;BlankCoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of BlankCoin</source>
-        <translation>Fehler beim Laden wallet.dat. Brieftasche benötigt neuere Version der BlankCoin Brieftasche.</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of CashCow</source>
+        <translation>Fehler beim Laden wallet.dat. Brieftasche benötigt neuere Version der CashCow Brieftasche.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart BlankCoin to complete</source>
-        <translation>Brieftasche muss neu geschrieben werden. Starte die BlankCoin Brieftasche neu zum komplettieren.</translation>
+        <source>Wallet needed to be rewritten: restart CashCow to complete</source>
+        <translation>Brieftasche muss neu geschrieben werden. Starte die CashCow Brieftasche neu zum komplettieren.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3220,7 +3220,7 @@ for example: alertnotify=echo %%s | mail -s &quot;BlankCoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+122"/>
-        <source>Unable to bind to %s on this computer. BlankCoin is probably already running.</source>
+        <source>Unable to bind to %s on this computer. CashCow is probably already running.</source>
         <translation>Fehler beim anbinden %s auf diesem Computer. BlaclCoin Client läuft wahrscheinlich bereits.</translation>
     </message>
     <message>

@@ -1,7 +1,7 @@
 src/*.exe
-src/blankcoin
-src/blankcoind
-src/test_blankcoin
+src/cashcow
+src/cashcowd
+src/test_cashcow
 src/build.h
 .*.swp
 *.*~*
@@ -10,11 +10,11 @@ src/build.h
 *.orig
 *.o
 *.patch
-.blankcoin
+.cashcow
 #compilation and Qt preprocessor part
 *.qm
 Makefile
-blankcoin-qt
+cashcow-qt
 #resources cpp
 qrc_*.cpp
 #qt creator

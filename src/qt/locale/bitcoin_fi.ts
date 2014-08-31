@@ -3,20 +3,20 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About BlankCoin</source>
-        <translation>Tietoa Blankcoinista</translation>
+        <source>About CashCow</source>
+        <translation>Tietoa Cashcowista</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;BlankCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;BlankCoin&lt;/b&gt; versio</translation>
+        <source>&lt;b&gt;CashCow&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;CashCow&lt;/b&gt; versio</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
 Copyright © 2014 The BlackCoin developers
-Copyright © 2014 The BlankCoin developers</source>
+Copyright © 2014 The CashCow developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -65,8 +65,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your BlankCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Nämä ovat BlankCoin-osoitteesi rahansiirtojen vastaanottoa varten. Jos haluat, voit antaa jokaiselle lähettäjälle oman osoitteen jotta voit pitää kirjaa sinulle rahaa siirtäneistä henkilöistä.</translation>
+        <source>These are your CashCow addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Nämä ovat CashCow-osoitteesi rahansiirtojen vastaanottoa varten. Jos haluat, voit antaa jokaiselle lähettäjälle oman osoitteen jotta voit pitää kirjaa sinulle rahaa siirtäneistä henkilöistä.</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -80,8 +80,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a BlankCoin address</source>
-        <translation>Allekirjoita viesti osoittaaksesi BlankCoin-osoitteesi omistajuus</translation>
+        <source>Sign a message to prove you own a CashCow address</source>
+        <translation>Allekirjoita viesti osoittaaksesi CashCow-osoitteesi omistajuus</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -95,8 +95,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified BlankCoin address</source>
-        <translation>Vahvista viesti varmistaaksesi että kyseinen BlankCoin-osoitteesi on allekirjoittanut sen</translation>
+        <source>Verify a message to ensure it was signed with a specified CashCow address</source>
+        <translation>Vahvista viesti varmistaaksesi että kyseinen CashCow-osoitteesi on allekirjoittanut sen</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -263,8 +263,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="-58"/>
-        <source>BlankCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>BlankCoin-ohjelma sulkee itsensä päättääkseen salauksen luonnin. Muista, että lompakon salaaminen ei täysin turvaa kolikoitasi haittaohjelmien aiheuttamien varkauksien uhalta.</translation>
+        <source>CashCow will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>CashCow-ohjelma sulkee itsensä päättääkseen salauksen luonnin. Muista, että lompakon salaaminen ei täysin turvaa kolikoitasi haittaohjelmien aiheuttamien varkauksien uhalta.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -377,8 +377,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about BlankCoin</source>
-        <translation>Näytä tietoja BlankCoinista</translation>
+        <source>Show information about CashCow</source>
+        <translation>Näytä tietoja CashCowista</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -427,13 +427,13 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="-62"/>
-        <source>Send coins to a BlankCoin address</source>
-        <translation>Lähetä kolikkoja BlankCoin osoitteeseen</translation>
+        <source>Send coins to a CashCow address</source>
+        <translation>Lähetä kolikkoja CashCow osoitteeseen</translation>
     </message>
     <message>
         <location line="+45"/>
-        <source>Modify configuration options for BlankCoin</source>
-        <translation>Mukauta BlankCoinin konfigurointiasetuksia</translation>
+        <source>Modify configuration options for CashCow</source>
+        <translation>Mukauta CashCowin konfigurointiasetuksia</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -472,8 +472,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="-200"/>
-        <source>BlankCoin</source>
-        <translation>BlankCoin</translation>
+        <source>CashCow</source>
+        <translation>CashCow</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -482,8 +482,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="+178"/>
-        <source>&amp;About BlankCoin</source>
-        <translation>&amp;Tietoa BlankCoinista</translation>
+        <source>&amp;About CashCow</source>
+        <translation>&amp;Tietoa CashCowista</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -539,13 +539,13 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>BlankCoin client</source>
-        <translation>BlankCoin-asiakas</translation>
+        <source>CashCow client</source>
+        <translation>CashCow-asiakas</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to BlankCoin network</source>
-        <translation><numerusform>%n aktiivinen yhteys BlankCoin-verkkoon</numerusform><numerusform>%n aktiivista yhteyttä BlankCoin-verkkoon</numerusform></translation>
+        <source>%n active connection(s) to CashCow network</source>
+        <translation><numerusform>%n aktiivinen yhteys CashCow-verkkoon</numerusform><numerusform>%n aktiivista yhteyttä CashCow-verkkoon</numerusform></translation>
     </message>
     <message>
         <location line="+40"/>
@@ -658,8 +658,8 @@ Osoite: %4</translation>
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid BlankCoin address or malformed URI parameters.</source>
-        <translation>URI-merkkijonoa ei voida jäsentää! Tämä voi johtua väärästä BlankCoin-osoitteesta tai väärässä muodossa olevista URI-parametreistä.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid CashCow address or malformed URI parameters.</source>
+        <translation>URI-merkkijonoa ei voida jäsentää! Tämä voi johtua väärästä CashCow-osoitteesta tai väärässä muodossa olevista URI-parametreistä.</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -718,8 +718,8 @@ Osoite: %4</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. BlankCoin can no longer continue safely and will quit.</source>
-        <translation>Vakava virhe kohdattu. BlankCoin-ohjelma ei voi enää jatkaa turvallisesti ja sulkee itsensä.</translation>
+        <source>A fatal error occurred. CashCow can no longer continue safely and will quit.</source>
+        <translation>Vakava virhe kohdattu. CashCow-ohjelma ei voi enää jatkaa turvallisesti ja sulkee itsensä.</translation>
     </message>
 </context>
 <context>
@@ -1052,8 +1052,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid BlankCoin address.</source>
-        <translation>Syöttämäsi osoite &quot;%1&quot; ei ole hyväksytty BlankCoin-osoite.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid CashCow address.</source>
+        <translation>Syöttämäsi osoite &quot;%1&quot; ei ole hyväksytty CashCow-osoite.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1071,8 +1071,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>BlankCoin-Qt</source>
-        <translation>BlankCoin-Qt</translation>
+        <source>CashCow-Qt</source>
+        <translation>CashCow-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1144,13 +1144,13 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start BlankCoin after logging in to the system.</source>
-        <translation>Käynnistä BlankCoin-asiakasohjelma automaattisesti kun olet kirjautunut järjestelmään.</translation>
+        <source>Automatically start CashCow after logging in to the system.</source>
+        <translation>Käynnistä CashCow-asiakasohjelma automaattisesti kun olet kirjautunut järjestelmään.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start BlankCoin on system login</source>
-        <translation>%Käynnistä BlankCoin-asiakasohjelma kirjautuessasi</translation>
+        <source>&amp;Start CashCow on system login</source>
+        <translation>%Käynnistä CashCow-asiakasohjelma kirjautuessasi</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1169,8 +1169,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the BlankCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Avaa BlankCoin-asiakkaalle automaattisesti portti reitittimestä. Tämä toimii vain, kun reitittimesi tukee UPnP:tä ja se on aktivoituna.</translation>
+        <source>Automatically open the CashCow client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Avaa CashCow-asiakkaalle automaattisesti portti reitittimestä. Tämä toimii vain, kun reitittimesi tukee UPnP:tä ja se on aktivoituna.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1179,8 +1179,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the BlankCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Yhdistä BlankCoin-verkkoon SOCKS-välityspalvelimen lävitse. (esim. yhdistettäessä Tor:n läpi).</translation>
+        <source>Connect to the CashCow network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Yhdistä CashCow-verkkoon SOCKS-välityspalvelimen lävitse. (esim. yhdistettäessä Tor:n läpi).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1254,8 +1254,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting BlankCoin.</source>
-        <translation>Käyttöliittymän kieli voidaan valita tästä. Tämä asetus tulee voimaan vasta BlankCoin-asiakasohjelman uudelleenkäynnistyksen jälkeen.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting CashCow.</source>
+        <translation>Käyttöliittymän kieli voidaan valita tästä. Tämä asetus tulee voimaan vasta CashCow-asiakasohjelman uudelleenkäynnistyksen jälkeen.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1269,8 +1269,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show BlankCoin addresses in the transaction list or not.</source>
-        <translation>Näytä tai piilota BlankCoin-osoitteet rahansiirtolistassa.</translation>
+        <source>Whether to show CashCow addresses in the transaction list or not.</source>
+        <translation>Näytä tai piilota CashCow-osoitteet rahansiirtolistassa.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1316,8 +1316,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting BlankCoin.</source>
-        <translation>Tämä asetus tulee voimaan vasta BlankCoin-asiakasohjelman uudelleenkäynnistyksen jälkeen.</translation>
+        <source>This setting will take effect after restarting CashCow.</source>
+        <translation>Tämä asetus tulee voimaan vasta CashCow-asiakasohjelman uudelleenkäynnistyksen jälkeen.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1335,8 +1335,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location line="+33"/>
         <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BlankCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Näytettävät tiedot voivat olla vanhentuneet. Lompakkosi synkronoituu automaattisesti BlankCoin-verkon kanssa kun yhteys on muodostettu, mutta tätä prosessia ei ole viety vielä päätökseen.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the CashCow network after a connection is established, but this process has not completed yet.</source>
+        <translation>Näytettävät tiedot voivat olla vanhentuneet. Lompakkosi synkronoituu automaattisesti CashCow-verkon kanssa kun yhteys on muodostettu, mutta tätä prosessia ei ole viety vielä päätökseen.</translation>
     </message>
     <message>
         <location line="-160"/>
@@ -1551,8 +1551,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the BlankCoin-Qt help message to get a list with possible BlankCoin command-line options.</source>
-        <translation>Näytä BlankCoin-Qt:n avustusohje saadaksesi listan käytettävistä BlankCoinin komentokehotteen määritteistä.</translation>
+        <source>Show the CashCow-Qt help message to get a list with possible CashCow command-line options.</source>
+        <translation>Näytä CashCow-Qt:n avustusohje saadaksesi listan käytettävistä CashCowin komentokehotteen määritteistä.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1571,13 +1571,13 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>BlankCoin - Debug window</source>
-        <translation>BlankCoin - Debug-ikkuna</translation>
+        <source>CashCow - Debug window</source>
+        <translation>CashCow - Debug-ikkuna</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>BlankCoin Core</source>
-        <translation>BlankCoinin ydin</translation>
+        <source>CashCow Core</source>
+        <translation>CashCowin ydin</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1586,8 +1586,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the BlankCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Avaa BlankCoin-asiakasohjelman debug-lokitiedosto nykyisestä hakemistostaan. Tämä voi kestää muutaman sekunnin avattaessa suuria lokitiedostoja.</translation>
+        <source>Open the CashCow debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Avaa CashCow-asiakasohjelman debug-lokitiedosto nykyisestä hakemistostaan. Tämä voi kestää muutaman sekunnin avattaessa suuria lokitiedostoja.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1596,8 +1596,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the BlankCoin RPC console.</source>
-        <translation>Tervetuloa BlankCoinin RPC-konsoliin.</translation>
+        <source>Welcome to the CashCow RPC console.</source>
+        <translation>Tervetuloa CashCowin RPC-konsoliin.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1670,8 +1670,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 BLNK</source>
-        <translation>123.456 BLNK {0.00 ?}</translation>
+        <source>0.00 COW</source>
+        <translation>123.456 COW {0.00 ?}</translation>
     </message>
     <message>
         <location line="-191"/>
@@ -1740,8 +1740,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>123.456 BLNK</source>
-        <translation>123.456 BLNK</translation>
+        <source>123.456 COW</source>
+        <translation>123.456 COW</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -1755,8 +1755,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a BlankCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Syötä BlankCoin-osoite (esim. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a CashCow address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Syötä CashCow-osoite (esim. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1855,8 +1855,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+251"/>
-        <source>WARNING: Invalid BlankCoin address</source>
-        <translation>VAROITUS: Epäkelpo BlankCoin-osoite</translation>
+        <source>WARNING: Invalid CashCow address</source>
+        <translation>VAROITUS: Epäkelpo CashCow-osoite</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1929,8 +1929,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a BlankCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Syötä BlankCoin-osoite (esim. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a CashCow address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Syötä CashCow-osoite (esim. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -1990,8 +1990,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this BlankCoin address</source>
-        <translation>Allekirjoita viesti vahvistaaksesi, että omistat tämän BlankCoin-osoitteen</translation>
+        <source>Sign the message to prove you own this CashCow address</source>
+        <translation>Allekirjoita viesti vahvistaaksesi, että omistat tämän CashCow-osoitteen</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2022,8 +2022,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified BlankCoin address</source>
-        <translation>Vahvista viesti varmistaaksesi että se on allekirjoitettu kyseisellä BlankCoin-osoitteella</translation>
+        <source>Verify the message to ensure it was signed with the specified CashCow address</source>
+        <translation>Vahvista viesti varmistaaksesi että se on allekirjoitettu kyseisellä CashCow-osoitteella</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2033,8 +2033,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a BlankCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Syötä BlankCoin-osoite (esim. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a CashCow address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Syötä CashCow-osoite (esim. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2043,8 +2043,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter BlankCoin signature</source>
-        <translation>Syötä BlankCoin-allekirjoitus</translation>
+        <source>Enter CashCow signature</source>
+        <translation>Syötä CashCow-allekirjoitus</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2614,8 +2614,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>BlankCoin version</source>
-        <translation>BlankCoinin versio</translation>
+        <source>CashCow version</source>
+        <translation>CashCowin versio</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2624,8 +2624,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or blankcoind</source>
-        <translation>Syötä komento kohteeseen -server tai blankcoind</translation>
+        <source>Send command to -server or cashcowd</source>
+        <translation>Syötä komento kohteeseen -server tai cashcowd</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2644,13 +2644,13 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: blankcoin.conf)</source>
-        <translation>Määritä asetustiedosto (oletus: blankcoin.conf)</translation>
+        <source>Specify configuration file (default: cashcow.conf)</source>
+        <translation>Määritä asetustiedosto (oletus: cashcow.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: blankcoind.pid)</source>
-        <translation>Määritä prosessitiedosto (oletus: blankcoin.pid)</translation>
+        <source>Specify pid file (default: cashcowd.pid)</source>
+        <translation>Määritä prosessitiedosto (oletus: cashcow.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2799,8 +2799,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+61"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong BlankCoin will not work properly.</source>
-        <translation>Varoitus: Tarkista, että tietokoneesi aika ja päivämäärä ovat oikeassa! Jos kellosi on väärässä, BlankCoin ei toimi oikein.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong CashCow will not work properly.</source>
+        <translation>Varoitus: Tarkista, että tietokoneesi aika ja päivämäärä ovat oikeassa! Jos kellosi on väärässä, CashCow ei toimi oikein.</translation>
     </message>
     <message>
         <location line="-31"/>
@@ -2989,23 +2989,23 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=blankcoinrpc
+rpcuser=cashcowrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;BlankCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;CashCow Alert&quot; admin@foo.com
 </source>
         <translation>%s, sinun on asetettava rpcpassword asetustiedostoon:
 %s
 On suositeltavaa, että käytät seuraavaa arvottua salasanaa:
-rpcuser=blankcoinrpc
+rpcuser=cashcowrpc
 rpcpassword=%s
 (Sinun ei tarvitse muistaa tätä salasanaa)
 Käyttäjänimen ja salasanan EI TULE OLLA SAMOJA.
 Jos tiedostoa ei ole olemassa, luo se asettaen samalla omistajan lukuoikeudet.
-On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; esimerkiksi: alertnotify=echo %%s | mail -s &quot;BlankCoin Alert&quot; admin@foo.com
+On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; esimerkiksi: alertnotify=echo %%s | mail -s &quot;CashCow Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -3130,13 +3130,13 @@ On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; e
     </message>
     <message>
         <location line="+1"/>
-        <source>Cannot obtain a lock on data directory %s.  BlankCoin is probably already running.</source>
-        <translation>Ei voida saavuttaa lukkoa datatiedostossa %s. BlankCoin-asiakasohjelma on ehkä jo käynnissä.</translation>
+        <source>Cannot obtain a lock on data directory %s.  CashCow is probably already running.</source>
+        <translation>Ei voida saavuttaa lukkoa datatiedostossa %s. CashCow-asiakasohjelma on ehkä jo käynnissä.</translation>
     </message>
     <message>
         <location line="-98"/>
-        <source>BlankCoin</source>
-        <translation>BlankCoin</translation>
+        <source>CashCow</source>
+        <translation>CashCow</translation>
     </message>
     <message>
         <location line="+140"/>
@@ -3170,13 +3170,13 @@ On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; e
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of BlankCoin</source>
-        <translation>Virhe ladattaessa wallet.dat-tiedostoa: Lompakko tarvitsee uudemman version BlankCoin-asiakasohjelmasta</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of CashCow</source>
+        <translation>Virhe ladattaessa wallet.dat-tiedostoa: Lompakko tarvitsee uudemman version CashCow-asiakasohjelmasta</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart BlankCoin to complete</source>
-        <translation>Lompakko on kirjoitettava uudelleen: käynnistä BlankCoin-asiakasohjelma uudelleen päättääksesi toiminnon</translation>
+        <source>Wallet needed to be rewritten: restart CashCow to complete</source>
+        <translation>Lompakko on kirjoitettava uudelleen: käynnistä CashCow-asiakasohjelma uudelleen päättääksesi toiminnon</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3245,8 +3245,8 @@ On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; e
     </message>
     <message>
         <location line="+122"/>
-        <source>Unable to bind to %s on this computer. BlankCoin is probably already running.</source>
-        <translation>Ei voitu liittää %s tällä tietokoneella. BlankCoin-asiakasohjelma on jo ehkä päällä.</translation>
+        <source>Unable to bind to %s on this computer. CashCow is probably already running.</source>
+        <translation>Ei voitu liittää %s tällä tietokoneella. CashCow-asiakasohjelma on jo ehkä päällä.</translation>
     </message>
     <message>
         <location line="-97"/>

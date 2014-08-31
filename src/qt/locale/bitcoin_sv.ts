@@ -3,24 +3,24 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About BlankCoin</source>
-        <translation>Vad du behöver veta om Blankcoin</translation>
+        <source>About CashCow</source>
+        <translation>Vad du behöver veta om Cashcow</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;BlankCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;BlankCoin&lt;/b&gt; version</translation>
+        <source>&lt;b&gt;CashCow&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;CashCow&lt;/b&gt; version</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
 Copyright © 2014 The BlackCoin developers
-Copyright © 2014 The BlankCoin developers</source>
+Copyright © 2014 The CashCow developers</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
 Copyright © 2014 The BlackCoin developers
-Copyright © 2014 The BlankCoin developers</translation>
+Copyright © 2014 The CashCow developers</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -68,8 +68,8 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your BlankCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Dessa är dina BlankCoin adesser för att mottaga betalningsförsändelser. Du kan även använda olika adresser för varje avsändare för att enkelt hålla koll på vem som har skickat en betalning.</translation>
+        <source>These are your CashCow addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Dessa är dina CashCow adesser för att mottaga betalningsförsändelser. Du kan även använda olika adresser för varje avsändare för att enkelt hålla koll på vem som har skickat en betalning.</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -83,8 +83,8 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a BlankCoin address</source>
-        <translation>Signera ett meddelande för att bevisa att du äger BlankCoin adressen</translation>
+        <source>Sign a message to prove you own a CashCow address</source>
+        <translation>Signera ett meddelande för att bevisa att du äger CashCow adressen</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -98,8 +98,8 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified BlankCoin address</source>
-        <translation>Verifiera ett meddelande för att försäkra dig över att det var signerat av en specifik BlankCoin adress</translation>
+        <source>Verify a message to ensure it was signed with a specified CashCow address</source>
+        <translation>Verifiera ett meddelande för att försäkra dig över att det var signerat av en specifik CashCow adress</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -266,8 +266,8 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     </message>
     <message>
         <location line="-58"/>
-        <source>BlankCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>Blankcoin plånboken kommer nu att stängas för att slutföra krypteringen: Kom ihåg att även en krypterad plånboks säkerhet kan äventyras genom keyloggers eller dylika malwares.</translation>
+        <source>CashCow will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>Cashcow plånboken kommer nu att stängas för att slutföra krypteringen: Kom ihåg att även en krypterad plånboks säkerhet kan äventyras genom keyloggers eller dylika malwares.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -380,8 +380,8 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about BlankCoin</source>
-        <translation>Visa information om BlankCoin</translation>
+        <source>Show information about CashCow</source>
+        <translation>Visa information om CashCow</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -430,13 +430,13 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     </message>
     <message>
         <location line="-62"/>
-        <source>Send coins to a BlankCoin address</source>
-        <translation>Skicka coins till en BlankCoin adress</translation>
+        <source>Send coins to a CashCow address</source>
+        <translation>Skicka coins till en CashCow adress</translation>
     </message>
     <message>
         <location line="+45"/>
-        <source>Modify configuration options for BlankCoin</source>
-        <translation>Modifiera konfigurations-alternativ för BlankCoin</translation>
+        <source>Modify configuration options for CashCow</source>
+        <translation>Modifiera konfigurations-alternativ för CashCow</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -475,8 +475,8 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     </message>
     <message>
         <location line="-200"/>
-        <source>BlankCoin</source>
-        <translation>BlankCoin</translation>
+        <source>CashCow</source>
+        <translation>CashCow</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -485,8 +485,8 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     </message>
     <message>
         <location line="+178"/>
-        <source>&amp;About BlankCoin</source>
-        <translation>&amp;Om BlankCoin</translation>
+        <source>&amp;About CashCow</source>
+        <translation>&amp;Om CashCow</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -542,13 +542,13 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>BlankCoin client</source>
-        <translation>BlankCoin klient</translation>
+        <source>CashCow client</source>
+        <translation>CashCow klient</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to BlankCoin network</source>
-        <translation><numerusform>%n aktiv anslutning till BlankCoin nätverket</numerusform><numerusform>%n aktiva anslutning till BlankCoin nätverket</numerusform></translation>
+        <source>%n active connection(s) to CashCow network</source>
+        <translation><numerusform>%n aktiv anslutning till CashCow nätverket</numerusform><numerusform>%n aktiva anslutning till CashCow nätverket</numerusform></translation>
     </message>
     <message>
         <location line="+40"/>
@@ -662,8 +662,8 @@ Adress: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid BlankCoin address or malformed URI parameters.</source>
-        <translation>URI:n kan inte tolkas! Detta kan bero på en ogiltig BlankCoin adress eller felaktiga URI parametrar.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid CashCow address or malformed URI parameters.</source>
+        <translation>URI:n kan inte tolkas! Detta kan bero på en ogiltig CashCow adress eller felaktiga URI parametrar.</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -722,8 +722,8 @@ Adress: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. BlankCoin can no longer continue safely and will quit.</source>
-        <translation>Ett fatalt fel uppstod. Blankcoin kan inte fortsätta och stänger programmet.</translation>
+        <source>A fatal error occurred. CashCow can no longer continue safely and will quit.</source>
+        <translation>Ett fatalt fel uppstod. Cashcow kan inte fortsätta och stänger programmet.</translation>
     </message>
 </context>
 <context>
@@ -1017,7 +1017,7 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     <message>
         <location line="+10"/>
         <source>The label associated with this address book entry</source>
-        <translation>Namnet som kopplats till denna Blankcoin-adress</translation>
+        <translation>Namnet som kopplats till denna Cashcow-adress</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1056,8 +1056,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid BlankCoin address.</source>
-        <translation>Den inslagna adressen &quot;%1&quot; är inte en giltig Blankcoin adress.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid CashCow address.</source>
+        <translation>Den inslagna adressen &quot;%1&quot; är inte en giltig Cashcow adress.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1075,8 +1075,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>BlankCoin-Qt</source>
-        <translation>BlankCoin-Qt</translation>
+        <source>CashCow-Qt</source>
+        <translation>CashCow-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1148,13 +1148,13 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start BlankCoin after logging in to the system.</source>
-        <translation>Starta Blankcoin automatiskt vid inloggning.</translation>
+        <source>Automatically start CashCow after logging in to the system.</source>
+        <translation>Starta Cashcow automatiskt vid inloggning.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start BlankCoin on system login</source>
-        <translation>&amp;Starta Blankcoin vid inloggning</translation>
+        <source>&amp;Start CashCow on system login</source>
+        <translation>&amp;Starta Cashcow vid inloggning</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1173,8 +1173,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the BlankCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Öppna automatiskt BlankCoin klientens port på routern. Detta fungerar endast om din router stödjer UPnP och det är aktiverat.</translation>
+        <source>Automatically open the CashCow client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Öppna automatiskt CashCow klientens port på routern. Detta fungerar endast om din router stödjer UPnP och det är aktiverat.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1183,8 +1183,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the BlankCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Anslut till BlankCoin nätverket via en SOCKS proxy (t.ex. när du ansluter genom Tor).</translation>
+        <source>Connect to the CashCow network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Anslut till CashCow nätverket via en SOCKS proxy (t.ex. när du ansluter genom Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1258,8 +1258,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting BlankCoin.</source>
-        <translation>Användargränssnittets språk kan ställas in här. Inställningen börjar gälla efter omstart av BlankCoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting CashCow.</source>
+        <translation>Användargränssnittets språk kan ställas in här. Inställningen börjar gälla efter omstart av CashCow.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1273,8 +1273,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show BlankCoin addresses in the transaction list or not.</source>
-        <translation>Om BlankCoin adresser skall visas i transaktionslistan eller inte.</translation>
+        <source>Whether to show CashCow addresses in the transaction list or not.</source>
+        <translation>Om CashCow adresser skall visas i transaktionslistan eller inte.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1320,8 +1320,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting BlankCoin.</source>
-        <translation>Inställningen börjar gälla efter omstart av BlankCoin.</translation>
+        <source>This setting will take effect after restarting CashCow.</source>
+        <translation>Inställningen börjar gälla efter omstart av CashCow.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1339,8 +1339,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     <message>
         <location line="+33"/>
         <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BlankCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Den visade informationen kan vara gammal. Din plånbok synkroniseras automatiskt med BlankCoin nätverket efter att en anslutning skapats, men denna process är inte klar än.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the CashCow network after a connection is established, but this process has not completed yet.</source>
+        <translation>Den visade informationen kan vara gammal. Din plånbok synkroniseras automatiskt med CashCow nätverket efter att en anslutning skapats, men denna process är inte klar än.</translation>
     </message>
     <message>
         <location line="-160"/>
@@ -1555,8 +1555,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the BlankCoin-Qt help message to get a list with possible BlankCoin command-line options.</source>
-        <translation>Visa BlankCoin-Qt hjälp meddelandet för att få en lista över möjliga BlankCoin kommandoradsalternativ.</translation>
+        <source>Show the CashCow-Qt help message to get a list with possible CashCow command-line options.</source>
+        <translation>Visa CashCow-Qt hjälp meddelandet för att få en lista över möjliga CashCow kommandoradsalternativ.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1575,13 +1575,13 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>BlankCoin - Debug window</source>
-        <translation>BlankCoin - Felsökningsfönster</translation>
+        <source>CashCow - Debug window</source>
+        <translation>CashCow - Felsökningsfönster</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>BlankCoin Core</source>
-        <translation>BlankCoin Core</translation>
+        <source>CashCow Core</source>
+        <translation>CashCow Core</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1590,8 +1590,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the BlankCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Öppna BlankCoin felsöknings-loggfilen från nuvarande data mapp. Detta kan kan ta ett par minuter för stora log filer.</translation>
+        <source>Open the CashCow debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Öppna CashCow felsöknings-loggfilen från nuvarande data mapp. Detta kan kan ta ett par minuter för stora log filer.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1600,8 +1600,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the BlankCoin RPC console.</source>
-        <translation>Välkommen till BlankCoin RPC konsoll.</translation>
+        <source>Welcome to the CashCow RPC console.</source>
+        <translation>Välkommen till CashCow RPC konsoll.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1674,8 +1674,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 BLNK</source>
-        <translation>123.456 BLNK {0.00 ?}</translation>
+        <source>0.00 COW</source>
+        <translation>123.456 COW {0.00 ?}</translation>
     </message>
     <message>
         <location line="-191"/>
@@ -1744,8 +1744,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>123.456 BLNK</source>
-        <translation>123.456 BLNK</translation>
+        <source>123.456 COW</source>
+        <translation>123.456 COW</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -1759,8 +1759,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a BlankCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Fyll i en BlankCoin adress (t.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a CashCow address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Fyll i en CashCow adress (t.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1859,8 +1859,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+251"/>
-        <source>WARNING: Invalid BlankCoin address</source>
-        <translation>VARNING: Ogiltig BlankCoin adress</translation>
+        <source>WARNING: Invalid CashCow address</source>
+        <translation>VARNING: Ogiltig CashCow adress</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1933,8 +1933,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a BlankCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Fyll i en BlankCoin adress (t.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a CashCow address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Fyll i en CashCow adress (t.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -1994,8 +1994,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this BlankCoin address</source>
-        <translation>Signera meddelandet för att verifiera att du äger denna BlankCoin adressen</translation>
+        <source>Sign the message to prove you own this CashCow address</source>
+        <translation>Signera meddelandet för att verifiera att du äger denna CashCow adressen</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2026,8 +2026,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified BlankCoin address</source>
-        <translation>Verifiera meddelandet för att vara säker på att det var signerat med den angivna BlankCoin adressen</translation>
+        <source>Verify the message to ensure it was signed with the specified CashCow address</source>
+        <translation>Verifiera meddelandet för att vara säker på att det var signerat med den angivna CashCow adressen</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2037,8 +2037,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a BlankCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Fyll i en BlankCoin adress (t.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a CashCow address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Fyll i en CashCow adress (t.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2047,8 +2047,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter BlankCoin signature</source>
-        <translation>Fyll i BlankCoin signatur</translation>
+        <source>Enter CashCow signature</source>
+        <translation>Fyll i CashCow signatur</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2618,8 +2618,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>BlankCoin version</source>
-        <translation>BlankCoin version</translation>
+        <source>CashCow version</source>
+        <translation>CashCow version</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2628,8 +2628,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or blankcoind</source>
-        <translation>Skicka kommando till -server eller blankcoind</translation>
+        <source>Send command to -server or cashcowd</source>
+        <translation>Skicka kommando till -server eller cashcowd</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2648,13 +2648,13 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: blankcoin.conf)</source>
-        <translation>Ange konfigurationsfilen (standard: blankcoin.conf)</translation>
+        <source>Specify configuration file (default: cashcow.conf)</source>
+        <translation>Ange konfigurationsfilen (standard: cashcow.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: blankcoind.pid)</source>
-        <translation>Ange pid filen (standard blankcoind.pid)</translation>
+        <source>Specify pid file (default: cashcowd.pid)</source>
+        <translation>Ange pid filen (standard cashcowd.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2803,8 +2803,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+61"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong BlankCoin will not work properly.</source>
-        <translation>Varning: Kolla att din dators tid och datum är rätt. Blankcoin kan inte fungera ordentligt om tiden i datorn är fel.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong CashCow will not work properly.</source>
+        <translation>Varning: Kolla att din dators tid och datum är rätt. Cashcow kan inte fungera ordentligt om tiden i datorn är fel.</translation>
     </message>
     <message>
         <location line="-31"/>
@@ -2993,24 +2993,24 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=blankcoinrpc
+rpcuser=cashcowrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;BlankCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;CashCow Alert&quot; admin@foo.com
 </source>
         <translation>%s, du måste sätta rpcpassword i konfigurationsfilen:
  %s
 Det är rekommenderat att du använder följande slumpmässiga lösenord:
-rpcuser=blankcoinrpc
+rpcuser=cashcowrpc
 rpcpassword=%s
 (du behöver inte komma ihåg detta lösenord)
 Användarnamnet och lösenordet FÅR INTE vara samma.
 Om filen inte finns, skapa den med endast ägarrättigheter.
 Det är också rekommenderat att sätta alertnotify så du blir notifierad om problem;
-till exempel: alertnotify=echo %%s | mail -s &quot;BlankCoin Varning&quot; admin@foo.com
+till exempel: alertnotify=echo %%s | mail -s &quot;CashCow Varning&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -3135,13 +3135,13 @@ till exempel: alertnotify=echo %%s | mail -s &quot;BlankCoin Varning&quot; admin
     </message>
     <message>
         <location line="+1"/>
-        <source>Cannot obtain a lock on data directory %s.  BlankCoin is probably already running.</source>
-        <translation>Kan inte låsa datan i mappen %s. Blankcoin är kanske redan startad.</translation>
+        <source>Cannot obtain a lock on data directory %s.  CashCow is probably already running.</source>
+        <translation>Kan inte låsa datan i mappen %s. Cashcow är kanske redan startad.</translation>
     </message>
     <message>
         <location line="-98"/>
-        <source>BlankCoin</source>
-        <translation>BlankCoin</translation>
+        <source>CashCow</source>
+        <translation>CashCow</translation>
     </message>
     <message>
         <location line="+140"/>
@@ -3175,13 +3175,13 @@ till exempel: alertnotify=echo %%s | mail -s &quot;BlankCoin Varning&quot; admin
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of BlankCoin</source>
-        <translation>Kunde inte ladda wallet.dat: En nyare version av Blankcoin krävs</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of CashCow</source>
+        <translation>Kunde inte ladda wallet.dat: En nyare version av Cashcow krävs</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart BlankCoin to complete</source>
-        <translation>Plånboken måste skrivas om: Starta om Blankcoin för att slutföra</translation>
+        <source>Wallet needed to be rewritten: restart CashCow to complete</source>
+        <translation>Plånboken måste skrivas om: Starta om Cashcow för att slutföra</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3250,8 +3250,8 @@ till exempel: alertnotify=echo %%s | mail -s &quot;BlankCoin Varning&quot; admin
     </message>
     <message>
         <location line="+122"/>
-        <source>Unable to bind to %s on this computer. BlankCoin is probably already running.</source>
-        <translation>Kan inte binda till %s på denna dator. Blankcoin är sannolikt redan startad.</translation>
+        <source>Unable to bind to %s on this computer. CashCow is probably already running.</source>
+        <translation>Kan inte binda till %s på denna dator. Cashcow är sannolikt redan startad.</translation>
     </message>
     <message>
         <location line="-97"/>
