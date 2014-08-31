@@ -33,6 +33,7 @@ CashCow Features
 ------------------
 
 * 72 second block spacing
+* Quark's cPoW Algorithm
 * PoW/PoS for the first 150,000 blocks, yielding ~900 million to 1 billion coins
 * The PoW subsidy decreases every 5 days at a predetermined rate (7% every 5 days after day 15)
 * The maximum PoW reward is 24,000 coins
