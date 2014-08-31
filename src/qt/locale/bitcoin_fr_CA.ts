@@ -188,8 +188,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+3"/>
-        <source>For staking only</source>
-        <translation>Pour &quot;staking&quot; seulement</translation>
+        <source>For milking only</source>
+        <translation>Pour &quot;milking&quot; seulement</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="+35"/>
@@ -556,27 +556,27 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+413"/>
-        <source>Staking.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
-        <translation>Staking.&lt;br&gt;Votre poids est de  %1&lt;br&gt;Le poids du réseau est de %2&lt;br&gt;Temps estimé avant récompense %3</translation>
+        <source>Milking.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
+        <translation>Milking.&lt;br&gt;Votre poids est de  %1&lt;br&gt;Le poids du réseau est de %2&lt;br&gt;Temps estimé avant récompense %3</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Not staking because wallet is locked</source>
+        <source>Not milking because wallet is locked</source>
         <translation>Ne stack pas, votre portefeuilles est verouillé</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking because wallet is offline</source>
+        <source>Not milking because wallet is offline</source>
         <translation>Ne stack pas, votre portefeuilles est hors ligne</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking because wallet is syncing</source>
+        <source>Not milking because wallet is syncing</source>
         <translation>Ne stack pas, votre portefeuille est en cours de synchronisation</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking because you don&apos;t have mature coins</source>
+        <source>Not milking because you don&apos;t have mature coins</source>
         <translation>Ne stack pas, vos monnaies ne sont pas encore matures</translation>
     </message>
     <message numerus="yes">
@@ -716,7 +716,7 @@ Adresse : %4
     </message>
     <message>
         <location line="+18"/>
-        <source>Not staking</source>
+        <source>Not milking</source>
         <translation>Pas de stacking</translation>
     </message>
     <message>
@@ -1137,8 +1137,8 @@ Les montants inférieurs à  0.546 fois les frais minimum de relais apparaissent
     </message>
     <message>
         <location line="+31"/>
-        <source>Reserved amount does not participate in staking and is therefore spendable at any time.</source>
-        <translation>Montant réservé qui ne &quot;stake&quot; pas est reste utilisable pour réalisés des envois à tout moment.</translation>
+        <source>Reserved amount does not participate in milking and is therefore spendable at any time.</source>
+        <translation>Montant réservé qui ne &quot;milk&quot; pas est reste utilisable pour réalisés des envois à tout moment.</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1343,8 +1343,8 @@ Les montants inférieurs à  0.546 fois les frais minimum de relais apparaissent
     </message>
     <message>
         <location line="-160"/>
-        <source>Stake:</source>
-        <translation>Stake:</translation>
+        <source>Steak:</source>
+        <translation>Steak:</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1398,8 +1398,8 @@ Les montants inférieurs à  0.546 fois les frais minimum de relais apparaissent
     </message>
     <message>
         <location line="-29"/>
-        <source>Total of coins that was staked, and do not yet count toward the current balance</source>
-        <translation>Montant total des transactions en &quot;staking&quot; et ne figurant pas encore dans la balance actuelle</translation>
+        <source>Total of coins that were milked, and do not yet count toward the current balance</source>
+        <translation>Montant total des transactions en &quot;milking&quot; et ne figurant pas encore dans la balance actuelle</translation>
     </message>
     <message>
         <location filename="../overviewpage.cpp" line="+113"/>
@@ -2703,7 +2703,7 @@ Les montants inférieurs à  0.546 fois les frais minimum de relais apparaissent
     </message>
     <message>
         <location line="+2"/>
-        <source>Stake your coins to support network and gain reward (default: 1)</source>
+        <source>Milk your coins to support network and gain reward (default: 1)</source>
         <translation>Stacker vos monnaies afin de soutenir le réseau et d&apos;obtenir des intérêts  (default: 1)</translation>
     </message>
     <message>
@@ -3115,7 +3115,7 @@ par exemple: alertnotify=echo %%s | mail -s &quot;Alerte CashCow&quot; admin@foo
     </message>
     <message>
         <location line="+53"/>
-        <source>Error: Wallet unlocked for staking only, unable to create transaction.</source>
+        <source>Error: Wallet unlocked for milking only, unable to create transaction.</source>
         <translation>Erreur: Portefeuille déverrouillé uniquement pour &quot;stacking&quot; , impossible d&apos;effectuer cette transaction</translation>
     </message>
     <message>

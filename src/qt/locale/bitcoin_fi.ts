@@ -186,7 +186,7 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="+3"/>
-        <source>For staking only</source>
+        <source>For milking only</source>
         <translation>Vain osakkuutta varten</translation>
     </message>
     <message>
@@ -554,27 +554,27 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="+413"/>
-        <source>Staking.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
+        <source>Milking.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
         <translation>Osakkaana.&lt;br&gt;Osuutesi on %1&lt;br&gt;Verkon osuus on %2&lt;br&gt;Odotettu aika palkkion ansaitsemiselle on %3</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Not staking because wallet is locked</source>
+        <source>Not milking because wallet is locked</source>
         <translation>Ei osakkaana koska lompakko on lukittu</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking because wallet is offline</source>
+        <source>Not milking because wallet is offline</source>
         <translation>Ei osakkaana koska lompakko on offline-tilassa</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking because wallet is syncing</source>
+        <source>Not milking because wallet is syncing</source>
         <translation>Ei osakkaana koska lompakko synkronoituu</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking because you don&apos;t have mature coins</source>
+        <source>Not milking because you don&apos;t have mature coins</source>
         <translation>Ei osakkaana koska sinulle ei ole erääntynyt kolikoita</translation>
     </message>
     <message numerus="yes">
@@ -713,7 +713,7 @@ Osoite: %4</translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>Not staking</source>
+        <source>Not milking</source>
         <translation>Ei osakkaana</translation>
     </message>
     <message>
@@ -1134,7 +1134,7 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Reserved amount does not participate in staking and is therefore spendable at any time.</source>
+        <source>Reserved amount does not participate in milking and is therefore spendable at any time.</source>
         <translation>Varattu määrä ei vaadi osakkuutta jonka vuoksi se on mahdollista käyttää milloin tahansa.</translation>
     </message>
     <message>
@@ -1340,7 +1340,7 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="-160"/>
-        <source>Stake:</source>
+        <source>Steak:</source>
         <translation>Vaihdos:</translation>
     </message>
     <message>
@@ -1395,7 +1395,7 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="-29"/>
-        <source>Total of coins that was staked, and do not yet count toward the current balance</source>
+        <source>Total of coins that were milked, and do not yet count toward the current balance</source>
         <translation>Kolikoiden kokoinaismäärä, jotka eivät vielä ole laskettu tämänhetkiseen saldoon.</translation>
     </message>
     <message>
@@ -2699,7 +2699,7 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Stake your coins to support network and gain reward (default: 1)</source>
+        <source>Milk your coins to support network and gain reward (default: 1)</source>
         <translation>Panosta rahasi tukeaksi verkkoa ja saadaksesi palkkiota (oletus: 1)</translation>
     </message>
     <message>
@@ -3110,7 +3110,7 @@ On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; e
     </message>
     <message>
         <location line="+53"/>
-        <source>Error: Wallet unlocked for staking only, unable to create transaction.</source>
+        <source>Error: Wallet unlocked for milking only, unable to create transaction.</source>
         <translation>Virhe: Lompakko avattu vain osakkuutta varten, rahansiirtoja ei voida luoda.</translation>
     </message>
     <message>

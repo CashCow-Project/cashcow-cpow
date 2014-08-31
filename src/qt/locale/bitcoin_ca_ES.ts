@@ -183,8 +183,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+3"/>
-        <source>For staking only</source>
-        <translation>Només per a fer &quot;stake&quot;</translation>
+        <source>For milking only</source>
+        <translation>Només per a fer &quot;milk&quot;</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="+35"/>
@@ -551,28 +551,28 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+413"/>
-        <source>Staking.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
-        <translation>Fent &quot;stake&quot;.&lt;br&gt;El teu pes és %1&lt;br&gt;El pes de la xarxa és %2&lt;br&gt;El temps estimat per a guanyar una recompensa és 3%</translation>
+        <source>Milking.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
+        <translation>Fent &quot;milk&quot;.&lt;br&gt;El teu pes és %1&lt;br&gt;El pes de la xarxa és %2&lt;br&gt;El temps estimat per a guanyar una recompensa és 3%</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Not staking because wallet is locked</source>
-        <translation>No s&apos;està fent &quot;stake&quot; perquè el moneder esa bloquejat</translation>
+        <source>Not milking because wallet is locked</source>
+        <translation>No s&apos;està fent &quot;milk&quot; perquè el moneder esa bloquejat</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking because wallet is offline</source>
-        <translation>No s&apos;està fent &quot;stake&quot; perquè el moneder està fora de línia</translation>
+        <source>Not milking because wallet is offline</source>
+        <translation>No s&apos;està fent &quot;milk&quot; perquè el moneder està fora de línia</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking because wallet is syncing</source>
-        <translation>No s&apos;està fent &quot;stake&quot; perquè el moneder està sincronitzant</translation>
+        <source>Not milking because wallet is syncing</source>
+        <translation>No s&apos;està fent &quot;milk&quot; perquè el moneder està sincronitzant</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking because you don&apos;t have mature coins</source>
-        <translation>No s&apos;està fent &quot;stake&quot; perquè no tens monedes madures</translation>
+        <source>Not milking because you don&apos;t have mature coins</source>
+        <translation>No s&apos;està fent &quot;milk&quot; perquè no tens monedes madures</translation>
     </message>
     <message numerus="yes">
         <location line="-403"/>
@@ -707,8 +707,8 @@ Address: %4
     </message>
     <message>
         <location line="+18"/>
-        <source>Not staking</source>
-        <translation>No s&apos;està fent &quot;stake&quot; </translation>
+        <source>Not milking</source>
+        <translation>No s&apos;està fent &quot;milk&quot; </translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
@@ -1128,8 +1128,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Reserved amount does not participate in staking and is therefore spendable at any time.</source>
-        <translation>La quantitat reservada no participa en fer &quot;stake&quot; i per tant esta disponible en qualsevol moment.</translation>
+        <source>Reserved amount does not participate in milking and is therefore spendable at any time.</source>
+        <translation>La quantitat reservada no participa en fer &quot;milk&quot; i per tant esta disponible en qualsevol moment.</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1334,8 +1334,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="-160"/>
-        <source>Stake:</source>
-        <translation>En &quot;stake&quot;:</translation>
+        <source>Steak:</source>
+        <translation>En &quot;steak&quot;:</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1389,8 +1389,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="-29"/>
-        <source>Total of coins that was staked, and do not yet count toward the current balance</source>
-        <translation>Total de les monedes que s&apos;han posat a fer &quot;stake&quot; (en joc, aposta), i encara no compten per al balanç actual</translation>
+        <source>Total of coins that were milked, and do not yet count toward the current balance</source>
+        <translation>Total de les monedes que s&apos;han posat a fer &quot;milk&quot; (en joc, aposta), i encara no compten per al balanç actual</translation>
     </message>
     <message>
         <location filename="../overviewpage.cpp" line="+113"/>
@@ -2693,8 +2693,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Stake your coins to support network and gain reward (default: 1)</source>
-        <translation>Posa les teves monedes a fer &quot;stake&quot; per donar suport a la xarxa i obtenir una recompensa (per defecte: 1)</translation>
+        <source>Milk your coins to support network and gain reward (default: 1)</source>
+        <translation>Posa les teves monedes a fer &quot;milk&quot; per donar suport a la xarxa i obtenir una recompensa (per defecte: 1)</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -3106,8 +3106,8 @@ Executar una ordre quan es rep un avís rellevant (%s en cmd es substitueix per 
     </message>
     <message>
         <location line="+53"/>
-        <source>Error: Wallet unlocked for staking only, unable to create transaction.</source>
-        <translation>Error: Cartera bloquejada nomès per a fer &quot;stake&quot;, no es pot de crear la transacció</translation>
+        <source>Error: Wallet unlocked for milking only, unable to create transaction.</source>
+        <translation>Error: Cartera bloquejada nomès per a fer &quot;milk&quot;, no es pot de crear la transacció</translation>
     </message>
     <message>
         <location line="+18"/>

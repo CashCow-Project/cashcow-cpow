@@ -188,8 +188,8 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
     </message>
     <message>
         <location line="+3"/>
-        <source>For staking only</source>
-        <translation>Doar pentru staking</translation>
+        <source>For milking only</source>
+        <translation>Doar pentru milking</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="+35"/>
@@ -556,28 +556,28 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
     </message>
     <message>
         <location line="+413"/>
-        <source>Staking.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
-        <translation>Staking. &lt;br&gt;Greutatea este %1&lt;br&gt;Greutatea retelei este %2&lt;br&gt;Timp estimat pentru a castiga recompensa este %3</translation>
+        <source>Milking.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
+        <translation>Milking. &lt;br&gt;Greutatea este %1&lt;br&gt;Greutatea retelei este %2&lt;br&gt;Timp estimat pentru a castiga recompensa este %3</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Not staking because wallet is locked</source>
-        <translation>Nu este in modul stake deoarece portofelul este blocat</translation>
+        <source>Not milking because wallet is locked</source>
+        <translation>Nu este in modul "milk" deoarece portofelul este blocat</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking because wallet is offline</source>
-        <translation>Nu este in modul stake deoarece portofelul este offline</translation>
+        <source>Not milking because wallet is offline</source>
+        <translation>Nu este in modul "milk" deoarece portofelul este offline</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking because wallet is syncing</source>
-        <translation>Nu este in modul stake deoarece portofelul se sincronizeaza</translation>
+        <source>Not milking because wallet is syncing</source>
+        <translation>Nu este in modul "milk" deoarece portofelul se sincronizeaza</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking because you don&apos;t have mature coins</source>
-        <translation>Nu este in modul stake deoarece nu sunt destule monede maturate</translation>
+        <source>Not milking because you don&apos;t have mature coins</source>
+        <translation>Nu este in modul "milk" deoarece nu sunt destule monede maturate</translation>
     </message>
     <message numerus="yes">
         <location line="-403"/>
@@ -716,8 +716,8 @@ Adresa: %4
     </message>
     <message>
         <location line="+18"/>
-        <source>Not staking</source>
-        <translation>Not staking</translation>
+        <source>Not milking</source>
+        <translation>Not milking</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
@@ -1137,7 +1137,7 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Reserved amount does not participate in staking and is therefore spendable at any time.</source>
+        <source>Reserved amount does not participate in milking and is therefore spendable at any time.</source>
         <translation>Suma rezervată nu participă la maturare și, prin urmare, se poate cheltui  în orice moment.</translation>
     </message>
     <message>
@@ -1343,8 +1343,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="-160"/>
-        <source>Stake:</source>
-        <translation>Stake:</translation>
+        <source>Steak:</source>
+        <translation>Steak:</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1398,8 +1398,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="-29"/>
-        <source>Total of coins that was staked, and do not yet count toward the current balance</source>
-        <translation>Totalul de monede care au fost in stake si nu sunt numarate in balanta curenta</translation>
+        <source>Total of coins that were milked, and do not yet count toward the current balance</source>
+        <translation>Totalul de monede care au fost in "milk" si nu sunt numarate in balanta curenta</translation>
     </message>
     <message>
         <location filename="../overviewpage.cpp" line="+113"/>
@@ -2702,8 +2702,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Stake your coins to support network and gain reward (default: 1)</source>
-        <translation>Pune monedele in modul stake pentru a ajuta reteaua si a castiva bonusuri(implicit: 1)</translation>
+        <source>Milk your coins to support network and gain reward (default: 1)</source>
+        <translation>Pune monedele in modul "milk" pentru a ajuta reteaua si a castiva bonusuri(implicit: 1)</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -3112,8 +3112,8 @@ de exemplu: alertnotify=echo %%s | mail -s &quot;CashCow Alert&quot; admin@foo.c
     </message>
     <message>
         <location line="+53"/>
-        <source>Error: Wallet unlocked for staking only, unable to create transaction.</source>
-        <translation>Eroare: portofel blocat doar pentru staking, tranzactia nu s-a creat.</translation>
+        <source>Error: Wallet unlocked for milking only, unable to create transaction.</source>
+        <translation>Eroare: portofel blocat doar pentru milking, tranzactia nu s-a creat.</translation>
     </message>
     <message>
         <location line="+18"/>

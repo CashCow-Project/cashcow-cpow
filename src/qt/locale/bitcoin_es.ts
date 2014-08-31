@@ -191,8 +191,8 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location line="+3"/>
-        <source>For staking only</source>
-        <translation>Para &quot;Staking&quot; solamente</translation>
+        <source>For milking only</source>
+        <translation>Para &quot;Milking&quot; solamente</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="+35"/>
@@ -559,28 +559,28 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location line="+413"/>
-        <source>Staking.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
-        <translation>Staking.&lt;br&gt;Su contribución es %1&lt;br&gt;Contribución de la red es %2&lt;br&gt;Tiempo esperado para ganar la recompensa es %3</translation>
+        <source>Milking.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
+        <translation>Milking.&lt;br&gt;Su contribución es %1&lt;br&gt;Contribución de la red es %2&lt;br&gt;Tiempo esperado para ganar la recompensa es %3</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Not staking because wallet is locked</source>
-        <translation>No esta &quot;Staking&quot; porque monedera está bloqueada</translation>
+        <source>Not milking because wallet is locked</source>
+        <translation>No esta &quot;Milking&quot; porque monedera está bloqueada</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking because wallet is offline</source>
-        <translation>No esta &quot;Staking&quot; porque monedera está desconectada</translation>
+        <source>Not milking because wallet is offline</source>
+        <translation>No esta &quot;Milking&quot; porque monedera está desconectada</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking because wallet is syncing</source>
-        <translation>No esta &quot;Staking&quot; porque monedera está sincronizando</translation>
+        <source>Not milking because wallet is syncing</source>
+        <translation>No esta &quot;Milking&quot; porque monedera está sincronizando</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking because you don&apos;t have mature coins</source>
-        <translation>No esta &quot;Staking&quot; ya que no tiene monedas maduras</translation>
+        <source>Not milking because you don&apos;t have mature coins</source>
+        <translation>No esta &quot;Milking&quot; ya que no tiene monedas maduras</translation>
     </message>
     <message numerus="yes">
         <location line="-403"/>
@@ -719,8 +719,8 @@ Dirección: %4
     </message>
     <message>
         <location line="+18"/>
-        <source>Not staking</source>
-        <translation>No estás &quot;Staking&quot;</translation>
+        <source>Not milking</source>
+        <translation>No estás &quot;Milking&quot;</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
@@ -1140,8 +1140,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Reserved amount does not participate in staking and is therefore spendable at any time.</source>
-        <translation>Cantidad reservada no participa en el &quot;Staking&quot; y por lo tanto se puede gastar en cualquier momento.</translation>
+        <source>Reserved amount does not participate in milking and is therefore spendable at any time.</source>
+        <translation>Cantidad reservada no participa en el &quot;Milking&quot; y por lo tanto se puede gastar en cualquier momento.</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1346,8 +1346,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     </message>
     <message>
         <location line="-160"/>
-        <source>Stake:</source>
-        <translation>Stake:</translation>
+        <source>Steak:</source>
+        <translation>Steak:</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1401,8 +1401,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     </message>
     <message>
         <location line="-29"/>
-        <source>Total of coins that was staked, and do not yet count toward the current balance</source>
-        <translation>Total de las monedas que fueron &quot;Staked&quot;, y aún no cuentan para el balance actual</translation>
+        <source>Total of coins that were milked, and do not yet count toward the current balance</source>
+        <translation>Total de las monedas que se &quot;ordeñan&quot;, y aún no cuentan para el balance actual</translation>
     </message>
     <message>
         <location filename="../overviewpage.cpp" line="+113"/>
@@ -2708,8 +2708,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Stake your coins to support network and gain reward (default: 1)</source>
-        <translation>Pon tus monedas en participación &quot;Stake&quot; para dar soporte a la red y ganar alguna recompensa (por defecto: 1)</translation>
+        <source>Milk your coins to support network and gain reward (default: 1)</source>
+        <translation>Pon tus monedas en participación &quot;Steak&quot; para dar soporte a la red y ganar alguna recompensa (por defecto: 1)</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -3130,8 +3130,8 @@ por ejemplo: alertnotify=echo %%s | mail -s &quot;CashCow Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+53"/>
-        <source>Error: Wallet unlocked for staking only, unable to create transaction.</source>
-        <translation>Error: Monedero desbloqueado sólo para hacer &quot;stake&quot;, no es posible crear una transacción.</translation>
+        <source>Error: Wallet unlocked for milking only, unable to create transaction.</source>
+        <translation>Error: Monedero desbloqueado sólo para hacer &quot;milk&quot;, no es posible crear una transacción.</translation>
     </message>
     <message>
         <location line="+18"/>

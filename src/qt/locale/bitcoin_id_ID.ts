@@ -183,8 +183,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+3"/>
-        <source>For staking only</source>
-        <translation>Hanya untuk staking</translation>
+        <source>For milking only</source>
+        <translation>Hanya untuk milking</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="+35"/>
@@ -551,27 +551,27 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+413"/>
-        <source>Staking.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
+        <source>Milking.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+6"/>
-        <source>Not staking because wallet is locked</source>
+        <source>Not milking because wallet is locked</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking because wallet is offline</source>
+        <source>Not milking because wallet is offline</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking because wallet is syncing</source>
+        <source>Not milking because wallet is syncing</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking because you don&apos;t have mature coins</source>
+        <source>Not milking because you don&apos;t have mature coins</source>
         <translation type="unfinished"/>
     </message>
     <message numerus="yes">
@@ -711,8 +711,8 @@ Alamat: %4
     </message>
     <message>
         <location line="+18"/>
-        <source>Not staking</source>
-        <translation>Lagi tidak staking</translation>
+        <source>Not milking</source>
+        <translation>Lagi tidak milking</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
@@ -1118,7 +1118,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+31"/>
-        <source>Reserved amount does not participate in staking and is therefore spendable at any time.</source>
+        <source>Reserved amount does not participate in milking and is therefore spendable at any time.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1324,8 +1324,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-160"/>
-        <source>Stake:</source>
-        <translation>Stake:</translation>
+        <source>Steak:</source>
+        <translation>Steak:</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1379,7 +1379,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-29"/>
-        <source>Total of coins that was staked, and do not yet count toward the current balance</source>
+        <source>Total of coins that were milked, and do not yet count toward the current balance</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2683,7 +2683,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+2"/>
-        <source>Stake your coins to support network and gain reward (default: 1)</source>
+        <source>Milk your coins to support network and gain reward (default: 1)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3084,8 +3084,8 @@ for example: alertnotify=echo %%s | mail -s &quot;CashCow Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+53"/>
-        <source>Error: Wallet unlocked for staking only, unable to create transaction.</source>
-        <translation>Eror: Dompet hanya di-buka hanya untuk staking, transaksi gagal dilaksanakan</translation>
+        <source>Error: Wallet unlocked for milking only, unable to create transaction.</source>
+        <translation>Eror: Dompet hanya di-buka hanya untuk milking, transaksi gagal dilaksanakan</translation>
     </message>
     <message>
         <location line="+18"/>

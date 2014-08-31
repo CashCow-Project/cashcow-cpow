@@ -188,7 +188,7 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+3"/>
-        <source>For staking only</source>
+        <source>For milking only</source>
         <translation>Len pre stávkovanie</translation>
     </message>
     <message>
@@ -556,27 +556,27 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+413"/>
-        <source>Staking.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
+        <source>Milking.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
         <translation>Stávkovanie.&lt;br&gt;Vaša váha je %1&lt;br&gt;Váha siete je %2&lt;br&gt;Odhadovaný čas pre získanie odmeny je %3</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Not staking because wallet is locked</source>
+        <source>Not milking because wallet is locked</source>
         <translation>Nestávkujem pretože peňaženka je zamknutá</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking because wallet is offline</source>
+        <source>Not milking because wallet is offline</source>
         <translation>Nestávkujem pretože peňaženka je offline</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking because wallet is syncing</source>
+        <source>Not milking because wallet is syncing</source>
         <translation>Nestávkujem pretože peňaženka sa synchronizuje</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking because you don&apos;t have mature coins</source>
+        <source>Not milking because you don&apos;t have mature coins</source>
         <translation>Nestávkujem pretože nemáte odležané mince</translation>
     </message>
     <message numerus="yes">
@@ -715,7 +715,7 @@ Adresa: %4</translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>Not staking</source>
+        <source>Not milking</source>
         <translation>Nestávkuje sa</translation>
     </message>
     <message>
@@ -1136,7 +1136,7 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Reserved amount does not participate in staking and is therefore spendable at any time.</source>
+        <source>Reserved amount does not participate in milking and is therefore spendable at any time.</source>
         <translation>Rezervované množstvo sa nepodieľa na stávkovaní a preto je použiteľné kedykoľvek.</translation>
     </message>
     <message>
@@ -1342,7 +1342,7 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="-160"/>
-        <source>Stake:</source>
+        <source>Steak:</source>
         <translation>V stávke:</translation>
     </message>
     <message>
@@ -1397,7 +1397,7 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="-29"/>
-        <source>Total of coins that was staked, and do not yet count toward the current balance</source>
+        <source>Total of coins that were milked, and do not yet count toward the current balance</source>
         <translation>Súčet mincí, ktoré sú v stávke a ešte neboli započítané do aktuálneho zostatku</translation>
     </message>
     <message>
@@ -2701,7 +2701,7 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Stake your coins to support network and gain reward (default: 1)</source>
+        <source>Milk your coins to support network and gain reward (default: 1)</source>
         <translation>Nechajte stávkovať vaše mince pre podporu siete a získajte odmenu (predvolené: 1)</translation>
     </message>
     <message>
@@ -3112,7 +3112,7 @@ napríklad: alertnotify=echo %%s | mail -s &quot;CashCow Alert&quot; admin@foo.c
     </message>
     <message>
         <location line="+53"/>
-        <source>Error: Wallet unlocked for staking only, unable to create transaction.</source>
+        <source>Error: Wallet unlocked for milking only, unable to create transaction.</source>
         <translation>Chyba: Peňaženka odomknuté len pre stávkovanie, nemožné vytvoriť transakciu.</translation>
     </message>
     <message>

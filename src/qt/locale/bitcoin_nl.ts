@@ -188,8 +188,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+3"/>
-        <source>For staking only</source>
-        <translation>Alleen voor staking</translation>
+        <source>For milking only</source>
+        <translation>Alleen voor milking</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="+35"/>
@@ -556,28 +556,28 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+413"/>
-        <source>Staking.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
-        <translation>Staking. &lt;br&gt; Uw gewicht wordt  %1 &lt;br&gt; Network gewicht is %2 &lt;br&gt; Verwachte tijd om beloning te verdienen is %3</translation>
+        <source>Milking.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
+        <translation>Milking. &lt;br&gt; Uw gewicht wordt  %1 &lt;br&gt; Network gewicht is %2 &lt;br&gt; Verwachte tijd om beloning te verdienen is %3</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Not staking because wallet is locked</source>
-        <translation>Niet staking omdat portemonnee aan het beveiligd is</translation>
+        <source>Not milking because wallet is locked</source>
+        <translation>Niet milking omdat portemonnee aan het beveiligd is</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking because wallet is offline</source>
-        <translation>Niet staking omdat portemonnee aan het offline is</translation>
+        <source>Not milking because wallet is offline</source>
+        <translation>Niet milking omdat portemonnee aan het offline is</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking because wallet is syncing</source>
-        <translation>Niet staking omdat portemonnee aan het synchroniseren is.</translation>
+        <source>Not milking because wallet is syncing</source>
+        <translation>Niet milking omdat portemonnee aan het synchroniseren is.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking because you don&apos;t have mature coins</source>
-        <translation>Niet staking omdat je geen mature munten hebt</translation>
+        <source>Not milking because you don&apos;t have mature coins</source>
+        <translation>Niet milking omdat je geen mature munten hebt</translation>
     </message>
     <message numerus="yes">
         <location line="-403"/>
@@ -716,8 +716,8 @@ Adres: %4
     </message>
     <message>
         <location line="+18"/>
-        <source>Not staking</source>
-        <translation>Niet aan het staken.</translation>
+        <source>Not milking</source>
+        <translation>Niet aan het "milking".</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
@@ -1137,8 +1137,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Reserved amount does not participate in staking and is therefore spendable at any time.</source>
-        <translation>Gereserveerde hoeveelheid doet niet mee in staking en is daarom altijd uitgeefbaar.</translation>
+        <source>Reserved amount does not participate in milking and is therefore spendable at any time.</source>
+        <translation>Gereserveerde hoeveelheid doet niet mee in milking en is daarom altijd uitgeefbaar.</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1343,8 +1343,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="-160"/>
-        <source>Stake:</source>
-        <translation>Stake:</translation>
+        <source>Steak:</source>
+        <translation>Steak:</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1398,8 +1398,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="-29"/>
-        <source>Total of coins that was staked, and do not yet count toward the current balance</source>
-        <translation>Totaal aantal munten dat was staked, en nog niet telt voor huidige balans.</translation>
+        <source>Total of coins that were milked, and do not yet count toward the current balance</source>
+        <translation>Totaal aantal munten dat were milked, en nog niet telt voor huidige balans.</translation>
     </message>
     <message>
         <location filename="../overviewpage.cpp" line="+113"/>
@@ -2702,7 +2702,7 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Stake your coins to support network and gain reward (default: 1)</source>
+        <source>Milk your coins to support network and gain reward (default: 1)</source>
         <translation>Stake je munten om netwerk te supporten en krijg hiervoor beloning (standaard: 1)</translation>
     </message>
     <message>
@@ -3113,8 +3113,8 @@ bijvoorbeeld: alertnotify = echo %%s | mail -s &quot;CashCow Alert&quot; admin@f
     </message>
     <message>
         <location line="+53"/>
-        <source>Error: Wallet unlocked for staking only, unable to create transaction.</source>
-        <translation>Fout: Portemonnee ontgrendeld voor alleen staking, niet in staat om de transactie te maken.</translation>
+        <source>Error: Wallet unlocked for milking only, unable to create transaction.</source>
+        <translation>Fout: Portemonnee ontgrendeld voor alleen milking, niet in staat om de transactie te maken.</translation>
     </message>
     <message>
         <location line="+18"/>

@@ -185,8 +185,8 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     </message>
     <message>
         <location line="+3"/>
-        <source>For staking only</source>
-        <translation>Samo za staking.</translation>
+        <source>For milking only</source>
+        <translation>Samo za milking.</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="+35"/>
@@ -553,27 +553,27 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     </message>
     <message>
         <location line="+413"/>
-        <source>Staking.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
-        <translation>Deležeje [Staking].&lt;br&gt;Teža vašega deleženja je %1&lt;br&gt;Teža celotne mreže deleženja je %2&lt;br&gt;Pričakovan čas do prejema nagrade %3</translation>
+        <source>Milking.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
+        <translation>Deležeje [Milking].&lt;br&gt;Teža vašega deleženja je %1&lt;br&gt;Teža celotne mreže deleženja je %2&lt;br&gt;Pričakovan čas do prejema nagrade %3</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Not staking because wallet is locked</source>
+        <source>Not milking because wallet is locked</source>
         <translation>Ne deležite ker je denarnica zakljenjena</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking because wallet is offline</source>
+        <source>Not milking because wallet is offline</source>
         <translation>Ne deležite ker denarnica ni povezana</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking because wallet is syncing</source>
+        <source>Not milking because wallet is syncing</source>
         <translation>Ne deležite ker se denarnica sinhronizira z omrežjem</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking because you don&apos;t have mature coins</source>
+        <source>Not milking because you don&apos;t have mature coins</source>
         <translation>Ne deležite ker nimate zrelih kovancev. </translation>
     </message>
     <message numerus="yes">
@@ -713,7 +713,7 @@ Naslov: %4
     </message>
     <message>
         <location line="+18"/>
-        <source>Not staking</source>
+        <source>Not milking</source>
         <translation>Ne deležite</translation>
     </message>
     <message>
@@ -1134,7 +1134,7 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+31"/>
-        <source>Reserved amount does not participate in staking and is therefore spendable at any time.</source>
+        <source>Reserved amount does not participate in milking and is therefore spendable at any time.</source>
         <translation>Rezervirana količina ne deleži in je tako na voljo za potrošnjo.</translation>
     </message>
     <message>
@@ -1340,7 +1340,7 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="-160"/>
-        <source>Stake:</source>
+        <source>Steak:</source>
         <translation>Deleženje:</translation>
     </message>
     <message>
@@ -1395,7 +1395,7 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="-29"/>
-        <source>Total of coins that was staked, and do not yet count toward the current balance</source>
+        <source>Total of coins that were milked, and do not yet count toward the current balance</source>
         <translation>Znesek kovancev, ki so bili v deleženju in se še ne upoštevajo v trenutnem stanju na računu.</translation>
     </message>
     <message>
@@ -2699,7 +2699,7 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+2"/>
-        <source>Stake your coins to support network and gain reward (default: 1)</source>
+        <source>Milk your coins to support network and gain reward (default: 1)</source>
         <translation>Deleži svoje kovance za podporo omrežja in pridobi nagrado (default: 1)</translation>
     </message>
     <message>
@@ -3111,7 +3111,7 @@ na primer: alertnotify=echo %%s | mail -s &quot;CashCow Alarm&quot; admin@foo.co
     </message>
     <message>
         <location line="+53"/>
-        <source>Error: Wallet unlocked for staking only, unable to create transaction.</source>
+        <source>Error: Wallet unlocked for milking only, unable to create transaction.</source>
         <translation type="unfinished"/>
     </message>
     <message>

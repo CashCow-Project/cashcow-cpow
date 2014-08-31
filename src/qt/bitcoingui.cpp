@@ -976,22 +976,22 @@ void BitcoinGUI::updateStakingIcon()
         }
 
         labelStakingIcon->setPixmap(QIcon(":/icons/staking_on").pixmap(STATUSBAR_ICONSIZE,STATUSBAR_ICONSIZE));
-        labelStakingIcon->setToolTip(tr("Staking.<br>Your weight is %1<br>Network weight is %2<br>Expected time to earn reward is %3").arg(nWeight).arg(nNetworkWeight).arg(text));
+        labelStakingIcon->setToolTip(tr("Milking.<br>Your weight is %1<br>Network weight is %2<br>Expected time to earn reward is %3").arg(nWeight).arg(nNetworkWeight).arg(text));
     }
     else
     {
         labelStakingIcon->setPixmap(QIcon(":/icons/staking_off").pixmap(STATUSBAR_ICONSIZE,STATUSBAR_ICONSIZE));
         if (pwalletMain && pwalletMain->IsLocked())
-            labelStakingIcon->setToolTip(tr("Not staking because wallet is locked"));
+            labelStakingIcon->setToolTip(tr("Not milking because wallet is locked"));
         else if (vNodes.empty())
-            labelStakingIcon->setToolTip(tr("Not staking because wallet is offline"));
+            labelStakingIcon->setToolTip(tr("Not milking because wallet is offline"));
         else if (IsInitialBlockDownload())
-            labelStakingIcon->setToolTip(tr("Not staking because wallet is syncing"));
+            labelStakingIcon->setToolTip(tr("Not milking because wallet is syncing"));
         else if (!pindexBest || pindexBest->nHeight < FIRST_POS_BLOCK)
-            labelStakingIcon->setToolTip(tr("Not staking because network is just starting"));
+            labelStakingIcon->setToolTip(tr("Not milkg because network is just starting"));
         else if (!nWeight)
-            labelStakingIcon->setToolTip(tr("Not staking because you don't have mature coins"));
+            labelStakingIcon->setToolTip(tr("Not milking because you don't have mature coins"));
         else
-            labelStakingIcon->setToolTip(tr("Not staking"));
+            labelStakingIcon->setToolTip(tr("Not milking"));
     }
 }

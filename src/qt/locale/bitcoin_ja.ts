@@ -188,7 +188,7 @@ MIT/X11 ソフトウェア ライセンスの下で配布されています。�
     </message>
     <message>
         <location line="+3"/>
-        <source>For staking only</source>
+        <source>For milking only</source>
         <translation>賭けるのみ</translation>
     </message>
     <message>
@@ -556,27 +556,27 @@ MIT/X11 ソフトウェア ライセンスの下で配布されています。�
     </message>
     <message>
         <location line="+413"/>
-        <source>Staking.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
+        <source>Milking.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
         <translation>賭けている。&lt;br&gt;重さは%1&lt;br&gt;ネットワークの重さは%2&lt;br&gt;報酬をもらう時間の推測は%3</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Not staking because wallet is locked</source>
+        <source>Not milking because wallet is locked</source>
         <translation>ウォレットをロックされたため、賭けていません</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking because wallet is offline</source>
+        <source>Not milking because wallet is offline</source>
         <translation>ウォレットはオフラインで、賭けていません</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking because wallet is syncing</source>
+        <source>Not milking because wallet is syncing</source>
         <translation>ウォレットは同期最中ため、賭けていません。</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking because you don&apos;t have mature coins</source>
+        <source>Not milking because you don&apos;t have mature coins</source>
         <translation>コインはまだ成長できていないため、賭けていません。</translation>
     </message>
     <message numerus="yes">
@@ -715,7 +715,7 @@ Address: %4
     </message>
     <message>
         <location line="+18"/>
-        <source>Not staking</source>
+        <source>Not milking</source>
         <translation>賭けていません</translation>
     </message>
     <message>
@@ -1136,7 +1136,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+31"/>
-        <source>Reserved amount does not participate in staking and is therefore spendable at any time.</source>
+        <source>Reserved amount does not participate in milking and is therefore spendable at any time.</source>
         <translation>貯金は賭ける参加しないため、いつでも支出できる。</translation>
     </message>
     <message>
@@ -1342,7 +1342,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-160"/>
-        <source>Stake:</source>
+        <source>Steak:</source>
         <translation>賭け金：</translation>
     </message>
     <message>
@@ -1397,7 +1397,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-29"/>
-        <source>Total of coins that was staked, and do not yet count toward the current balance</source>
+        <source>Total of coins that were milked, and do not yet count toward the current balance</source>
         <translation>賭けているコインの合計で、まだ現在の残高に含まれていない。</translation>
     </message>
     <message>
@@ -2701,7 +2701,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+2"/>
-        <source>Stake your coins to support network and gain reward (default: 1)</source>
+        <source>Milk your coins to support network and gain reward (default: 1)</source>
         <translation>褒奨金をもらうためと、ブラックコインネットワークをサッポートするために、コインを賭ける(デファルト：1)</translation>
     </message>
     <message>
@@ -3113,7 +3113,7 @@ rpcpassword=%s
     </message>
     <message>
         <location line="+53"/>
-        <source>Error: Wallet unlocked for staking only, unable to create transaction.</source>
+        <source>Error: Wallet unlocked for milking only, unable to create transaction.</source>
         <translation>エラー：アンロックされたウォレットは賭けるためだけで、処理を作られない。</translation>
     </message>
     <message>

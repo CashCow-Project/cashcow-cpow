@@ -185,7 +185,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+3"/>
-        <source>For staking only</source>
+        <source>For milking only</source>
         <translation>Sadece pay almak için</translation>
     </message>
     <message>
@@ -553,27 +553,27 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+413"/>
-        <source>Staking.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
+        <source>Milking.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
         <translation>Pay alınıyor.&lt;br&gt;Sizin ağırlığınız %1&lt;br&gt;Ağın ağırlığı %2&lt;br&gt;Ödül almak için tahmini süre %3</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Not staking because wallet is locked</source>
+        <source>Not milking because wallet is locked</source>
         <translation>Pay alınmıyor çünkü cüzdan kilitlidir</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking because wallet is offline</source>
+        <source>Not milking because wallet is offline</source>
         <translation>Pay alınmıyor çünkü cüzdan çevrimdışıdır</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking because wallet is syncing</source>
+        <source>Not milking because wallet is syncing</source>
         <translation>Pay alınmıyor çünkü cüzdan senkronize ediliyor</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking because you don&apos;t have mature coins</source>
+        <source>Not milking because you don&apos;t have mature coins</source>
         <translation>Pay alınmıyor çünkü olgunlaşmış coininiz yoktur</translation>
     </message>
     <message numerus="yes">
@@ -713,7 +713,7 @@ Adres: %4
     </message>
     <message>
         <location line="+18"/>
-        <source>Not staking</source>
+        <source>Not milking</source>
         <translation>Pay alınmıyor</translation>
     </message>
     <message>
@@ -1134,7 +1134,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+31"/>
-        <source>Reserved amount does not participate in staking and is therefore spendable at any time.</source>
+        <source>Reserved amount does not participate in milking and is therefore spendable at any time.</source>
         <translation>Ayrılan miktar, pay almaya katılamıyor ve bu yüzden herhangi bir anda harcanabilir.</translation>
     </message>
     <message>
@@ -1340,7 +1340,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-160"/>
-        <source>Stake:</source>
+        <source>Steak:</source>
         <translation>Pay:</translation>
     </message>
     <message>
@@ -1395,7 +1395,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-29"/>
-        <source>Total of coins that was staked, and do not yet count toward the current balance</source>
+        <source>Total of coins that were milked, and do not yet count toward the current balance</source>
         <translation>Pay alınmış ve mevcut bakiyede yer almayan coin toplamı</translation>
     </message>
     <message>
@@ -2699,7 +2699,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+2"/>
-        <source>Stake your coins to support network and gain reward (default: 1)</source>
+        <source>Milk your coins to support network and gain reward (default: 1)</source>
         <translation>Ağı desteklemek için coinlerinizden pay alın ve ödül kazanın (varsayılan: 1)</translation>
     </message>
     <message>
@@ -3111,7 +3111,7 @@ alertnotify ayarlamanız da ayrıca tavsiye edilir böylece sorunlar, size bildi
     </message>
     <message>
         <location line="+53"/>
-        <source>Error: Wallet unlocked for staking only, unable to create transaction.</source>
+        <source>Error: Wallet unlocked for milking only, unable to create transaction.</source>
         <translation type="unfinished"/>
     </message>
     <message>

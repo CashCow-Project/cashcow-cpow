@@ -188,7 +188,7 @@ Produktet indeholder software, som er udviklet af OpenSSL Project til brug i Ope
     </message>
     <message>
         <location line="+3"/>
-        <source>For staking only</source>
+        <source>For milking only</source>
         <translation>Kun til renteberegning</translation>
     </message>
     <message>
@@ -556,27 +556,27 @@ Produktet indeholder software, som er udviklet af OpenSSL Project til brug i Ope
     </message>
     <message>
         <location line="+413"/>
-        <source>Staking.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
+        <source>Milking.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
         <translation>Renter.&lt;br&gt; Din andel er% 1 &lt;br&gt; Netværkets andel er% 2 &lt;br&gt; Forventet tid til at modtage rente %3</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Not staking because wallet is locked</source>
+        <source>Not milking because wallet is locked</source>
         <translation>Ingen rente fordi tegnebog er låst</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking because wallet is offline</source>
+        <source>Not milking because wallet is offline</source>
         <translation>Ingen rente fordi tegnebog er offline</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking because wallet is syncing</source>
+        <source>Not milking because wallet is syncing</source>
         <translation>Ingen rente fordi tegnebog er ved at synkronisere</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking because you don&apos;t have mature coins</source>
+        <source>Not milking because you don&apos;t have mature coins</source>
         <translation>Ingen rente fordi der ingen modne mønter eksistere </translation>
     </message>
     <message numerus="yes">
@@ -716,7 +716,7 @@ Adresse: %4
     </message>
     <message>
         <location line="+18"/>
-        <source>Not staking</source>
+        <source>Not milking</source>
         <translation>Ingen rente</translation>
     </message>
     <message>
@@ -1137,7 +1137,7 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Reserved amount does not participate in staking and is therefore spendable at any time.</source>
+        <source>Reserved amount does not participate in milking and is therefore spendable at any time.</source>
         <translation>Reserveret beløb deltager ikke i forrentning og er derfor tilrådighed til enhver tid.</translation>
     </message>
     <message>
@@ -1343,7 +1343,7 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="-160"/>
-        <source>Stake:</source>
+        <source>Steak:</source>
         <translation>Rente:</translation>
     </message>
     <message>
@@ -1398,7 +1398,7 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="-29"/>
-        <source>Total of coins that was staked, and do not yet count toward the current balance</source>
+        <source>Total of coins that were milked, and do not yet count toward the current balance</source>
         <translation>I alt mønter, der bliver berentet, og endnu ikke tæller mod den nuværende balance</translation>
     </message>
     <message>
@@ -2702,7 +2702,7 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Stake your coins to support network and gain reward (default: 1)</source>
+        <source>Milk your coins to support network and gain reward (default: 1)</source>
         <translation>Opbevar dine mønter for at støtte netværket og få belønning (default: 1)</translation>
     </message>
     <message>
@@ -3114,7 +3114,7 @@ for eksempel: alertnotify = echo%% s | mail-s &quot;CashCow Alert&quot; admin@fo
     </message>
     <message>
         <location line="+53"/>
-        <source>Error: Wallet unlocked for staking only, unable to create transaction.</source>
+        <source>Error: Wallet unlocked for milking only, unable to create transaction.</source>
         <translation>Fejl: Pung låst for at udregne rente, ude af stand til at skabe transaktion.</translation>
     </message>
     <message>

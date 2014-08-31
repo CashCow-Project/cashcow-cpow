@@ -115,7 +115,7 @@
           <item row="1" column="0">
            <widget class="QLabel" name="label_6">
             <property name="text">
-             <string>Stake:</string>
+             <string>Steak:</string>
             </property>
            </widget>
           </item>
@@ -131,7 +131,7 @@
              <cursorShape>IBeamCursor</cursorShape>
             </property>
             <property name="toolTip">
-             <string>Total of coins that was staked, and do not yet count toward the current balance</string>
+             <string>Total of coins that were milked, and do not yet count toward the current balance</string>
             </property>
             <property name="text">
              <string notr="true">0 COW</string>

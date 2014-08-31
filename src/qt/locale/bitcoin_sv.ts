@@ -189,8 +189,8 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     </message>
     <message>
         <location line="+3"/>
-        <source>For staking only</source>
-        <translation>Endast för &quot;staking&quot;</translation>
+        <source>For milking only</source>
+        <translation>Endast för &quot;milking&quot;</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="+35"/>
@@ -557,28 +557,28 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     </message>
     <message>
         <location line="+413"/>
-        <source>Staking.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
-        <translation>Staking.&lt;br&gt;Din vikt är %1&lt;br&gt;Nätverkets vikt är %2&lt;br&gt;Uppskattad tid för att få belöning är %3</translation>
+        <source>Milking.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
+        <translation>Milking.&lt;br&gt;Din vikt är %1&lt;br&gt;Nätverkets vikt är %2&lt;br&gt;Uppskattad tid för att få belöning är %3</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Not staking because wallet is locked</source>
-        <translation>Ingen staking för att plånboken är låst</translation>
+        <source>Not milking because wallet is locked</source>
+        <translation>Ingen milking för att plånboken är låst</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking because wallet is offline</source>
-        <translation>Ingen staking för att plånboken är offline</translation>
+        <source>Not milking because wallet is offline</source>
+        <translation>Ingen milking för att plånboken är offline</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking because wallet is syncing</source>
-        <translation>Ingen staking för att plånboken synkroniseras</translation>
+        <source>Not milking because wallet is syncing</source>
+        <translation>Ingen milking för att plånboken synkroniseras</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking because you don&apos;t have mature coins</source>
-        <translation>Ingen staking för att dina coins är ännu inte föråldrade</translation>
+        <source>Not milking because you don&apos;t have mature coins</source>
+        <translation>Ingen milking för att dina coins är ännu inte föråldrade</translation>
     </message>
     <message numerus="yes">
         <location line="-403"/>
@@ -717,8 +717,8 @@ Adress: %4
     </message>
     <message>
         <location line="+18"/>
-        <source>Not staking</source>
-        <translation>Ingen staking</translation>
+        <source>Not milking</source>
+        <translation>Ingen milking</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
@@ -1138,8 +1138,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Reserved amount does not participate in staking and is therefore spendable at any time.</source>
-        <translation>Reserverad mängd deltar inte i stake-processen och kan därför spenderas när som helst.</translation>
+        <source>Reserved amount does not participate in milking and is therefore spendable at any time.</source>
+        <translation>Reserverad mängd deltar inte i "milk"-processen och kan därför spenderas när som helst.</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1344,8 +1344,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="-160"/>
-        <source>Stake:</source>
-        <translation>Stake:</translation>
+        <source>Steak:</source>
+        <translation>Steak:</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1399,8 +1399,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="-29"/>
-        <source>Total of coins that was staked, and do not yet count toward the current balance</source>
-        <translation>Antal coins som var i stake-processen, och räknas ännu inte till nuvarande saldo</translation>
+        <source>Total of coins that were milked, and do not yet count toward the current balance</source>
+        <translation>Antal coins som var i "milk"-processen, och räknas ännu inte till nuvarande saldo</translation>
     </message>
     <message>
         <location filename="../overviewpage.cpp" line="+113"/>
@@ -2703,8 +2703,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Stake your coins to support network and gain reward (default: 1)</source>
-        <translation>Använd dina coins för stake-processen, du upprätthåller då nätverket och får belöning (förval: 1)</translation>
+        <source>Milk your coins to support network and gain reward (default: 1)</source>
+        <translation>Använd dina coins för "milk"-processen, du upprätthåller då nätverket och får belöning (förval: 1)</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -3115,8 +3115,8 @@ till exempel: alertnotify=echo %%s | mail -s &quot;CashCow Varning&quot; admin@f
     </message>
     <message>
         <location line="+53"/>
-        <source>Error: Wallet unlocked for staking only, unable to create transaction.</source>
-        <translation>Fel: Plånboken öppnad endast för stake-process, kan inte skapa transaktion.</translation>
+        <source>Error: Wallet unlocked for milking only, unable to create transaction.</source>
+        <translation>Fel: Plånboken öppnad endast för "milk"-process, kan inte skapa transaktion.</translation>
     </message>
     <message>
         <location line="+18"/>

@@ -185,8 +185,8 @@ Este produto inclúe software desenvolvido polo OpenSSL Project para o uso no Op
     </message>
     <message>
         <location line="+3"/>
-        <source>For staking only</source>
-        <translation>Para &quot;staking&quot; só</translation>
+        <source>For milking only</source>
+        <translation>Para &quot;milking&quot; só</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="+35"/>
@@ -553,28 +553,28 @@ Este produto inclúe software desenvolvido polo OpenSSL Project para o uso no Op
     </message>
     <message>
         <location line="+413"/>
-        <source>Staking.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
-        <translation>&quot;Staking&quot;.&lt;br&gt;O teu peso na rede é %1&lt;br&gt;O peso da rede é %2&lt;br&gt;Tempo esperado para gañar a recompensa %3</translation>
+        <source>Milking.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
+        <translation>&quot;Milking&quot;.&lt;br&gt;O teu peso na rede é %1&lt;br&gt;O peso da rede é %2&lt;br&gt;Tempo esperado para gañar a recompensa %3</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Not staking because wallet is locked</source>
-        <translation>Non &quot;staking&quot; porque a carteira está bloqueada</translation>
+        <source>Not milking because wallet is locked</source>
+        <translation>Non &quot;milking&quot; porque a carteira está bloqueada</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking because wallet is offline</source>
-        <translation>Non &quot;staking&quot; porque a carteira está sen conexión</translation>
+        <source>Not milking because wallet is offline</source>
+        <translation>Non &quot;milking&quot; porque a carteira está sen conexión</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking because wallet is syncing</source>
-        <translation>Non &quot;staking&quot; porque a carteira está a sincronizar.</translation>
+        <source>Not milking because wallet is syncing</source>
+        <translation>Non &quot;milking&quot; porque a carteira está a sincronizar.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Not staking because you don&apos;t have mature coins</source>
-        <translation>Non &quot;staking&quot; porque non tes moedas maduras</translation>
+        <source>Not milking because you don&apos;t have mature coins</source>
+        <translation>Non &quot;milking&quot; porque non tes moedas maduras</translation>
     </message>
     <message numerus="yes">
         <location line="-403"/>
@@ -713,8 +713,8 @@ Dirección: %4
     </message>
     <message>
         <location line="+18"/>
-        <source>Not staking</source>
-        <translation>Non &quot;staking&quot;</translation>
+        <source>Not milking</source>
+        <translation>Non &quot;milking&quot;</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
@@ -1120,7 +1120,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+31"/>
-        <source>Reserved amount does not participate in staking and is therefore spendable at any time.</source>
+        <source>Reserved amount does not participate in milking and is therefore spendable at any time.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1326,7 +1326,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-160"/>
-        <source>Stake:</source>
+        <source>Steak:</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1381,7 +1381,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-29"/>
-        <source>Total of coins that was staked, and do not yet count toward the current balance</source>
+        <source>Total of coins that were milked, and do not yet count toward the current balance</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2685,7 +2685,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+2"/>
-        <source>Stake your coins to support network and gain reward (default: 1)</source>
+        <source>Milk your coins to support network and gain reward (default: 1)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3086,7 +3086,7 @@ for example: alertnotify=echo %%s | mail -s &quot;CashCow Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+53"/>
-        <source>Error: Wallet unlocked for staking only, unable to create transaction.</source>
+        <source>Error: Wallet unlocked for milking only, unable to create transaction.</source>
         <translation type="unfinished"/>
     </message>
     <message>

@@ -174,7 +174,7 @@ QT_TRANSLATE_NOOP("bitcoin-core", ""
 "Unable to bind to %s on this computer. CashCow is probably already running."),
 QT_TRANSLATE_NOOP("bitcoin-core", "Unable to bind to %s on this computer (bind returned error %d, %s)"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Error: Wallet locked, unable to create transaction  "),
-QT_TRANSLATE_NOOP("bitcoin-core", "Error: Wallet unlocked for staking only, unable to create transaction."),
+QT_TRANSLATE_NOOP("bitcoin-core", "Error: Wallet unlocked for milking only, unable to create transaction."),
 QT_TRANSLATE_NOOP("bitcoin-core", ""
 "Error: This transaction requires a transaction fee of at least %s because of "
 "its amount, complexity, or use of recently received funds  "),
