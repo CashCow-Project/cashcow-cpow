@@ -2,10 +2,11 @@
 CashCow development tree
 ================================
 
-http://www.cashcow.com
+http://www.proofofsteak.org
 
-Copyright (c) 2009-2014 Bitcoin Developers
-Copyright (c) 2014 CashCow Developers
+Copyright © 2009-2014 Bitcoin Developers
+
+Copyright © 2014 CashCow Developers
 
 
 What is CashCow?
