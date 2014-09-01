@@ -16,8 +16,8 @@
 using namespace std;
 
 // Split stake if less than 5 days coinage; combine stakes to one hundred thousand.
-static unsigned int GetStakeSplitAge() { return IsProtocolV2(nBestHeight) ? (5 * 24 * 60 * 60) : (5 * 24 * 60 * 60); }
-static int64_t GetStakeCombineThreshold() { return IsProtocolV2(nBestHeight) ? (100000 * COIN) : (100000 * COIN); }
+unsigned int nStakeSplitAge = 5 * 24 * 60 * 60;
+int64_t nStakeCombineThreshold = 100000;
 
 //////////////////////////////////////////////////////////////////////////////
 //
@@ -1677,7 +1677,7 @@ bool CWallet::CreateCoinStake(const CKeyStore& keystore, unsigned int nBits, int
                 vwtxPrev.push_back(pcoin.first);
                 txNew.vout.push_back(CTxOut(0, scriptPubKeyOut));
 
-                if (GetWeight(block.GetBlockTime(), (int64_t)txNew.nTime) < GetStakeSplitAge())
+                if (GetWeight(block.GetBlockTime(), (int64_t)txNew.nTime) < nStakeSplitAge())
                     txNew.vout.push_back(CTxOut(0, scriptPubKeyOut)); //split stake
                 if (fDebug && GetBoolArg("-printcoinstake"))
                     printf("CreateCoinStake : added kernel type=%d\n", whichType);
@@ -1706,13 +1706,13 @@ bool CWallet::CreateCoinStake(const CKeyStore& keystore, unsigned int nBits, int
             if (txNew.vin.size() >= 100)
                 break;
             // Stop adding more inputs if value is already pretty significant
-            if (nCredit >= GetStakeCombineThreshold())
+            if (nCredit >= nStakeCombineThreshold())
                 break;
             // Stop adding inputs if reached reserve limit
             if (nCredit + pcoin.first->vout[pcoin.second].nValue > nBalance - nReserveBalance)
                 break;
             // Do not add additional significant input
-            if (pcoin.first->vout[pcoin.second].nValue >= GetStakeCombineThreshold())
+            if (pcoin.first->vout[pcoin.second].nValue >= nStakeCombineThreshold())
                 continue;
             // Do not add input that is still too young
             if (nTimeWeight < nStakeMinAge)
