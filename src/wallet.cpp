@@ -1533,12 +1533,13 @@ bool CWallet::GetStakeWeight(uint64_t& nWeight)
         if (!txdb.ReadTxIndex(pcoin.first->GetHash(), txindex))
             continue;
 
-        if (IsProtocolV2(nBestHeight+1))
-        {
+		/* ALWAYS USE PROTOCOLV2 WEIGHT CALCULATIONS */
+        // if (IsProtocolV2(nBestHeight+1))
+        // {
             if (nCurrentTime - pcoin.first->nTime > nStakeMinAge)
                 nWeight += pcoin.first->vout[pcoin.second].nValue;
-        }
-        else
+        // }
+        /* else
         {
             int64_t nTimeWeight = GetWeight((int64_t)pcoin.first->nTime, nCurrentTime);
             CBigNum bnWeight = CBigNum(pcoin.first->vout[pcoin.second].nValue) * nTimeWeight / COIN / (24 * 60 * 60);
@@ -1548,7 +1549,7 @@ bool CWallet::GetStakeWeight(uint64_t& nWeight)
             {
                 nWeight += bnWeight.getuint64();
             }
-        }
+        } */
     }
 
     return true;
