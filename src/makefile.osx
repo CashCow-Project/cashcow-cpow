@@ -20,11 +20,16 @@ LIBPATHS= \
  -L"$(DEPSDIR)/lib/db48"
 
 USE_UPNP:=1
+USE_IPV6:=1
 
 LIBS= -dead_strip
 
+TESTDEFS = -DTEST_DATA_DIR=$(abspath test/data)
+
 ifdef STATIC
 # Build STATIC if you are redistributing the cashcowd binary
+TESTLIBS += \
+ $(DEPSDIR)/lib/libboost_unit_test_framework-mt.a
 LIBS += \
  $(DEPSDIR)/lib/db48/libdb_cxx-4.8.a \
  $(DEPSDIR)/lib/libboost_system-mt.a \
@@ -35,6 +40,8 @@ LIBS += \
  $(DEPSDIR)/lib/libcrypto.a \
  -lz
 else
+TESTLIBS += \
+ -lboost_unit_test_framework-mt
 LIBS += \
  -ldb_cxx-4.8 \
  -lboost_system-mt \
@@ -44,6 +51,7 @@ LIBS += \
  -lssl \
  -lcrypto \
  -lz
+TESTDEFS += -DBOOST_TEST_DYN_LINK
 endif
 
 DEFS=-DMAC_OSX -DMSG_NOSIGNAL=0 -DBOOST_SPIRIT_THREADSAFE
@@ -121,7 +129,14 @@ else
 endif
 endif
 
+ifneq (${USE_IPV6}, -)
+	DEFS += -DUSE_IPV6=$(USE_IPV6)
+endif
+
 all: cashcowd
+
+test check: test_cashcow FORCE
+	./test_cashcow
 
 LIBS += $(CURDIR)/leveldb/libleveldb.a $(CURDIR)/leveldb/libmemenv.a
 DEFS += $(addprefix -I,$(CURDIR)/leveldb/include)
@@ -133,6 +148,7 @@ obj/txdb-leveldb.o: leveldb/libleveldb.a
 
 # auto-generated dependencies:
 -include obj/*.P
+-include obj-test/*.P
 
 obj/build.h: FORCE
 	/bin/sh ../share/genbuild.sh obj/build.h
@@ -162,6 +178,25 @@ obj/zerocoin/%.o: zerocoin/%.cpp
 
 cashcowd: $(OBJS:obj/%=obj/%)
 	$(CXX) $(CFLAGS) -o $@ $(LIBPATHS) $^ $(LIBS)
+
+TESTOBJS := $(patsubst test/%.cpp,obj-test/%.o,$(wildcard test/*.cpp))
+
+obj-test/%.o: test/%.cpp
+	$(CXX) -c $(TESTDEFS) $(CFLAGS) -MMD -MF $(@:%.o=%.d) -o $@ $<
+	@cp $(@:%.o=%.d) $(@:%.o=%.P); \
+	  sed -e 's/#.*//' -e 's/^[^:]*: *//' -e 's/ *\\$$//' \
+	      -e '/^$$/ d' -e 's/$$/ :/' < $(@:%.o=%.d) >> $(@:%.o=%.P); \
+	  rm -f $(@:%.o=%.d)
+	
+obj-test/%.o: test/%.c
+	$(CXX) -c $(TESTDEFS) $(CFLAGS) -fpermissive -MMD -MF $(@:%.o=%.d) -o $@ $<
+	@cp $(@:%.o=%.d) $(@:%.o=%.P); \
+	  sed -e 's/#.*//' -e 's/^[^:]*: *//' -e 's/ *\\$$//' \
+	      -e '/^$$/ d' -e 's/$$/ :/' < $(@:%.o=%.d) >> $(@:%.o=%.P); \
+	  rm -f $(@:%.o=%.d)
+
+test_cashcow: $(TESTOBJS) $(filter-out obj/init.o,$(OBJS:obj/%=obj/%))
+	$(CXX) $(CFLAGS) -o $@ $(LIBPATHS) $^ $(LIBS) $(TESTLIBS)
 
 clean:
 	-rm -f cashcowd
