@@ -9,7 +9,7 @@ src/build.h
 *.rej
 *.orig
 *.o
-*.patch
+*.pro.patch
 .cashcow
 #compilation and Qt preprocessor part
 *.qm
