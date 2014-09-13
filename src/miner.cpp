@@ -546,7 +546,7 @@ void StakeMiner(CWallet *pwallet)
                 return;
         }
 
-        while (vNodes.empty() || IsInitialBlockDownload() || pindexBest->nHeight < FIRST_POS_BLOCK))
+        while (vNodes.empty() || IsInitialBlockDownload() || pindexBest->nHeight < FIRST_POS_BLOCK)
         {
             nLastCoinStakeSearchInterval = 0;
             fTryToSync = true;
