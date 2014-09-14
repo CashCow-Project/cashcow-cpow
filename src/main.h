@@ -56,7 +56,7 @@ static const unsigned int LOCKTIME_THRESHOLD = 500000000; // Tue Nov  5 00:53:20
 static const int64_t COIN_STAKE_REWARD = 120 * COIN; // 120 COW / Stake Block
 
 static const uint256 hashGenesisBlock("0x");
-static const uint256 hashGenesisBlockTestNet("0x");
+static const uint256 hashGenesisBlockTestNet("0x000009afbe941b3aebf5a2170b8020198509f3555601e2d60ee9da402b0b3f3a");
 
 /* ProtocolV2 is from BlackCoin.  Will not implement right away and will keep an eye on
    what happens with BlackCoin.  Presently set to switch at the 1-year mark, but this can
