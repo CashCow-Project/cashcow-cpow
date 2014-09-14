@@ -2594,7 +2594,7 @@ bool LoadBlockIndex(bool fAllowNew)
             
             loop
             {
-                thash = Hash9(BEGIN(block.nVersion), END(nNonce));
+                thash = Hash9(BEGIN(block.nVersion), END(block.nNonce));
                 if (thash <= hashTarget)
                     break;
                 if ((block.nNonce & 0xFFF) == 0)
