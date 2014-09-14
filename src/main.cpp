@@ -2553,24 +2553,26 @@ bool LoadBlockIndex(bool fAllowNew)
         //    CTxOut(empty)
         //  vMerkleTree: 12630d16a9
 
-        const char* pszTimestamp = !fTestNet ? "20 Feb 2014 Bitcoin ATMs come to USA" : "";
+        const char* pszTimestamp = (!fTestNet ? "Mainnet string goes here" : "This is the testnet");
         CTransaction txNew;
-        txNew.nTime = 1410657647;
+        // txNew.nTime = 1410674740;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
         txNew.vin[0].scriptSig = CScript() << 0 << CBigNum(42) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
-        txNew.vout[0].SetEmpty();
+        // txNew.vout[0].SetEmpty();
+        txNew.vout[0].nValue = nGenesisBlockRewardCoin;
+        txNew.vout[0].scriptPubKey = CScript() << ParseHex("04678afdb0fe5548271967f1a67130b7105cd6a828e03909a67962e0ea1f61deb649f6bc3f4cef38c4f35504e51ec112de5c384df7ba0b8d578a4c702b6bf11d5f") << OP_CHECKSIG;
         CBlock block;
         block.vtx.push_back(txNew);
         block.hashPrevBlock = 0;
         block.hashMerkleRoot = block.BuildMerkleTree();
         block.nVersion = 1;
-        block.nTime    = 1410657647;
+        block.nTime    = !fTestNet ? 1400000000 : 1410712798;
         block.nBits    = bnProofOfWorkLimit.GetCompact();
-        block.nNonce   = !fTestNet ? 0 : 888054;
+        block.nNonce   = !fTestNet ? 0 : 91190;
 
         //// debug print
-        assert(block.hashMerkleRoot == uint256("0x402a5389a24f70cd019ccf34f825dbd576923d5b1385f8c8be72b38269b2d7f5"));
+        assert(block.hashMerkleRoot == uint256("0xd70365934824c8ea0caaf99c51d67212c5ad04638a3f05c61fdc78326ca117b8"));
         block.print();
         assert(block.GetHash() == (!fTestNet ? hashGenesisBlock : hashGenesisBlockTestNet));
         assert(block.CheckBlock());
