@@ -2574,7 +2574,7 @@ bool LoadBlockIndex(bool fAllowNew)
         if (fTestNet)
         {
             block.nTime  = 1410725350;
-            block.nNonce = 0;
+            block.nNonce = 410252;
         }
         
         // If genesis block hash does not match, then generate new genesis hash.
