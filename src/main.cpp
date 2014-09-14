@@ -2553,7 +2553,7 @@ bool LoadBlockIndex(bool fAllowNew)
         //    CTxOut(empty)
         //  vMerkleTree: 12630d16a9
 
-        const char* pszTimestamp = "20 Feb 2014 Bitcoin ATMs come to USA";
+        const char* pszTimestamp = !fTestNet ? "20 Feb 2014 Bitcoin ATMs come to USA" : "";
         CTransaction txNew;
         txNew.nTime = 1410657647;
         txNew.vin.resize(1);
