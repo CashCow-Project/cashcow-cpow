@@ -2553,7 +2553,7 @@ bool LoadBlockIndex(bool fAllowNew)
         //    CTxOut(empty)
         //  vMerkleTree: 12630d16a9
 
-        const char* pszTimestamp = (!fTestNet ? "Mainnet string goes here" : "");
+        const char* pszTimestamp = (!fTestNet ? "Mainnet string goes here" : "This is the testnet");
         CTransaction txNew;
         // txNew.nTime = 1410674740;
         txNew.vin.resize(1);
@@ -2573,15 +2573,9 @@ bool LoadBlockIndex(bool fAllowNew)
 
         if (fTestNet)
         {
-            block.nTime  = 1373481000;
+            block.nTime  = 1410725350;
             block.nNonce = 0;
         }
-        
-        //// debug print
-        printf("%s\n", block.GetHash().ToString().c_str());
-        printf("%s\n", hashGenesisBlock.ToString().c_str());
-        printf("%s\n", block.hashMerkleRoot.ToString().c_str());
-        assert(block.hashMerkleRoot == uint256("0x97c5fea7d38b010ca81fddabb2dab2421f853b584fb628cab6be2b7f420dfd24"));
         
         // If genesis block hash does not match, then generate new genesis hash.
         if (true && block.GetHash() != (!fTestNet ? hashGenesisBlock : hashGenesisBlockTestNet))
@@ -2594,7 +2588,7 @@ bool LoadBlockIndex(bool fAllowNew)
             
             loop
             {
-                thash = Hash9(BEGIN(block.nVersion), END(block.nNonce));
+                thash = block.GetHash();
                 if (thash <= hashTarget)
                     break;
                 if ((block.nNonce & 0xFFF) == 0)
@@ -2610,8 +2604,15 @@ bool LoadBlockIndex(bool fAllowNew)
             }
             printf("block.nTime = %u \n", block.nTime);
             printf("block.nNonce = %u \n", block.nNonce);
+            printf("block.nVersion = %u \n", block.nVersion);
             printf("block.GetHash = %s\n", block.GetHash().ToString().c_str());
         }
+        
+        //// debug print
+        printf("%s\n", block.GetHash().ToString().c_str());
+        printf("%s\n", hashGenesisBlock.ToString().c_str());
+        printf("%s\n", block.hashMerkleRoot.ToString().c_str());
+        assert(block.hashMerkleRoot == uint256("0x"));
         
         block.print();
         assert(block.GetHash() == (!fTestNet ? hashGenesisBlock : hashGenesisBlockTestNet));
