@@ -2553,9 +2553,9 @@ bool LoadBlockIndex(bool fAllowNew)
         //    CTxOut(empty)
         //  vMerkleTree: 12630d16a9
 
-        const char* pszTimestamp = (!fTestNet ? "Mainnet string goes here" : "This is the testnet");
+        const char* pszTimestamp = "A timely string goes here";
         CTransaction txNew;
-        // txNew.nTime = 1410674740;
+        txNew.nTime = 1410725350;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
         txNew.vin[0].scriptSig = CScript() << 486604799 << CBigNum(42) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
